@@ -32,6 +32,8 @@ jobs:
           extensions: mbstring, intl, gd, pdo_sqlite, zip, bcmath
           coverage: none
       - run: composer install --prefer-dist --no-interaction --no-progress
+      - name: Prepare test environment
+        run: cp .env.example .env && php artisan key:generate
       - run: php artisan test
 
   deploy:
