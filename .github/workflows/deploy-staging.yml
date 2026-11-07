@@ -155,7 +155,10 @@ jobs:
           if [ "$fail" = 1 ]; then
             echo "--- server-side diagnostics"
             ssh deploy "set +e
-              echo 'App dir (should contain artisan, public/index.php):'; ls -1 '$APP_DIR' | head -20; ls -l '$APP_DIR/public/index.php'
+              echo 'App dir (should contain artisan, public/index.php):'; ls -1 '$APP_DIR' | head -20
+              echo 'Permissions along the path (web server needs x on each dir, r on files):'
+              ls -ld \$HOME '$APP_DIR' '$APP_DIR/public'; ls -la '$APP_DIR/public' | head -12
+              [ -f '$APP_DIR/.htaccess' ] && { echo 'WARNING: $APP_DIR/.htaccess exists (parent .htaccess rules apply to public/):'; cat '$APP_DIR/.htaccess'; }
               echo 'Old location (should no longer be the document root):'; ls -ld \$HOME/public_html/beercheck.spinstaging.com \$HOME/public_html/beercheck.spinstaging.com/public 2>&1
               echo 'Laravel log tail:'; tail -n 20 '$APP_DIR'/storage/logs/laravel-*.log 2>/dev/null || echo '(no log yet - request never reached Laravel)'"
             echo "::error::Site check failed. If the body above is a generic Apache/LiteSpeed 404 and there is no Laravel log, the domain's Document Root is not pointing at $APP_DIR/public (cPanel > Domains > Manage)."

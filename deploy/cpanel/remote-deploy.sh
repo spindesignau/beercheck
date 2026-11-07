@@ -16,7 +16,13 @@ echo "Using PHP: $PHP ($("$PHP" -r 'echo PHP_VERSION;'))"
 
 # --- Writable dirs (not shipped by rsync, persisted between deploys) -------
 mkdir -p storage/app/public/photos storage/app/private storage/framework/{cache/data,sessions,views,testing} storage/logs bootstrap/cache
-chmod -R u+rwX,g+rwX storage bootstrap/cache
+# PHP runs as the cPanel user (suPHP/LSAPI/FPM): owner-writable is enough, and
+# group/world-writable dirs make suPHP refuse to run scripts. The web server only
+# needs to traverse the path down to public/ and read files there.
+chmod 755 "$APP_DIR" "$APP_DIR/public"
+find "$APP_DIR/public" -type d -exec chmod 755 {} + 2>/dev/null || true
+find "$APP_DIR/public" -type f -exec chmod 644 {} + 2>/dev/null || true
+chmod -R u+rwX,go-w storage bootstrap/cache
 
 # --- .env (created once; managed keys re-applied every deploy) -------------
 FIRST_DEPLOY=0
