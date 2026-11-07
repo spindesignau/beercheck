@@ -1,0 +1,117 @@
+name: Deploy to staging
+
+on:
+  push:
+    branches: [main, staging, claude/zealous-cori-29laga]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-staging
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  APP_URL: https://beercheck.spinstaging.com
+  # Laravel project root on the server, OUTSIDE public_html.
+  # The domain's document root must be APP_DIR/public (cPanel: beercheck.spinstaging.com/public).
+  # Override with a repository variable APP_DIR if the path changes.
+  APP_DIR: ${{ vars.APP_DIR || '/home/spinwebsites/beercheck.spinstaging.com' }}
+  DB_NAME: spinwebsites_beercheck
+  DB_USER: spinwebsites_beercheck
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          extensions: mbstring, intl, gd, pdo_sqlite, zip, bcmath
+          coverage: none
+      - run: composer install --prefer-dist --no-interaction --no-progress
+      - run: php artisan test
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    environment: staging
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          extensions: mbstring, intl, gd, zip, bcmath
+          coverage: none
+
+      - name: Install PHP dependencies (production)
+        run: composer install --no-dev --prefer-dist --optimize-autoloader --no-interaction --no-progress
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Build frontend
+        run: npm ci && npm run build
+
+      - name: Configure SSH
+        env:
+          SSH_KEY: ${{ secrets.SSH_KEY }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_KNOWN_HOSTS: ${{ secrets.SSH_KNOWN_HOSTS }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/deploy_key && chmod 600 ~/.ssh/deploy_key
+          if [ -n "$SSH_KNOWN_HOSTS" ]; then
+            printf '%s\n' "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          else
+            ssh-keyscan -p "${SSH_PORT:-22}" -H "$SSH_HOST" > ~/.ssh/known_hosts
+          fi
+          cat > ~/.ssh/config <<CFG
+          Host deploy
+            HostName $SSH_HOST
+            Port ${SSH_PORT:-22}
+            User $SSH_USER
+            IdentityFile ~/.ssh/deploy_key
+            IdentitiesOnly yes
+            ServerAliveInterval 30
+          CFG
+          ssh deploy 'echo "Connected as $(whoami) on $(hostname)"'
+
+      - name: Upload release (rsync)
+        run: |
+          ssh deploy "mkdir -p '$APP_DIR'"
+          # Excluded paths are never deleted on the server (.env, uploads, logs, SSL challenges).
+          rsync -az --delete \
+            --exclude='.git/' --exclude='.github/' --exclude='node_modules/' --exclude='tests/' \
+            --exclude='.env' --exclude='storage/' --exclude='bootstrap/cache/' \
+            --exclude='public/storage' --exclude='public/hot' --exclude='.well-known/' --exclude='public/.well-known/' \
+            --exclude='cgi-bin/' --exclude='error_log' --exclude='public/error_log' \
+            --exclude='phpunit.xml' --exclude='.phpunit.cache/' \
+            ./ "deploy:$APP_DIR/"
+
+      - name: Migrate, cache, cron
+        env:
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+        run: |
+          printf '%s\n' "$DB_PASSWORD" | ssh deploy \
+            "bash '$APP_DIR/deploy/cpanel/remote-deploy.sh' '$APP_DIR' '$APP_URL' '$DB_NAME' '$DB_USER'"
+
+      - name: Smoke test
+        run: |
+          sleep 3
+          for url in "$APP_URL/up" "$APP_URL/"; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' -L --max-time 30 "$url")
+            echo "$url -> $code"
+            [ "$code" = "200" ] || { echo "::error::$url returned $code"; exit 1; }
+          done
+
+      - name: Remove SSH key
+        if: always()
+        run: rm -f ~/.ssh/deploy_key

@@ -205,3 +205,39 @@ until it is rebuilt.
 | Sync "No feed URL configured" | Set `SYNC_NSW_URL` / `SYNC_VIC_URL` in `.env`, then run `config:cache`. |
 | Sync job runs twice | Make sure `DB_QUEUE_RETRY_AFTER` (2000) is longer than the sync takes. |
 | Geolocation never prompts | Browsers only allow geolocation on HTTPS. Enable AutoSSL. |
+
+## 10. Automated deploys (GitHub Actions → staging)
+
+`.github/workflows/deploy-staging.yml` runs on every push to `main`, `staging` or the current feature
+branch, and can also be started by hand (*Actions → Deploy to staging → Run workflow*). Each run:
+
+1. Runs the test suite. The deploy is skipped if the tests fail.
+2. Installs the production PHP packages and builds the Vite assets, so the server needs neither Composer
+   nor Node.
+3. Uploads the release with `rsync --delete` to `APP_DIR`, which defaults to
+   `/home/spinwebsites/beercheck.spinstaging.com`. These paths are never touched: `.env`, `storage/`,
+   `public/storage` and `.well-known/`.
+4. Runs `deploy/cpanel/remote-deploy.sh` on the server. The script:
+   - finds PHP 8.4
+   - creates `.env` and `APP_KEY` on the first deploy only
+   - re-applies the managed `.env` keys (`APP_URL`, `DB_*`, and so on)
+   - migrates the database and seeds the beer list
+   - creates the storage link
+   - caches config, routes and views
+   - restarts the queue
+   - installs the `schedule:run` cron line (tagged `# beercheck-scheduler`, so it is never added twice)
+5. Smoke-tests `/up` and `/`.
+
+Repository secrets (*Settings → Secrets and variables → Actions*):
+
+| Secret | Value |
+|---|---|
+| `SSH_HOST` | cPanel server hostname |
+| `SSH_PORT` | SSH port (usually `22`) |
+| `SSH_USER` | `spinwebsites` |
+| `SSH_KEY` | private key authorised under cPanel → *SSH Access* |
+| `DB_PASSWORD` | password for `spinwebsites_beercheck` |
+| `SSH_KNOWN_HOSTS` *(optional)* | output of `ssh-keyscan -p PORT HOST`, which pins the host key. Without it, the key is fetched on each run. |
+
+The domain's document root must be `beercheck.spinstaging.com/public`, i.e. `APP_DIR/public`.
+`APP_URL` forces HTTPS, so AutoSSL must have issued a certificate for the subdomain.
