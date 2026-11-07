@@ -54,6 +54,36 @@ class User extends Authenticatable
         ];
     }
 
+    /** Contributor levels: a little fun on the profile page. */
+    public const LEVELS = [
+        0 => 'Pot Rookie',
+        50 => 'Schooner Regular',
+        150 => 'Pint Pro',
+        400 => 'Jug Legend',
+        1000 => 'Keg Royalty',
+    ];
+
+    /** @return array{name: string, next: ?string, progress: int, to_next: int} */
+    public function level(): array
+    {
+        $thresholds = array_keys(self::LEVELS);
+        $current = 0;
+        foreach ($thresholds as $t) {
+            if ($this->points >= $t) {
+                $current = $t;
+            }
+        }
+        $idx = array_search($current, $thresholds, true);
+        $next = $thresholds[$idx + 1] ?? null;
+
+        return [
+            'name' => self::LEVELS[$current],
+            'next' => $next !== null ? self::LEVELS[$next] : null,
+            'progress' => $next === null ? 100 : (int) floor(($this->points - $current) / ($next - $current) * 100),
+            'to_next' => $next === null ? 0 : $next - $this->points,
+        ];
+    }
+
     public function isAdmin(): bool
     {
         return $this->role === UserRole::Admin;

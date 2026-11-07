@@ -4,7 +4,7 @@
 #   printf '%s\n' "$DB_PASSWORD" | ssh host 'bash APP_DIR/deploy/cpanel/remote-deploy.sh APP_DIR APP_URL DB_NAME DB_USER'
 set -euo pipefail
 
-APP_DIR="$1"; APP_URL="$2"; DB_NAME="$3"; DB_USER="$4"
+APP_DIR="$1"; APP_URL="$2"; DB_NAME="$3"; DB_USER="$4"; DEMO="${5:-false}"
 IFS= read -r DB_PASSWORD || true
 
 cd "$APP_DIR"
@@ -51,6 +51,7 @@ DB_QUEUE_RETRY_AFTER=2000
 CACHE_STORE=database
 FILESYSTEM_DISK=local
 IMAGE_DRIVER=gd
+BEERCHECK_DEMO=${DEMO}
 ENV
 
 if ! grep -q '^APP_KEY=.\+' .env; then
@@ -68,6 +69,11 @@ trap '"$PHP" artisan up || true' EXIT
 # Public storage link (falls back to ln -s when PHP's symlink() is disabled).
 if [ ! -e public/storage ]; then
   "$PHP" artisan storage:link --no-interaction || ln -s "$APP_DIR/storage/app/public" public/storage
+fi
+
+# Staging only: fictional demo venues/prices (runs once; no-op when already seeded or demo is off).
+if [ "$DEMO" = "true" ]; then
+  "$PHP" artisan app:demo-content --force --no-interaction
 fi
 
 "$PHP" artisan optimize:clear >/dev/null

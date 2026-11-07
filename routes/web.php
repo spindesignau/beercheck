@@ -9,6 +9,7 @@ use App\Http\Controllers\BeerPriceController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Publican;
+use App\Http\Controllers\SearchController;
 use App\Http\Controllers\VenueController;
 use Illuminate\Support\Facades\Route;
 
@@ -25,6 +26,7 @@ Route::middleware('throttle:geo')->group(function () {
     Route::get('/venues/lookup', [VenueController::class, 'lookup'])->name('venues.lookup');
     Route::get('/beers/lookup', [BeerController::class, 'lookup'])->name('beers.lookup');
 });
+Route::get('/search', SearchController::class)->name('search');
 Route::get('/venues/search', [VenueController::class, 'search'])->name('venues.search');
 Route::get('/venues/{venue}', [VenueController::class, 'show'])->whereNumber('venue')->name('venues.show');
 Route::get('/u/{user:username}', [ProfileController::class, 'public'])->name('profile.public');
@@ -111,6 +113,12 @@ Route::middleware(['auth', 'role:admin'])->prefix('admin')->name('admin.')->grou
 
     Route::get('/sync', [Admin\SyncController::class, 'index'])->name('sync.index');
     Route::post('/sync', [Admin\SyncController::class, 'run'])->name('sync.run');
+
+    Route::get('/imports', [Admin\MenuImportController::class, 'index'])->name('imports.index');
+    Route::get('/imports/template', [Admin\MenuImportController::class, 'template'])->name('imports.template');
+    Route::post('/imports/preview', [Admin\MenuImportController::class, 'preview'])->name('imports.preview');
+    Route::post('/imports', [Admin\MenuImportController::class, 'store'])->name('imports.store');
+    Route::post('/imports/{import}/undo', [Admin\MenuImportController::class, 'undo'])->name('imports.undo');
 
     Route::get('/points', [Admin\PointsController::class, 'index'])->name('points.index');
     Route::post('/users/{user}/ban', [Admin\PointsController::class, 'toggleBan'])->name('users.ban');

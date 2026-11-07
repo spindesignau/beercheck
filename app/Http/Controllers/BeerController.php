@@ -68,6 +68,8 @@ class BeerController extends Controller
             'filters' => $filters,
             'types' => BeerType::ordered(),
             'sizes' => BeerSize::cases(),
+            'brands' => Beer::approved()->distinct()->orderBy('brand')->pluck('brand'),
+            'hasLocation' => $request->filled(['lat', 'lng']),
         ]);
     }
 

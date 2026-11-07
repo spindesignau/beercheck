@@ -2,13 +2,15 @@ import { getPosition } from './location';
 
 /**
  * Camera / upload -> client-side compression (max 1600px, JPEG q=0.7) before
- * upload. This keeps mobile uploads small and under shared-hosting
- * upload_max_filesize. The server re-encodes regardless (never trust the client).
+ * upload, plus a live points preview. The server re-encodes and calculates
+ * points itself regardless (never trust the client).
  */
 export function priceForm(config) {
     return {
         preview: null,
         compressing: false,
+        hasPhoto: false,
+        review: config.review || '',
         lat: null,
         lng: null,
 
@@ -18,12 +20,20 @@ export function priceForm(config) {
             this.lng = pos.lng;
         },
 
+        earn() {
+            const p = config.points;
+            return p.price_posted
+                + (this.hasPhoto ? p.photo_uploaded : 0)
+                + (this.review.trim().length >= p.review_min_chars ? p.review_written : 0);
+        },
+
         async onPhoto(event) {
             const input = event.target;
             const file = input.files?.[0];
             if (!file || !file.type.startsWith('image/')) return;
 
             this.compressing = true;
+            this.hasPhoto = true;
             try {
                 const blob = await compress(file, config.maxWidth, config.quality);
                 const out = new File([blob], file.name.replace(/\.\w+$/, '') + '.jpg', { type: 'image/jpeg' });

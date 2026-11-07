@@ -1,23 +1,25 @@
 @extends('layouts.app', ['title' => 'Claim a venue'])
 
 @section('content')
-<div class="mx-auto max-w-md rounded-xl bg-white p-6 shadow-sm">
-    <h1 class="mb-1 text-2xl font-black">Claim your venue</h1>
-    <p class="mb-4 text-sm text-stone-600">We'll email your business address to confirm, then our team verifies the claim. Approved publicans can post official prices, update venue details and reply to reviews.</p>
-    <form method="POST" action="{{ route('publican.claim.store') }}" class="space-y-3">
+<div class="mx-auto max-w-lg">
+    <section class="bg-bubbles px-4 pb-5 pt-5 text-white md:mt-4 md:rounded-[2rem]">
+        <h1 class="text-[1.9rem] leading-tight">Own a pub?</h1>
+        <p class="text-sm text-white/75">Claim it to post official prices, update your hours and reply to reviews.</p>
+    </section>
+    <div class="foam-edge md:hidden" aria-hidden="true"></div>
+    <form method="POST" action="{{ route('publican.claim.store') }}" class="card mx-4 mt-3 space-y-4 p-5">
         @csrf
-        <div x-data="typeahead({ url: '{{ route('venues.lookup') }}', initialId: '{{ old('venue_id', $venue?->id) }}', initialLabel: @js($venue ? $venue->name.' — '.$venue->suburb : '') })" class="relative">
-            <label class="mb-1 block text-sm font-semibold" for="claim-venue">Venue</label>
-            <input id="claim-venue" x-model="query" @input.debounce.300ms="search" autocomplete="off" required class="w-full rounded-lg border border-stone-300 px-3 py-2">
-            <input type="hidden" name="venue_id" :value="selectedId">
-            <ul x-show="open && results.length" x-cloak @click.outside="open = false" class="absolute z-10 mt-1 w-full rounded-lg bg-white shadow-lg">
-                <template x-for="r in results" :key="r.id"><li @click="choose(r)" class="cursor-pointer px-3 py-2 text-sm hover:bg-amber-50" x-text="r.label"></li></template>
-            </ul>
-        </div>
+        <x-typeahead-field label="Your venue" name="venue_id" :url="route('venues.lookup')" icon="pin" placeholder="Venue name or suburb"
+            :initial-id="old('venue_id', $venue?->id)" :initial-label="$venue ? $venue->name.' — '.$venue->suburb : ''" />
         <x-input label="Business name" name="business_name" required />
-        <x-input label="Business email" name="business_email" type="email" required />
-        <x-input label="ABN (optional)" name="abn" inputmode="numeric" pattern="\d{11}" />
-        <button class="w-full rounded-lg bg-amber-500 py-2 font-bold text-white">Submit claim</button>
+        <x-input label="Business email" name="business_email" type="email" required hint="We'll send a confirmation link here." />
+        <x-input label="ABN (optional)" name="abn" inputmode="numeric" pattern="\d{11}" hint="Speeds up verification." />
+        <button class="btn-beer w-full">Submit claim</button>
+        <ol class="list-inside list-decimal space-y-1 text-xs text-ink/60">
+            <li>Confirm the link we email to your business address.</li>
+            <li>Our team verifies the claim (usually within a day).</li>
+            <li>You'll get publican tools on your profile.</li>
+        </ol>
     </form>
 </div>
 @endsection

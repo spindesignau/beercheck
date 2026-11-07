@@ -55,7 +55,7 @@ class VenueController extends Controller
      * Flowchart: Search bar -> "search for specific venue -> come up with its info".
      * Single match redirects straight to the venue page.
      */
-    public function search(Request $request): View|RedirectResponse
+    public function search(Request $request): RedirectResponse
     {
         $term = trim((string) $request->validate(['q' => ['required', 'string', 'min:2', 'max:100']])['q']);
 
@@ -67,7 +67,7 @@ class VenueController extends Controller
             return redirect()->route('venues.show', $venues->first());
         }
 
-        return view('venues.search', ['venues' => $venues, 'term' => $term]);
+        return redirect()->route('search', ['q' => $term]);
     }
 
     /** Typeahead for the price form. */

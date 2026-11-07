@@ -1,36 +1,48 @@
-@extends('layouts.app', ['title' => 'Publican dashboard'])
+@extends('layouts.app', ['title' => 'My venues'])
 
 @section('content')
-<h1 class="mb-3 text-2xl font-black">Your venues</h1>
-<div class="mb-6 grid gap-3 sm:grid-cols-2">
-    @forelse ($venues as $v)
-        <div class="rounded-xl bg-white p-4 shadow-sm">
-            <div class="font-bold">{{ $v->name }}</div>
-            <div class="text-sm text-stone-500">{{ $v->fullAddress() }}</div>
-            <div class="mt-2 flex gap-3 text-sm">
-                <a class="underline" href="{{ route('venues.show', $v) }}">View</a>
-                <a class="underline" href="{{ route('publican.venues.edit', $v) }}">Edit details & prices</a>
-            </div>
-        </div>
-    @empty
-        <p class="text-stone-600">No approved venues yet. <a class="underline" href="{{ route('publican.claim.create') }}">Claim a venue</a>.</p>
-    @endforelse
-</div>
+<section class="bg-bubbles px-4 pb-5 pt-5 text-white md:rounded-b-[2rem]">
+    <p class="text-xs font-bold uppercase tracking-[.2em] text-beer">Publican</p>
+    <h1 class="text-[1.9rem] leading-tight">My venues</h1>
+</section>
+<div class="foam-edge md:hidden" aria-hidden="true"></div>
 
-<h2 class="mb-2 text-lg font-bold">Customer reviews</h2>
-@forelse ($reviews as $r)
-    <div class="mb-3 rounded-xl bg-white p-4 shadow-sm">
-        <div class="text-sm text-stone-500">{{ $r->venue->name }} · {{ $r->user->username }} · {{ $r->created_at->diffForHumans() }}</div>
-        <div class="font-semibold">{{ $r->beer->displayName() }} @if ($r->rating)<x-stars :rating="$r->rating" />@endif</div>
-        @if ($r->review_text)<p class="mt-1">{{ $r->review_text }}</p>@endif
-        <form method="POST" action="{{ route('publican.replies.upsert', $r) }}" class="mt-2 space-y-2">
-            @csrf @method('PUT')
-            <textarea name="reply_text" rows="2" required class="w-full rounded-lg border-stone-300 text-sm" placeholder="Write an official reply">{{ $r->reply?->reply_text }}</textarea>
-            <button class="rounded-lg bg-emerald-600 px-3 py-1 text-sm font-semibold text-white">{{ $r->reply ? 'Update reply' : 'Reply' }}</button>
-        </form>
+<div class="space-y-5 px-4 pt-3">
+    <div class="grid gap-3 sm:grid-cols-2">
+        @forelse ($venues as $v)
+            <div class="card p-4">
+                <div class="font-bold">{{ $v->name }}</div>
+                <div class="text-xs text-ink/60">{{ $v->fullAddress() }}</div>
+                <div class="mt-3 flex gap-2">
+                    <a class="btn-ghost !px-4 !py-2 text-sm" href="{{ route('venues.show', $v) }}">View</a>
+                    <a class="btn-beer !px-4 !py-2 text-sm" href="{{ route('publican.venues.edit', $v) }}">Prices &amp; details</a>
+                </div>
+            </div>
+        @empty
+            <div class="card p-5 text-sm">No approved venues yet. <a class="font-bold underline" href="{{ route('publican.claim.create') }}">Claim a venue</a>.</div>
+        @endforelse
     </div>
-@empty
-    <p class="text-stone-600">No reviews yet.</p>
-@endforelse
-{{ $reviews->links() }}
+
+    <section>
+        <h2 class="mb-2 text-lg">Customer reviews</h2>
+        <div class="space-y-3">
+        @forelse ($reviews as $r)
+            <div class="card p-4">
+                <div class="text-xs text-ink/60">{{ $r->venue->name }} · {{ '@'.$r->user->username }} · {{ $r->created_at->diffForHumans() }}</div>
+                <div class="mt-0.5 font-bold">{{ $r->beer->displayName() }}</div>
+                @if ($r->rating)<x-stars :rating="$r->rating" />@endif
+                @if ($r->review_text)<p class="mt-1 text-[15px]">{{ $r->review_text }}</p>@endif
+                <form method="POST" action="{{ route('publican.replies.upsert', $r) }}" class="mt-3 space-y-2">
+                    @csrf @method('PUT')
+                    <textarea name="reply_text" rows="2" required class="field text-sm" placeholder="Write an official reply">{{ $r->reply?->reply_text }}</textarea>
+                    <button class="btn-ink !py-2 text-sm">{{ $r->reply ? 'Update reply' : 'Reply' }}</button>
+                </form>
+            </div>
+        @empty
+            <div class="card p-5 text-sm text-ink/60">No reviews yet.</div>
+        @endforelse
+        </div>
+        <div class="mt-3">{{ $reviews->links() }}</div>
+    </section>
+</div>
 @endsection

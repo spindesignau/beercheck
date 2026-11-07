@@ -1,11 +1,106 @@
 @import 'tailwindcss';
+@import '@fontsource/archivo-black/latin-400.css';
+@import '@fontsource/montserrat/latin-500.css';
+@import '@fontsource/montserrat/latin-600.css';
+@import '@fontsource/montserrat/latin-700.css';
+@import '@fontsource/montserrat/latin-800.css';
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 @source '../**/*.blade.php';
 @source '../**/*.js';
 
+/* Brand palette sampled from the Beercheck logo. */
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-sans: 'Montserrat', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+    --font-display: 'Archivo Black', 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+
+    --color-beer: #F7BB0E;        /* the beer */
+    --color-beer-light: #FFE7A3;
+    --color-gold: #B27800;        /* pin + tagline */
+    --color-gold-dark: #8A5D00;
+    --color-ink: #201D1E;         /* wordmark */
+    --color-foam: #FFFBF0;        /* page background */
+    --color-froth: #FFFFFF;
 }
+
+@layer base {
+    html { -webkit-tap-highlight-color: transparent; }
+    body { @apply bg-foam font-sans text-ink antialiased; }
+    h1, h2, h3, .font-display { font-family: var(--font-display); letter-spacing: -0.01em; }
+    input, select, textarea { @apply text-base; } /* >=16px stops iOS zoom-on-focus */
+    [x-cloak] { display: none !important; }
+    fieldset { min-inline-size: 0; } /* fieldsets default to min-content width and break mobile layouts */
+}
+
+@layer components {
+    /* Charcoal band with rising bubbles - used for heroes and auth screens. */
+    .bg-bubbles {
+        background-color: var(--color-ink);
+        background-image:
+            radial-gradient(circle at 12% 78%, rgb(247 187 14 / .22) 0 6px, transparent 7px),
+            radial-gradient(circle at 22% 40%, rgb(247 187 14 / .16) 0 3px, transparent 4px),
+            radial-gradient(circle at 38% 70%, rgb(255 255 255 / .10) 0 4px, transparent 5px),
+            radial-gradient(circle at 55% 25%, rgb(247 187 14 / .18) 0 5px, transparent 6px),
+            radial-gradient(circle at 68% 62%, rgb(255 255 255 / .08) 0 7px, transparent 8px),
+            radial-gradient(circle at 84% 30%, rgb(247 187 14 / .20) 0 3px, transparent 4px),
+            radial-gradient(circle at 92% 80%, rgb(255 255 255 / .10) 0 5px, transparent 6px);
+        background-size: 260px 220px;
+    }
+    /* Amber "beer" band with soft bubbles. */
+    .bg-beer-bubbles {
+        background-color: var(--color-beer);
+        background-image:
+            radial-gradient(circle at 15% 70%, rgb(255 255 255 / .45) 0 4px, transparent 5px),
+            radial-gradient(circle at 45% 30%, rgb(255 255 255 / .35) 0 3px, transparent 4px),
+            radial-gradient(circle at 75% 65%, rgb(255 255 255 / .40) 0 5px, transparent 6px),
+            radial-gradient(circle at 90% 20%, rgb(255 255 255 / .30) 0 2px, transparent 3px);
+        background-size: 180px 120px;
+    }
+    /* Scalloped foam edge: put on an element directly under a dark/amber band. */
+    .foam-edge {
+        height: 18px;
+        background: radial-gradient(circle at 12px -2px, var(--color-ink) 12px, transparent 13px) repeat-x;
+        background-size: 24px 18px;
+    }
+    .foam-edge-beer {
+        height: 16px;
+        background: radial-gradient(circle at 10px -2px, var(--color-beer) 11px, transparent 12px) repeat-x;
+        background-size: 20px 16px;
+    }
+
+    .card { @apply rounded-3xl bg-froth shadow-[0_2px_0_rgb(32_29_30/.06),0_8px_24px_-12px_rgb(32_29_30/.25)]; }
+    .btn-beer { @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 font-bold transition active:scale-[.97] disabled:opacity-50 bg-beer text-ink shadow-[0_3px_0_var(--color-gold)]; }
+    .btn-ink { @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 font-bold transition active:scale-[.97] disabled:opacity-50 bg-ink text-white; }
+    .btn-ghost { @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 font-bold transition active:scale-[.97] disabled:opacity-50 bg-white text-ink ring-1 ring-ink/10; }
+    .field { @apply w-full rounded-2xl border-0 bg-white px-4 py-3 ring-1 ring-ink/15 focus:ring-2 focus:ring-beer focus:outline-none; }
+    .label { @apply mb-1.5 block text-sm font-bold; }
+    .chip { @apply inline-flex shrink-0 items-center gap-1 rounded-full bg-white px-4 py-2 text-sm font-semibold ring-1 ring-ink/10 transition active:scale-95; }
+    .chip-on { @apply bg-ink text-white ring-ink; }
+    .price-pill { @apply inline-flex items-baseline rounded-full bg-beer px-3 py-1 font-display text-lg text-ink shadow-[0_2px_0_var(--color-gold)]; }
+    .badge-official { @apply inline-flex items-center gap-1 whitespace-nowrap rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-bold text-emerald-800; }
+    .badge-punter { @apply inline-flex items-center gap-1 whitespace-nowrap rounded-full bg-beer-light px-2 py-0.5 text-xs font-bold text-gold-dark; }
+    .no-scrollbar { scrollbar-width: none; }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .pb-safe { padding-bottom: max(env(safe-area-inset-bottom), 0.5rem); }
+}
+
+/* Leaflet price markers + pulsing "you are here". */
+.bc-marker {
+    @apply whitespace-nowrap rounded-full bg-beer px-2 py-0.5 text-xs font-extrabold text-ink shadow-md ring-2 ring-white;
+    transform: translate(-50%, -100%);
+    position: relative;
+}
+.bc-marker::after {
+    content: ''; position: absolute; left: 50%; bottom: -6px; transform: translateX(-50%);
+    border: 6px solid transparent; border-top-color: var(--color-beer); border-bottom: 0;
+}
+.bc-marker-empty { @apply bg-white text-gold; }
+.bc-marker-empty::after { border-top-color: white; }
+.bc-you { @apply h-4 w-4 rounded-full bg-sky-500 ring-4 ring-white; box-shadow: 0 0 0 0 rgb(14 165 233 / .6); animation: bc-pulse 2s infinite; }
+@keyframes bc-pulse { 70% { box-shadow: 0 0 0 14px rgb(14 165 233 / 0); } 100% { box-shadow: 0 0 0 0 rgb(14 165 233 / 0); } }
+
+/* A little fun: the logo pin bobs when you pull the post button. */
+@keyframes bc-bob { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-3px) } }
+.animate-bob { animation: bc-bob 2.4s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .animate-bob, .bc-you { animation: none; } }

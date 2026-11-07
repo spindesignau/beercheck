@@ -28,3 +28,17 @@ export function getPosition(fallback, { timeout = 8000 } = {}) {
         );
     });
 }
+
+export function clearPosition() {
+    sessionStorage.removeItem(KEY);
+}
+
+/** For server-rendered pages that need ?lat&lng: add them to the URL once and reload. */
+export async function ensureLocationInUrl(fallback) {
+    const url = new URL(window.location.href);
+    if (url.searchParams.has('lat') && url.searchParams.has('lng')) return;
+    const pos = await getPosition(fallback);
+    url.searchParams.set('lat', pos.lat.toFixed(5));
+    url.searchParams.set('lng', pos.lng.toFixed(5));
+    window.location.replace(url.toString());
+}

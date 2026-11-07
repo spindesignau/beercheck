@@ -20,6 +20,9 @@ env:
   APP_DIR: ${{ vars.APP_DIR || '/home/spinwebsites/beercheck.spinstaging.com' }}
   DB_NAME: spinwebsites_beercheck
   DB_USER: spinwebsites_beercheck
+  # Staging shows fictional demo venues/prices with a banner. Set to 'false' to stop seeding
+  # (existing demo data stays until you run: php artisan app:demo-content --remove).
+  BEERCHECK_DEMO: 'true'
 
 jobs:
   test:
@@ -133,7 +136,7 @@ jobs:
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
         run: |
           printf '%s\n' "$DB_PASSWORD" | ssh deploy \
-            "bash '$APP_DIR/deploy/cpanel/remote-deploy.sh' '$APP_DIR' '$APP_URL' '$DB_NAME' '$DB_USER'"
+            "bash '$APP_DIR/deploy/cpanel/remote-deploy.sh' '$APP_DIR' '$APP_URL' '$DB_NAME' '$DB_USER' '$BEERCHECK_DEMO'"
 
       - name: Smoke test
         run: |

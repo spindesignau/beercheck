@@ -47,6 +47,16 @@ return [
         'directory' => 'photos',
     ],
 
+    /*
+    | Staging demo mode: shows a "demo data" banner, keeps pages out of search
+    | engines, and lets `php artisan app:demo-content` seed fictional venues.
+    */
+    'demo' => [
+        'enabled' => (bool) env('BEERCHECK_DEMO', false),
+        'email_domain' => 'demo.beercheck.test',
+        'external_prefix' => 'demo-',
+    ],
+
     'registration' => [
         'minimum_age' => 18,
     ],

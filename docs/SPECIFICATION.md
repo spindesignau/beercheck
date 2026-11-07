@@ -345,3 +345,50 @@ run and pass. Coverage:
 - Avatar upload (the `avatar_url` column exists).
 - $/litre normalisation for comparing across sizes (`BeerSize::millilitres()` exists).
 - Additional states (QLD, SA, WA) as new `VenueSource` cases plus config entries.
+
+---
+
+## 10. Brand & mobile UX
+
+- **Brand assets** (`public/images/brand/`) are cut from the supplied logos: horizontal (dark and light
+  wordmark), stacked, badge, the pin mark, and the favicon and app icons. Colours sampled from the logo
+  are `beer #F7BB0E`, `gold #B27800` and `ink #201D1E` on a `foam #FFFBF0` background. Headings use
+  Archivo Black; body text uses Montserrat. Both fonts are self-hosted via `@fontsource`, with no
+  external font requests.
+- **Mobile shell.** The top bar shows the logo plus points or Join. A bottom tab bar has Nearby,
+  Search, a raised camera button (Post a price), Top 3 and Me. Inputs use 16px+ text so iOS doesn't
+  zoom on focus, and the layout honours safe areas.
+- **Motifs.** Charcoal "bubbles" heroes (`.bg-bubbles`), amber bands (`.bg-beer-bubbles`), a scalloped
+  foam edge under heroes (`.foam-edge`), price pills, and medal emoji for the Top 3.
+- **Installable.** `site.webmanifest` and icons let people "Add to Home Screen" on iOS and Android.
+- **Search** is one box. It returns matching pubs (to the venue page) and matching beers (to venues
+  sorted by cheapest price for that beer).
+
+## 11. Menu spreadsheet import (Admin → Menu import)
+
+Upload `.xlsx` / `.csv` or paste a Google Sheets link. You get a preview with row-level errors, then
+confirm. Every import is logged and can be **undone** (its prices are soft-deleted). CLI:
+`php artisan app:import-menu file.xlsx [--dry-run] [--punter]`.
+
+Columns (case-insensitive, any order, title rows above the header are skipped):
+`venue, suburb, postcode, venue_id, brand, beer, type, abv, size, price`.
+
+- Venues are matched, never created. Matching uses `venue_id`, or the name plus postcode/suburb.
+- Unknown beers are created as approved beers.
+- Size aliases are recognised: middy, 425ml, bottle, tinnie, …
+- Rows identical to a venue's current price are skipped, so re-importing an updated menu is safe.
+- Imported prices are official venue prices by default, attributed to the admin who ran the import.
+  They never earn points.
+
+## 12. Staging demo content
+
+`BEERCHECK_DEMO=true` (set by the staging deploy) shows a "STAGING · demo" banner, adds `noindex`,
+and runs `php artisan app:demo-content` once. The demo content is:
+- 118 **fictional** pubs scattered around real Melbourne and Sydney suburbs
+- 14 demo punters and a demo publican
+- about 3,000 prices in realistic ranges, with ratings, reviews and publican replies
+- on-brand illustrated beer "photos" (`database/seeders/demo-photos`)
+
+Points always match the ledger. Remove it all with `php artisan app:demo-content --remove`, or rebuild
+it with `--fresh`. Demo venues use `external_id` `demo-*`, demo users use `@demo.beercheck.test`
+emails, and demo users can't log in.

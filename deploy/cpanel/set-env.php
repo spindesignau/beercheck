@@ -23,7 +23,7 @@ foreach (preg_split('/\r?\n/', stream_get_contents(STDIN)) as $line) {
 
     $quoted = ! str_contains($value, "'")
         ? "'{$value}'"
-        : '"'.addcslashes($value, "\"\\\$").'"';
+        : '"'.addcslashes($value, '"\\$').'"';
 
     $pattern = '/^#?\s*'.preg_quote($key, '/').'=.*$/m';
     $env = preg_match($pattern, $env)

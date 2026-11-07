@@ -101,16 +101,39 @@ class DiscoveryTest extends TestCase
         $venue = Venue::factory()->create(['name' => 'The Unique Arms', 'postcode' => '3065']);
         $beer = Beer::factory()->create();
         BeerPrice::factory()->official()->create(['venue_id' => $venue->id, 'beer_id' => $beer->id, 'price' => 8]);
-        BeerPrice::factory()->create(['venue_id' => $venue->id, 'beer_id' => $beer->id, 'price' => 7, 'rating' => 4, 'review_text' => 'Lovely beer garden']);
+        BeerPrice::factory()->create(['venue_id' => $venue->id, 'beer_id' => $beer->id, 'price' => 7, 'size' => 'pot', 'rating' => 4, 'review_text' => 'Lovely beer garden']);
 
         $this->get('/venues/search?q=unique+arms')->assertRedirect(route('venues.show', $venue));
 
         $this->withoutVite()->get(route('venues.show', $venue))->assertOk()
-            ->assertSee('The Unique Arms')->assertSee('Venue listed')->assertSee('Lovely beer garden')->assertSee('+ Post a Price');
+            ->assertSee('The Unique Arms')->assertSee('Venue price')->assertSee('Punter price')->assertSee('Lovely beer garden')->assertSee('Post a Price here');
     }
 
     public function test_home_page_renders(): void
     {
-        $this->withoutVite()->get('/')->assertOk()->assertSee('Beer prices nearest to you');
+        $this->withoutVite()->get('/')->assertOk()->assertSee('Cheapest beer')->assertSee('Nearby pubs');
+    }
+
+    public function test_unified_search_returns_pubs_and_beers(): void
+    {
+        Venue::factory()->create(['name' => 'The Carlton Club Hotel', 'suburb' => 'Carlton']);
+        Beer::factory()->create(['brand' => 'Carlton', 'name' => 'Draught']);
+        Beer::factory()->pending()->create(['brand' => 'Carlton', 'name' => 'Secret Pending']);
+
+        $this->withoutVite()->get('/search?q=carlton')->assertOk()
+            ->assertSee('The Carlton Club Hotel')
+            ->assertSee('Carlton Draught')
+            ->assertDontSee('Secret Pending');
+
+        $this->withoutVite()->get('/search')->assertOk()->assertSee('What are you after?');
+        // Old venue search URL still works: multiple matches go to the unified search.
+        Venue::factory()->create(['name' => 'Carlton Arms', 'suburb' => 'Carlton']);
+        $this->get('/venues/search?q=carlton')->assertRedirect(route('search', ['q' => 'carlton']));
+    }
+
+    public function test_top3_page_asks_for_location_then_renders_filters(): void
+    {
+        $this->withoutVite()->get('/beers/cheapest')->assertOk()->assertSee('Finding beers near you');
+        $this->withoutVite()->get('/beers/cheapest?lat='.self::LAT.'&lng='.self::LNG)->assertOk()->assertSee('Top 3 cheapest')->assertSee('Show the top 3');
     }
 }
