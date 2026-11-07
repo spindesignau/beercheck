@@ -214,9 +214,11 @@ branch, and can also be started by hand (*Actions → Deploy to staging → Run 
 1. Runs the test suite. The deploy is skipped if the tests fail.
 2. Installs the production PHP packages and builds the Vite assets, so the server needs neither Composer
    nor Node.
-3. Uploads the release with `rsync --delete` to `APP_DIR`, which defaults to
-   `/home/spinwebsites/beercheck.spinstaging.com`. These paths are never touched: `.env`, `storage/`,
-   `public/storage` and `.well-known/`.
+3. Packs the release as a `tar.gz` and streams it over SSH to `APP_DIR.incoming`. rsync is not needed
+   on the server. `deploy/cpanel/swap-release.sh` then swaps the new release into `APP_DIR`, which
+   defaults to `/home/spinwebsites/beercheck.spinstaging.com`. Stale files are removed. These paths are
+   never touched: `.env`, `storage/`, `public/storage` and `.well-known/` (AutoSSL). The swap script
+   refuses empty, relative, home or `public_html` paths.
 4. Runs `deploy/cpanel/remote-deploy.sh` on the server. The script:
    - finds PHP 8.4
    - creates `.env` and `APP_KEY` on the first deploy only
@@ -237,6 +239,7 @@ Repository secrets (*Settings → Secrets and variables → Actions*):
 | `SSH_USER` | `spinwebsites` |
 | `SSH_KEY` | private key authorised under cPanel → *SSH Access* |
 | `DB_PASSWORD` | password for `spinwebsites_beercheck` |
+| `SSH_KEY_PASSPHRASE` *(optional)* | the key's password, if it was generated with one in cPanel |
 | `SSH_KNOWN_HOSTS` *(optional)* | output of `ssh-keyscan -p PORT HOST`, which pins the host key. Without it, the key is fetched on each run. |
 
 The domain's document root must be `beercheck.spinstaging.com/public`, i.e. `APP_DIR/public`.
