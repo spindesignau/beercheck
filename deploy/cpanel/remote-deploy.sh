@@ -10,11 +10,7 @@ IFS= read -r DB_PASSWORD || true
 cd "$APP_DIR"
 
 # --- PHP 8.4 binary (cPanel EasyApache / CloudLinux alt-php / fallback) -----
-PHP=""
-for candidate in /usr/local/bin/ea-php84 /opt/cpanel/ea-php84/root/usr/bin/php /opt/alt/php84/usr/bin/php; do
-  [ -x "$candidate" ] && PHP="$candidate" && break
-done
-PHP="${PHP:-php}"
+source "$APP_DIR/deploy/cpanel/php.sh"
 echo "Using PHP: $PHP ($("$PHP" -r 'echo PHP_VERSION;'))"
 "$PHP" -r 'exit(version_compare(PHP_VERSION, "8.3.0", ">=") ? 0 : 1);' || { echo "PHP 8.3+ required"; exit 1; }
 

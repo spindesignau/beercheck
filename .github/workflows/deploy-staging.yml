@@ -114,17 +114,19 @@ jobs:
           CFG
           ssh deploy 'echo "Connected as $(whoami) on $(hostname)"'
 
-      - name: Upload release (rsync)
+      - name: Upload release (tar over SSH)
         run: |
-          ssh deploy "mkdir -p '$APP_DIR'"
-          # Excluded paths are never deleted on the server (.env, uploads, logs, SSL challenges).
-          rsync -az --delete \
-            --exclude='.git/' --exclude='.github/' --exclude='node_modules/' --exclude='tests/' \
-            --exclude='.env' --exclude='storage/' --exclude='bootstrap/cache/' \
-            --exclude='public/storage' --exclude='public/hot' --exclude='.well-known/' --exclude='public/.well-known/' \
-            --exclude='cgi-bin/' --exclude='error_log' --exclude='public/error_log' \
-            --exclude='phpunit.xml' --exclude='.phpunit.cache/' \
-            ./ "deploy:$APP_DIR/"
+          # --anchored: patterns only match at the archive root (vendor/*/tests etc. are kept).
+          tar -czf "$RUNNER_TEMP/release.tgz" --anchored \
+            --exclude=./.git --exclude=./.github --exclude=./node_modules --exclude=./tests \
+            --exclude=./.env --exclude=./storage --exclude=./bootstrap/cache \
+            --exclude=./public/storage --exclude=./public/hot \
+            --exclude=./phpunit.xml --exclude=./.phpunit.cache \
+            -C . .
+          echo "Release size: $(du -h "$RUNNER_TEMP/release.tgz" | cut -f1)"
+          INCOMING="${APP_DIR}.incoming"
+          ssh deploy "rm -rf '$INCOMING' && mkdir -p '$INCOMING' && tar -xzf - -C '$INCOMING'" < "$RUNNER_TEMP/release.tgz"
+          ssh deploy "bash '$INCOMING/deploy/cpanel/swap-release.sh' '$INCOMING' '$APP_DIR'"
 
       - name: Migrate, cache, cron
         env:
