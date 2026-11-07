@@ -57,6 +57,10 @@ return [
             'collation' => env('DB_COLLATION', 'utf8mb4_unicode_ci'),
             'prefix' => '',
             'prefix_indexes' => true,
+            // The app works in UTC (config/app.php). Pin the DB session to UTC too, so
+            // TIMESTAMP columns are never reinterpreted in the server's local zone
+            // (which also rejects times inside the AU daylight-saving gap).
+            'timezone' => env('DB_TIMEZONE', '+00:00'),
             'strict' => true,
             'engine' => null,
             'options' => extension_loaded('pdo_mysql') ? array_filter([
@@ -77,6 +81,10 @@ return [
             'collation' => env('DB_COLLATION', 'utf8mb4_unicode_ci'),
             'prefix' => '',
             'prefix_indexes' => true,
+            // The app works in UTC (config/app.php). Pin the DB session to UTC too, so
+            // TIMESTAMP columns are never reinterpreted in the server's local zone
+            // (which also rejects times inside the AU daylight-saving gap).
+            'timezone' => env('DB_TIMEZONE', '+00:00'),
             'strict' => true,
             'engine' => null,
             'options' => extension_loaded('pdo_mysql') ? array_filter([

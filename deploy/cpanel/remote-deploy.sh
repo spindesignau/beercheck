@@ -60,6 +60,9 @@ fi
 
 # --- Framework ----------------------------------------------------------------
 "$PHP" artisan package:discover --ansi
+# Drop the previous release's config/route/view caches first: if any later step
+# fails, the site keeps running the new code uncached (slower, but correct).
+"$PHP" artisan optimize:clear >/dev/null
 "$PHP" artisan down --retry=15 || true
 trap '"$PHP" artisan up || true' EXIT
 
@@ -73,10 +76,10 @@ fi
 
 # Staging only: fictional demo venues/prices (runs once; no-op when already seeded or demo is off).
 if [ "$DEMO" = "true" ]; then
-  "$PHP" artisan app:demo-content --force --no-interaction
+  "$PHP" artisan app:demo-content --force --no-interaction \
+    || echo "WARNING: demo content seeding failed (site deploy continues). Re-run: php artisan app:demo-content --fresh --force"
 fi
 
-"$PHP" artisan optimize:clear >/dev/null
 "$PHP" artisan config:cache
 "$PHP" artisan route:cache
 "$PHP" artisan view:cache
