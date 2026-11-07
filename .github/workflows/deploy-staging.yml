@@ -137,12 +137,30 @@ jobs:
 
       - name: Smoke test
         run: |
-          sleep 3
+          fail=0
           for url in "$APP_URL/up" "$APP_URL/"; do
-            code=$(curl -s -o /dev/null -w '%{http_code}' -L --max-time 30 "$url")
+            code=000
+            for attempt in 1 2 3; do
+              code=$(curl -s -o "$RUNNER_TEMP/body.html" -D "$RUNNER_TEMP/headers.txt" -w '%{http_code}' -L --max-time 30 "$url" || true)
+              [ "$code" = "200" ] && break
+              sleep 5
+            done
             echo "$url -> $code"
-            [ "$code" = "200" ] || { echo "::error::$url returned $code"; exit 1; }
+            if [ "$code" != "200" ]; then
+              fail=1
+              echo "--- response headers"; grep -iE '^(HTTP|server|x-powered-by|content-type|location)' "$RUNNER_TEMP/headers.txt" || true
+              echo "--- response body (first 15 lines)"; head -c 1500 "$RUNNER_TEMP/body.html" | sed -n '1,15p'; echo
+            fi
           done
+          if [ "$fail" = 1 ]; then
+            echo "--- server-side diagnostics"
+            ssh deploy "set +e
+              echo 'App dir (should contain artisan, public/index.php):'; ls -1 '$APP_DIR' | head -20; ls -l '$APP_DIR/public/index.php'
+              echo 'Old location (should no longer be the document root):'; ls -ld \$HOME/public_html/beercheck.spinstaging.com \$HOME/public_html/beercheck.spinstaging.com/public 2>&1
+              echo 'Laravel log tail:'; tail -n 20 '$APP_DIR'/storage/logs/laravel-*.log 2>/dev/null || echo '(no log yet - request never reached Laravel)'"
+            echo "::error::Site check failed. If the body above is a generic Apache/LiteSpeed 404 and there is no Laravel log, the domain's Document Root is not pointing at $APP_DIR/public (cPanel > Domains > Manage)."
+            exit 1
+          fi
 
       - name: Remove SSH key
         if: always()
