@@ -67,10 +67,13 @@ jobs:
           SSH_PORT: ${{ secrets.SSH_PORT }}
           SSH_USER: ${{ secrets.SSH_USER }}
           SSH_KNOWN_HOSTS: ${{ secrets.SSH_KNOWN_HOSTS }}
+          SSH_KEY_PASSPHRASE: ${{ secrets.SSH_KEY_PASSPHRASE }}
         run: |
           install -m 700 -d ~/.ssh
-          # Normalise the pasted key: strip Windows CRs and leading/trailing blank space.
-          printf '%s\n' "$SSH_KEY" | tr -d '\r' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' | sed '/^$/d' > ~/.ssh/deploy_key
+          # Normalise the pasted key: strip Windows CRs, per-line indentation and blank lines at the
+          # start/end only (encrypted PEM keys need the blank line after their DEK-Info header).
+          printf '%s\n' "$SSH_KEY" | tr -d '\r' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' \
+            | awk 'NF {found=1} found {buf = buf $0 "\n"; if (NF) {printf "%s", buf; buf=""}}' > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
           if grep -q 'PuTTY-User-Key-File' ~/.ssh/deploy_key; then
             echo "::error::SSH_KEY is a PuTTY .ppk key. In cPanel > SSH Access > View/Download, copy the OpenSSH private key (starts with -----BEGIN), not the PPK."; exit 1
@@ -78,8 +81,21 @@ jobs:
           if ! head -1 ~/.ssh/deploy_key | grep -q -- '-----BEGIN .*PRIVATE KEY-----'; then
             echo "::error::SSH_KEY does not start with a -----BEGIN ... PRIVATE KEY----- line. Paste the whole private key, including the BEGIN and END lines."; exit 1
           fi
-          if grep -q 'ENCRYPTED' ~/.ssh/deploy_key || ! ssh-keygen -y -P '' -f ~/.ssh/deploy_key > /dev/null 2>&1; then
-            echo "::error::SSH_KEY could not be loaded. Either it has a passphrase (generate a new key with an empty passphrase) or it was truncated when pasted. Lines in secret: $(wc -l < ~/.ssh/deploy_key)."; exit 1
+          echo "Key header: $(head -1 ~/.ssh/deploy_key) ($(wc -l < ~/.ssh/deploy_key) lines)"
+          if [ -n "$SSH_KEY_PASSPHRASE" ]; then
+            # Decrypt a passphrase-protected key on the runner only (file is deleted at the end of the job).
+            if ! ssh-keygen -p -P "$SSH_KEY_PASSPHRASE" -N '' -f ~/.ssh/deploy_key > /tmp/keygen.log 2>&1; then
+              echo "::error::SSH_KEY_PASSPHRASE did not unlock SSH_KEY: $(cat /tmp/keygen.log)"; exit 1
+            fi
+            echo "Key unlocked with SSH_KEY_PASSPHRASE."
+          fi
+          if ! ssh-keygen -y -P '' -f ~/.ssh/deploy_key > /dev/null 2> /tmp/keygen.log; then
+            if grep -q 'ENCRYPTED' ~/.ssh/deploy_key || grep -qi 'passphrase' /tmp/keygen.log; then
+              echo "::error::SSH_KEY is protected by a password. Add it as a repository secret named SSH_KEY_PASSPHRASE (the 'Key Password' you entered when generating the key in cPanel), then re-run."
+            else
+              echo "::error::SSH_KEY could not be parsed ($(cat /tmp/keygen.log)). Re-copy the private key from cPanel > SSH Access > View/Download."
+            fi
+            exit 1
           fi
           echo "Key OK: $(ssh-keygen -l -f ~/.ssh/deploy_key)"
           if [ -n "$SSH_KNOWN_HOSTS" ]; then
@@ -128,4 +144,4 @@ jobs:
 
       - name: Remove SSH key
         if: always()
-        run: rm -f ~/.ssh/deploy_key
+        run: rm -f ~/.ssh/deploy_key /tmp/keygen.log
