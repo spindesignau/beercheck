@@ -120,6 +120,11 @@
             <div class="mt-3">{{ $feed->links() }}</div>
         </section>
 
+        @php($attribution = config('beercheck.sync.attribution.'.$venue->source->value))
+        @if ($attribution)
+            <p class="text-center text-[11px] text-ink/45">Licence details: {{ $attribution }}</p>
+        @endif
+
         <div class="flex flex-wrap justify-center gap-4 pb-4 text-sm">
             @if ($canManage)
                 <a href="{{ route('publican.venues.edit', $venue) }}" class="font-bold underline">Manage this venue</a>

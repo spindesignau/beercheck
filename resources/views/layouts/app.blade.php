@@ -20,7 +20,7 @@
 </head>
 <body class="min-h-dvh overflow-x-clip">
 @if (config('beercheck.demo.enabled'))
-    <div class="bg-ink px-4 py-1 text-center text-[11px] font-semibold tracking-wide text-beer">STAGING · demo venues &amp; prices, not real</div>
+    <div class="bg-ink px-4 py-1 text-center text-[11px] font-semibold tracking-wide text-beer">STAGING · prices &amp; reviews are demo data</div>
 @endif
 
 {{-- Top app bar --}}
@@ -50,7 +50,7 @@
     </div>
 </header>
 
-<main @class(["mx-auto max-w-5xl pb-28 md:pb-12", "px-4 pt-4" => request()->routeIs("admin.*")])>
+<main @class(["mx-auto max-w-5xl pb-6 md:pb-12", "px-4 pt-4" => request()->routeIs("admin.*")])>
     @if (session('status'))
         <div class="mx-4 mt-4 flex items-start gap-3 rounded-2xl bg-ink px-4 py-3 text-sm font-semibold text-white" role="status"
              x-data="{ show: true }" x-show="show" x-init="setTimeout(() => show = false, 6000)" x-transition.opacity>
@@ -67,8 +67,9 @@
     @yield('content')
 </main>
 
-<footer class="mx-auto hidden max-w-5xl px-4 pb-10 text-center text-xs text-ink/50 md:block">
-    Prices are posted by the community and venues. Enjoy responsibly. Beercheck is for people aged 18+.
+<footer class="mx-auto max-w-5xl px-4 pb-28 text-center text-[11px] text-ink/45 md:pb-10 md:text-xs">
+    <p>Prices are posted by the community and venues. Enjoy responsibly. Beercheck is for people aged 18+.</p>
+    <p class="mt-1">Venue licence data: {{ config('beercheck.sync.attribution.nsw_liquor') }}; {{ config('beercheck.sync.attribution.vic_liquor') }}.</p>
 </footer>
 
 {{-- Mobile bottom tab bar --}}

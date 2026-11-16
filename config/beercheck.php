@@ -68,28 +68,36 @@ return [
         // If a feed returns fewer than this fraction of the currently active
         // venues for that source, skip deactivation (protects against truncated feeds).
         'min_feed_ratio' => 0.5,
+        // Data licence attribution shown on venue pages and in the footer.
+        'attribution' => [
+            'nsw_liquor' => '© State of New South Wales (Department of Creative Industries, Tourism, Hospitality and Sport) 2026, CC BY 4.0',
+            'vic_liquor' => 'Liquor Control Victoria',
+        ],
+        // Bundled register extracts (php artisan app:licences:extract), used when no URL is set.
+        'bundled_path' => database_path('data/venues'),
         'http_timeout' => 120,
 
         'sources' => [
             'nsw_liquor' => [
                 'enabled' => env('SYNC_NSW_ENABLED', true),
                 // Liquor & Gaming NSW "Licensed premises data" monthly export (XLSX or CSV).
-                // The file name changes monthly; set the current URL in .env.
+                // The file name changes monthly; set the current URL in .env. When blank, the
+                // bundled extract in database/data/venues/nsw_liquor.csv is used.
                 'url' => env('SYNC_NSW_URL'),
                 'format' => env('SYNC_NSW_FORMAT', 'xlsx'),
-                'include_licence_types' => [
-                    'hotel',
-                    'small bar',
-                    'general bar',
-                ],
-                'exclude_licence_types' => [
-                    'packaged', 'producer', 'wholesaler', 'club', 'restaurant', 'on-premises', 'limited',
-                ],
+                // Licence types that are pubs/bars outright (incl. "hotel (general bar)").
+                'include_licence_types' => ['hotel licence', 'small bar'],
+                // Other licence types (e.g. on-premises) only when the business type is a bar.
+                'include_business_types' => ['bar', 'wine bar', 'general bar'],
+                'exclude_licence_types' => ['packaged', 'producer', 'wholesaler', 'club', 'limited', 'pop-up'],
                 'active_statuses' => ['current'],
+                // Skip venues flagged "Temporarily Ceased Trading".
+                'trading_statuses' => ['trading'],
             ],
             'vic_liquor' => [
                 'enabled' => env('SYNC_VIC_ENABLED', true),
-                // Discover Data Victoria "Victorian liquor licences by location" CSV resource URL.
+                // Liquor Control Victoria "Current Victorian Licences by Location" (XLSX/CSV).
+                // When blank, the bundled extract in database/data/venues/vic_liquor.csv is used.
                 'url' => env('SYNC_VIC_URL'),
                 'format' => env('SYNC_VIC_FORMAT', 'csv'),
                 'include_licence_types' => [
@@ -101,7 +109,9 @@ return [
                 'exclude_licence_types' => [
                     'packaged', 'producer', 'wholesale', 'club', 'restaurant', 'cafe', 'pre-retail', 'limited', 'byo', 'remote seller',
                 ],
+                'include_business_types' => [],
                 'active_statuses' => [], // VIC feed only lists current licences
+                'trading_statuses' => [],
             ],
         ],
     ],

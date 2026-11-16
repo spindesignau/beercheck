@@ -43,4 +43,22 @@ class LicenceRecordMapperTest extends TestCase
     {
         $this->assertNull((new LicenceRecordMapper(VenueSource::VicLiquor))->map(['trading_as' => 'No Number']));
     }
+
+    public function test_nsw_bar_business_types_and_trading_status(): void
+    {
+        $mapper = new LicenceRecordMapper(VenueSource::NswLiquor);
+        $row = fn (string $type, string $business = '', string $trading = 'Trading') => $mapper->map([
+            'licence_number' => 'LIQ1', 'licence_name' => 'X', 'licence_type' => $type, 'status' => 'Current',
+            'trading_status' => $trading, 'business_type' => $business, 'latitude' => '-33.86', 'longitude' => '151.2',
+        ]);
+
+        $this->assertTrue($mapper->accepts($row('Liquor - hotel licence', 'General bar')));
+        $this->assertTrue($mapper->accepts($row('Liquor - on-premises licence', 'Bar,Sport facility')));
+        $this->assertTrue($mapper->accepts($row('Liquor - on-premises licence', 'Wine bar')));
+        $this->assertFalse($mapper->accepts($row('Liquor - on-premises licence', 'Restaurant')));
+        $this->assertFalse($mapper->accepts($row('Liquor - on-premises licence', 'Karaoke venue,Restaurant')));
+        $this->assertFalse($mapper->accepts($row('Liquor - pop-up licence', 'Bar')));
+        $this->assertFalse($mapper->accepts($row('Liquor - club licence', 'Bar')));
+        $this->assertFalse($mapper->accepts($row('Liquor - hotel licence', 'Full hotel', 'Temporarily Ceased Trading')));
+    }
 }

@@ -52,9 +52,9 @@ class DemoContentTest extends TestCase
     public function test_demo_banner_and_noindex(): void
     {
         config(['beercheck.demo.enabled' => true]);
-        $this->withoutVite()->get('/')->assertSee('demo venues')->assertSee('noindex', false);
+        $this->withoutVite()->get('/')->assertSee('demo data')->assertSee('noindex', false);
 
         config(['beercheck.demo.enabled' => false]);
-        $this->withoutVite()->get('/')->assertDontSee('demo venues');
+        $this->withoutVite()->get('/')->assertDontSee('demo data');
     }
 }

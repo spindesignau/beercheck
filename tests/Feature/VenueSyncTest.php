@@ -112,4 +112,52 @@ class VenueSyncTest extends TestCase
     {
         $this->artisan('schedule:list')->expectsOutputToContain('app:sync-venues')->assertSuccessful();
     }
+
+    public function test_bundled_extract_is_used_when_no_url_and_known_coordinates_are_reused(): void
+    {
+        $dir = sys_get_temp_dir().'/bc-bundled-'.uniqid();
+        mkdir($dir);
+        file_put_contents("{$dir}/vic_liquor.csv", implode("\n", [
+            'licence_number,licence_name,licence_type,status,trading_status,business_type,address,suburb,postcode,latitude,longitude',
+            '1001,"The Lord Hotel","General Licence",,,,"1 A St",Fitzroy,3065,-37.80,144.98',
+            '1002,"No Pin Bar","On-Premises Licence",,,,"2 B St",Fitzroy,3065,,',
+        ])."\n");
+        config(['beercheck.sync.bundled_path' => $dir, 'beercheck.sync.sources.vic_liquor.url' => null]);
+
+        // Previously geocoded venue for 1002: must be kept (not skipped / deactivated) without any API call.
+        Venue::factory()->create(['source' => VenueSource::VicLiquor, 'external_id' => '1002', 'latitude' => -37.801, 'longitude' => 144.981]);
+
+        $this->artisan('app:sync-venues', ['--source' => ['vic_liquor'], '--no-geocode' => true])->assertSuccessful();
+
+        $this->assertSame(2, Venue::where('source', 'vic_liquor')->where('is_active', true)->count());
+        $this->assertSame('No Pin Bar', Venue::firstWhere('external_id', '1002')->name);
+        $this->assertSame(-37.801, Venue::firstWhere('external_id', '1002')->latitude);
+        Http::assertNothingSent();
+        @unlink("{$dir}/vic_liquor.csv");
+        @rmdir($dir);
+    }
+
+    public function test_extract_command_keeps_only_pubs_and_bars(): void
+    {
+        $in = sys_get_temp_dir().'/bc-register-'.uniqid().'.csv';
+        $out = sys_get_temp_dir().'/bc-extract-'.uniqid().'.csv';
+        file_put_contents($in, implode("\n", [
+            'Licence Details - as at 01 November 2026,,,,,,,,,,',
+            'Licence number,Licence type,Status,Trading Status,Licence name,Address,Suburb,Postcode,Latitude,Longitude,Business type',
+            'LIQH1,Liquor - hotel licence,Current,Trading,THE NELSON,19 Kent St,Millers Point,2000,-33.857,151.204,Full hotel',
+            'LIQO1,Liquor - on-premises licence,Current,Trading,Wine Room,1 Pitt St,Sydney,2000,-33.86,151.21,Wine bar',
+            'LIQO2,Liquor - on-premises licence,Current,Trading,Pasta Place,2 Pitt St,Sydney,2000,-33.86,151.21,Restaurant',
+            'LIQP1,Liquor - packaged liquor licence,Current,Trading,Bottle-O,3 Pitt St,Sydney,2000,-33.86,151.21,Bottle shops & delivery',
+            'LIQH2,Liquor - hotel licence,Current,Temporarily Ceased Trading,Closed Arms,4 Pitt St,Sydney,2000,-33.86,151.21,Full hotel',
+        ])."\n");
+
+        $this->artisan('app:licences:extract', ['source' => 'nsw_liquor', 'file' => $in, '--out' => $out])->assertSuccessful();
+
+        $rows = array_map('str_getcsv', file($out, FILE_IGNORE_NEW_LINES));
+        $this->assertSame('licence_number', $rows[0][0]);
+        $this->assertSame(['LIQH1', 'LIQO1'], array_column(array_slice($rows, 1), 0));
+        $this->assertSame('The Nelson', $rows[1][1]);
+        @unlink($in);
+        @unlink($out);
+    }
 }

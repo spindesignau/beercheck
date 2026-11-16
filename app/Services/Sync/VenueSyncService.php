@@ -27,7 +27,7 @@ class VenueSyncService
 
     public function __construct(private readonly GeocodingService $geocoder) {}
 
-    public function run(VenueSource $source, ?VenueFeed $feed = null, bool $dryRun = false, ?User $triggeredBy = null): VenueSyncRun
+    public function run(VenueSource $source, ?VenueFeed $feed = null, bool $dryRun = false, ?User $triggeredBy = null, bool $geocode = true): VenueSyncRun
     {
         $startedAt = Carbon::now()->startOfSecond();
         $run = VenueSyncRun::create([
@@ -59,9 +59,15 @@ class VenueSyncService
                 }
 
                 if ($venue['latitude'] === null || $venue['longitude'] === null) {
-                    $coords = $this->geocoder->geocode(implode(', ', array_filter([
-                        $venue['address'], $venue['suburb'], $venue['state'], $venue['postcode'],
-                    ])));
+                    // Reuse coordinates we already hold for this licence (no API call, and a
+                    // --no-geocode run never "loses" a previously geocoded venue).
+                    $known = Venue::query()->where('source', $source->value)->where('external_id', $venue['external_id'])
+                        ->first(['latitude', 'longitude']);
+                    $coords = $known
+                        ? ['lat' => $known->latitude, 'lng' => $known->longitude]
+                        : ($geocode ? $this->geocoder->geocode(implode(', ', array_filter([
+                            $venue['address'], $venue['suburb'], $venue['state'], $venue['postcode'],
+                        ]))) : null);
                     if (! $coords) {
                         $run->skipped_count++;
                         if ($run->skipped_count <= 50) {

@@ -306,6 +306,14 @@ php artisan app:sync-venues --source=nsw_liquor --file=storage/app/premises.xlsx
 | Schedule | `routes/console.php`: `weeklyOn(0, '02:00')->timezone('Australia/Brisbane')`. Brisbane is AEST all year with no DST, so the job is never skipped or doubled on the NSW/VIC DST changeover Sundays. `withoutOverlapping`. |
 | Manual trigger | Admin → Sync → "Run now" dispatches `SyncVenuesJob`. The job is unique per source and the cron queue worker picks it up within a minute. |
 
+**Bundled registers.** `database/data/venues/{nsw_liquor,vic_liquor}.csv` hold pubs and bars extracted
+from the official registers with `php artisan app:licences:extract`: NSW as at 1 Nov 2026 (2,329 venues),
+VIC as at 30 Sep 2026 (4,900 venues). See `database/data/venues/README.md`.
+- When no URL is configured, `app:sync-venues` imports these files.
+- Every deploy runs `app:sync-venues --no-geocode`.
+- The weekly scheduled sync geocodes the few rows that have no coordinates.
+- Coordinates already held for a licence are reused, never re-geocoded.
+
 Data sources: the URLs change each time the government republishes the file, so set them in `.env`.
 - NSW: Liquor & Gaming NSW, *Licensed premises data* (monthly XLSX/CSV export).
 - VIC: Discover Data Victoria, *Victorian liquor licences by location* (CSV resource URL).

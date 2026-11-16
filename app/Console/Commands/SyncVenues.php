@@ -13,7 +13,8 @@ class SyncVenues extends Command
         {--source=* : nsw_liquor and/or vic_liquor (default: all enabled sources)}
         {--file= : Import from a local CSV/XLSX instead of the configured URL (requires one --source)}
         {--format= : csv|xlsx for --file (default: from extension)}
-        {--dry-run : Report what would change without writing}';
+        {--dry-run : Report what would change without writing}
+        {--no-geocode : Skip rows without coordinates instead of geocoding them (fast, e.g. during deploys)}';
 
     protected $description = 'Import pubs, hotels and bars from the NSW and VIC liquor licence registers';
 
@@ -36,7 +37,7 @@ class SyncVenues extends Command
                 ? new SpreadsheetFeed($source, $this->option('file'), $this->option('format') ?: strtolower(pathinfo($this->option('file'), PATHINFO_EXTENSION)))
                 : null;
 
-            $run = $sync->run($source, $feed, (bool) $this->option('dry-run'));
+            $run = $sync->run($source, $feed, (bool) $this->option('dry-run'), geocode: ! $this->option('no-geocode'));
 
             $this->table(['Status', 'Fetched', 'Filtered out', 'Inserted', 'Updated', 'Deactivated', 'Geocoded', 'Skipped'], [[
                 $run->status, $run->fetched_count, $run->filtered_count, $run->inserted_count,

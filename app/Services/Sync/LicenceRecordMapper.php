@@ -17,6 +17,8 @@ class LicenceRecordMapper
         'name' => ['trading_as', 'trading_name', 'licence_name', 'premises_name', 'venue_name', 'licensee'],
         'licence_type' => ['licence_type', 'licence_type_name', 'category', 'licence_category', 'licence_class'],
         'status' => ['status', 'licence_status'],
+        'trading_status' => ['trading_status'],
+        'business_type' => ['business_type', 'business_types'],
         'address' => ['address', 'premises_address', 'street_address', 'address_line_1'],
         'suburb' => ['suburb', 'premises_suburb', 'locality', 'town', 'suburb_town'],
         'postcode' => ['postcode', 'premises_postcode', 'post_code'],
@@ -61,6 +63,8 @@ class LicenceRecordMapper
             'name' => Str::limit(Str::title(mb_strtolower($name)), 255, ''),
             'licence_type' => Str::limit((string) $get('licence_type'), 120, ''),
             'status' => $get('status'),
+            'trading_status' => $get('trading_status'),
+            'business_type' => $get('business_type'),
             'address' => $address ? Str::limit(Str::title(mb_strtolower($address)), 255, '') : null,
             'suburb' => $suburb ? Str::limit(Str::title(mb_strtolower($suburb)), 100, '') : null,
             'state' => $this->source->state(),
@@ -76,8 +80,12 @@ class LicenceRecordMapper
         $cfg = config("beercheck.sync.sources.{$this->source->value}");
         $type = mb_strtolower((string) $mapped['licence_type']);
         $status = mb_strtolower((string) ($mapped['status'] ?? ''));
+        $trading = mb_strtolower((string) ($mapped['trading_status'] ?? ''));
 
         if (! empty($cfg['active_statuses']) && ! in_array($status, $cfg['active_statuses'], true)) {
+            return false;
+        }
+        if (! empty($cfg['trading_statuses']) && $trading !== '' && ! in_array($trading, $cfg['trading_statuses'], true)) {
             return false;
         }
 
@@ -93,7 +101,10 @@ class LicenceRecordMapper
             }
         }
 
-        return false;
+        // e.g. NSW on-premises licences whose business type is "Bar" / "Wine bar".
+        $businessTypes = array_map(fn ($t) => trim(mb_strtolower($t)), explode(',', (string) ($mapped['business_type'] ?? '')));
+
+        return (bool) array_intersect($businessTypes, $cfg['include_business_types'] ?? []);
     }
 
     public static function inAustralia(float $lat, float $lng): bool

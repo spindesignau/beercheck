@@ -74,6 +74,11 @@ if [ ! -e public/storage ]; then
   "$PHP" artisan storage:link --no-interaction || ln -s "$APP_DIR/storage/app/public" public/storage
 fi
 
+# Real venues: import the bundled NSW/VIC licence register extracts (idempotent, ~1s).
+# Rows without coordinates are left for the weekly scheduled sync to geocode.
+"$PHP" artisan app:sync-venues --no-geocode --no-interaction \
+  || echo "WARNING: venue import failed (site deploy continues). Check Admin > Sync."
+
 # Staging only: fictional demo venues/prices (runs once; no-op when already seeded or demo is off).
 if [ "$DEMO" = "true" ]; then
   "$PHP" artisan app:demo-content --force --no-interaction \

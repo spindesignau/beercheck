@@ -30,6 +30,10 @@ class SpreadsheetFeed implements VenueFeed
     public static function fromConfig(VenueSource $source): self
     {
         $cfg = config("beercheck.sync.sources.{$source->value}");
+        $bundled = config('beercheck.sync.bundled_path')."/{$source->value}.csv";
+        if (blank($cfg['url'] ?? null) && is_file($bundled)) {
+            return new self($source, $bundled, 'csv');
+        }
         if (blank($cfg['url'] ?? null)) {
             throw new RuntimeException("No feed URL configured for {$source->value} (set SYNC_".strtoupper(Str::before($source->value, '_')).'_URL).');
         }
