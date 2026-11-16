@@ -4,7 +4,7 @@
 #   printf '%s\n' "$DB_PASSWORD" | ssh host 'bash APP_DIR/deploy/cpanel/remote-deploy.sh APP_DIR APP_URL DB_NAME DB_USER'
 set -euo pipefail
 
-APP_DIR="$1"; APP_URL="$2"; DB_NAME="$3"; DB_USER="$4"; DEMO="${5:-false}"
+APP_DIR="$1"; APP_URL="$2"; DB_NAME="$3"; DB_USER="$4"; DEMO="${5:-false}"; NOINDEX="${6:-false}"
 IFS= read -r DB_PASSWORD || true
 
 cd "$APP_DIR"
@@ -52,6 +52,7 @@ CACHE_STORE=database
 FILESYSTEM_DISK=local
 IMAGE_DRIVER=gd
 BEERCHECK_DEMO=${DEMO}
+BEERCHECK_NOINDEX=${NOINDEX}
 ENV
 
 if ! grep -q '^APP_KEY=.\+' .env; then
@@ -79,10 +80,15 @@ fi
 "$PHP" artisan app:sync-venues --no-geocode --no-interaction \
   || echo "WARNING: venue import failed (site deploy continues). Check Admin > Sync."
 
-# Staging only: fictional demo venues/prices (runs once; no-op when already seeded or demo is off).
+# Demo content: seeded once when BEERCHECK_DEMO=true; otherwise any demo-tagged
+# data (fictional venues, @demo.beercheck.test users, their prices/reviews/photos)
+# is removed. Real venues and real users are never touched.
 if [ "$DEMO" = "true" ]; then
   "$PHP" artisan app:demo-content --force --no-interaction \
     || echo "WARNING: demo content seeding failed (site deploy continues). Re-run: php artisan app:demo-content --fresh --force"
+else
+  "$PHP" artisan app:demo-content --remove --no-interaction \
+    || echo "WARNING: demo content removal failed (site deploy continues)."
 fi
 
 "$PHP" artisan config:cache

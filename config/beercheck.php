@@ -51,6 +51,9 @@ return [
     | Staging demo mode: shows a "demo data" banner, keeps pages out of search
     | engines, and lets `php artisan app:demo-content` seed fictional venues.
     */
+    // Keep the site out of search engines (staging). Always on outside production.
+    'noindex' => (bool) env('BEERCHECK_NOINDEX', false),
+
     'demo' => [
         'enabled' => (bool) env('BEERCHECK_DEMO', false),
         'email_domain' => 'demo.beercheck.test',

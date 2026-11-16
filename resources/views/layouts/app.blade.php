@@ -6,7 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="theme-color" content="#F7BB0E">
     <meta name="description" content="Beercheck — beer prices at your fingertips. Find the cheapest beer near you.">
-    @unless (app()->isProduction() && ! config('beercheck.demo.enabled'))
+    @unless (app()->isProduction() && ! config('beercheck.noindex') && ! config('beercheck.demo.enabled'))
         <meta name="robots" content="noindex, nofollow">
     @endunless
     <title>{{ isset($title) ? $title.' · ' : '' }}Beercheck</title>

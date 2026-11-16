@@ -56,5 +56,12 @@ class DemoContentTest extends TestCase
 
         config(['beercheck.demo.enabled' => false]);
         $this->withoutVite()->get('/')->assertDontSee('demo data');
+
+        // Staging without demo data still stays out of search engines.
+        $this->app['env'] = 'production';
+        config(['beercheck.noindex' => true]);
+        $this->withoutVite()->get('/')->assertSee('noindex', false);
+        config(['beercheck.noindex' => false]);
+        $this->withoutVite()->get('/')->assertDontSee('noindex', false);
     }
 }
