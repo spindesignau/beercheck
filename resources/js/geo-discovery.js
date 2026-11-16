@@ -24,6 +24,9 @@ export function geoDiscovery(config) {
         view: 'list',
         loading: true,
         venues: [],
+        hasMore: false,
+        nextOffset: null,
+        loadingMore: false,
         top: [],
         map: null,
         layer: null,
@@ -135,6 +138,8 @@ export function geoDiscovery(config) {
                     window.axios.get(config.cheapestUrl + '?' + this.params(), { headers: { Accept: 'application/json' } }),
                 ]);
                 this.venues = nearby.data.venues;
+                this.hasMore = nearby.data.has_more;
+                this.nextOffset = nearby.data.next_offset;
                 this.top = top.data.results;
                 this.draw();
             } finally {
@@ -142,7 +147,21 @@ export function geoDiscovery(config) {
             }
         },
 
-        draw() {
+        async loadMore() {
+            if (!this.hasMore || this.loadingMore) return;
+            this.loadingMore = true;
+            try {
+                const { data } = await window.axios.get(config.nearbyUrl + '?' + this.params({ offset: this.nextOffset }));
+                this.venues = this.venues.concat(data.venues);
+                this.hasMore = data.has_more;
+                this.nextOffset = data.next_offset;
+                this.draw(false);
+            } finally {
+                this.loadingMore = false;
+            }
+        },
+
+        draw(fit = true) {
             this.layer.clearLayers();
             if (this.circle) this.circle.remove();
             this.circle = L.circle([this.lat, this.lng], {
@@ -155,7 +174,7 @@ export function geoDiscovery(config) {
                         + (v.cheapest ? `<br>${escapeHtml(v.cheapest.beer)} · ${v.cheapest.size} <b>${v.cheapest.price_formatted}</b>` : ''))
                     .addTo(this.layer);
             });
-            this.fit();
+            if (fit) this.fit();
         },
 
         fit() {

@@ -307,8 +307,8 @@ php artisan app:sync-venues --source=nsw_liquor --file=storage/app/premises.xlsx
 | Manual trigger | Admin → Sync → "Run now" dispatches `SyncVenuesJob`. The job is unique per source and the cron queue worker picks it up within a minute. |
 
 **Bundled registers.** `database/data/venues/{nsw_liquor,vic_liquor}.csv` hold pubs and bars extracted
-from the official registers with `php artisan app:licences:extract`: NSW as at 1 Nov 2026 (2,329 venues),
-VIC as at 30 Sep 2026 (4,900 venues). See `database/data/venues/README.md`.
+from the official registers with `php artisan app:licences:extract`: NSW as at 1 Nov 2026 (2,816 venues),
+VIC as at 30 Sep 2026 (5,359 venues). See `database/data/venues/README.md`.
 - When no URL is configured, `app:sync-venues` imports these files.
 - Every deploy runs `app:sync-venues --no-geocode`.
 - The weekly scheduled sync geocodes the few rows that have no coordinates.
@@ -370,7 +370,12 @@ run and pass. Coverage:
   foam edge under heroes (`.foam-edge`), price pills, and medal emoji for the Top 3.
 - **Installable.** `site.webmanifest` and icons let people "Add to Home Screen" on iOS and Android.
 - **Search** is one box. It returns matching pubs (to the venue page) and matching beers (to venues
-  sorted by cheapest price for that beer).
+  sorted by cheapest price for that beer). Venue search works word by word across name, address,
+  suburb and postcode:
+  - Filler words and street types are ignored ("in", "city", "Street", "Rd").
+  - Most of the words must match, and results are ranked by how many matched.
+  - Pubs are paginated 20 per page and beers 10 per page.
+  - The home "Nearby pubs" list loads 100 at a time, with a "Show more pubs" button.
 
 ## 11. Menu spreadsheet import (Admin → Menu import)
 

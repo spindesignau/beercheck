@@ -29,6 +29,7 @@ class GeoSearchRequest extends FormRequest
             'size' => ['nullable', Rule::enum(BeerSize::class)],
             'min_price' => ['nullable', 'numeric', 'min:0', 'max:1000'],
             'max_price' => ['nullable', 'numeric', 'min:0', 'max:1000', 'gte:min_price'],
+            'offset' => ['nullable', 'integer', 'min:0', 'max:20000'],
         ];
     }
 

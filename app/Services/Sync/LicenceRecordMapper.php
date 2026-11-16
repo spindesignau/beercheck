@@ -103,8 +103,21 @@ class LicenceRecordMapper
 
         // e.g. NSW on-premises licences whose business type is "Bar" / "Wine bar".
         $businessTypes = array_map(fn ($t) => trim(mb_strtolower($t)), explode(',', (string) ($mapped['business_type'] ?? '')));
+        if (array_intersect($businessTypes, $cfg['include_business_types'] ?? [])) {
+            return true;
+        }
 
-        return (bool) array_intersect($businessTypes, $cfg['include_business_types'] ?? []);
+        // Bars on restaurant-style licences, recognised by name ("Bar Conte", "Barrel Below").
+        foreach ($cfg['name_rule_licence_types'] ?? [] as $needle) {
+            if (str_contains($type, $needle)) {
+                $name = (string) $mapped['name'];
+
+                return preg_match(config('beercheck.sync.bar_name_pattern'), $name) === 1
+                    && preg_match(config('beercheck.sync.bar_name_exclude_pattern'), $name) !== 1;
+            }
+        }
+
+        return false;
     }
 
     public static function inAustralia(float $lat, float $lng): bool

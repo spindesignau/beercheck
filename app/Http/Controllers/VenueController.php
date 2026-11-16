@@ -24,13 +24,21 @@ class VenueController extends Controller
     public function nearby(GeoSearchRequest $request): JsonResponse
     {
         $f = $request->filters();
+        $perPage = (int) config('beercheck.geo.max_results');
+        $offset = (int) $request->validated('offset', 0);
 
-        $venues = $this->discovery->nearbyVenues($f->lat, $f->lng, $f->radiusKm, $f->size);
+        // Fetch one extra row to know whether there is another page.
+        $venues = $this->discovery->nearbyVenues($f->lat, $f->lng, $f->radiusKm, $f->size, $perPage + 1, $offset);
+        $hasMore = $venues->count() > $perPage;
+        $venues = $venues->take($perPage);
 
         return response()->json([
             'centre' => ['lat' => $f->lat, 'lng' => $f->lng],
             'radius_km' => $f->radiusKm,
             'count' => $venues->count(),
+            'offset' => $offset,
+            'has_more' => $hasMore,
+            'next_offset' => $hasMore ? $offset + $perPage : null,
             'venues' => $venues->map(fn (Venue $v) => [
                 'id' => $v->id,
                 'name' => $v->name,

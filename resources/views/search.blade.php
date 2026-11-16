@@ -26,16 +26,16 @@
             </div>
         </div>
     @else
-        @if ($venues->isEmpty() && $beers->isEmpty())
+        @if ($venues->total() === 0 && $beers->total() === 0)
             <div class="card p-6 text-center">
                 <p class="font-bold">Nothing matches “{{ $term }}”.</p>
                 <p class="mt-1 text-sm text-ink/60">Check the spelling, or <a class="font-bold underline" href="{{ route('beers.create') }}">suggest a missing beer</a>.</p>
             </div>
         @endif
 
-        @if ($beers->isNotEmpty())
+        @if ($beers->total() > 0)
             <section>
-                <h2 class="mb-2 text-lg">Beers <span class="font-sans text-sm font-semibold text-ink/50">· tap for the cheapest near you</span></h2>
+                <h2 class="mb-2 text-lg">Beers <span class="font-sans text-sm font-semibold text-ink/50">· {{ number_format($beers->total()) }} · tap for the cheapest near you</span></h2>
                 <ul class="card divide-y divide-ink/5 overflow-hidden">
                     @foreach ($beers as $beer)
                         <li>
@@ -50,12 +50,13 @@
                         </li>
                     @endforeach
                 </ul>
+                @if ($beers->hasPages())<div class="mt-3">{{ $beers->onEachSide(1)->links() }}</div>@endif
             </section>
         @endif
 
-        @if ($venues->isNotEmpty())
-            <section>
-                <h2 class="mb-2 text-lg">Pubs &amp; bars</h2>
+        @if ($venues->total() > 0)
+            <section id="pubs">
+                <h2 class="mb-2 text-lg">Pubs &amp; bars <span class="font-sans text-sm font-semibold text-ink/50">· {{ number_format($venues->total()) }} {{ \Illuminate\Support\Str::plural('match', $venues->total()) }}@if($venues->lastPage() > 1) · page {{ $venues->currentPage() }} of {{ $venues->lastPage() }}@endif</span></h2>
                 <ul class="card divide-y divide-ink/5 overflow-hidden">
                     @foreach ($venues as $venue)
                         <li>
@@ -70,6 +71,7 @@
                         </li>
                     @endforeach
                 </ul>
+                @if ($venues->hasPages())<div class="mt-3">{{ $venues->fragment('pubs')->onEachSide(1)->links() }}</div>@endif
             </section>
         @endif
     @endif

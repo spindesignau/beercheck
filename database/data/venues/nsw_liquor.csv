@@ -1,88 +1,153 @@
 licence_number,licence_name,licence_type,status,trading_status,business_type,address,suburb,postcode,latitude,longitude
+LIQO660039238,"Westbound Domestic Bar","Liquor - on-premises licence",Current,Trading,"Airport,Airport terminal on federal leased land","Westbound Domestic Bar Kiosk - Licensed Area 3, Level 2,  Western Sydney International Airport,",Luddenham,2745,-33.887282,150.72009
+LIQO660039221,"Grafton Brewing Co","Liquor - on-premises licence",Current,Trading,"Catering service","5 Crown St",Grafton,2460,-29.679873,152.951506
 LIQS220000380,"Stage Door Productions","Liquor - small bar licence",Current,Trading,,"Unit 7 33 Maddox St",Alexandria,2015,-33.90721,151.194993
+LIQO660039211,"The Soyo Hotel","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service,Restaurant","28-32 Young St",Wollongong,2500,-34.42286,150.890379
+LIQO660039202,"Agave Cantina Y Taqueria","Liquor - on-premises licence",Current,Trading,Restaurant,"Unit 5 26 Clarence St","Port Macquarie",2444,-31.429394,152.909712
 LIQS220000379,"Easy Peasy","Liquor - small bar licence",Current,Trading,,"207 Clarence St",Sydney,2000,-33.86992,151.205199
 LIQS220000378,"Bar Hai","Liquor - small bar licence",Current,Trading,,"8 Loftus St",Sydney,2000,-33.862654,151.210685
 LIQS220000377,"Kitchen By Stefano Marvello","Liquor - small bar licence",Current,Trading,,"Unit 10 312-316 Argyle St","Moss Vale",2577,-34.548423,150.373072
+LIQO660039161,"The Cocktail Initiative","Liquor - on-premises licence",Current,Trading,"Catering service","38A Blue Wren Cl","Port Macquarie",2444,-31.465392,152.866657
+LIQO660039164,"Hotel Leichhardt","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","1 Short Street",Leichhardt,2040,-33.881651,151.158658
 LIQS220000376,"The Heritage Room","Liquor - small bar licence",Current,Trading,,"Tenancy 7.13 & 7.18 - 25 Martin Place",Sydney,2000,-33.868427,151.209217
+LIQO660039152,"Chrysler Cafe Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 9A 133-145 Castlereagh St",Sydney,2000,-33.871592,151.208786
 LIQS220000375,Salute,"Liquor - small bar licence",Current,Trading,,"3 Bulwer St",Maitland,2320,-32.732738,151.555635
+LIQO660039141,"Bar Reggio","Liquor - on-premises licence",Current,Trading,Restaurant,"135 Crown St",Darlinghurst,2010,-33.877581,151.215585
 LIQS220000374,"Bar Scarpa","Liquor - small bar licence",Current,Trading,,"260 Lawrence Hargrave Dr",Thirroul,2515,-34.314412,150.92318
 LIQS220000373,"House Of Bungalow","Liquor - small bar licence",Current,Trading,,"Ground Floor, 65-67 Foveaux St,","Surry Hills",2010,-33.884582,151.2105
 LIQS220000372,"Culture Cafe Corrimal","Liquor - small bar licence",Current,Trading,,"2-3/258 Princes Hwy",Corrimal,2518,-34.373057,150.897178
+LIQO660039118,"And Bar Dining","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 1 231-241 Harris St",Pyrmont,2009,-33.872797,151.195371
 LIQH440019107,"Pioneer Ridge Hotel","Liquor - hotel licence",Current,Trading,"General bar","142 Kindlebark Dr",Medowie,2318,-32.732878,151.869953
 LIQS220000371,"L'massif Cave","Liquor - small bar licence",Current,Trading,,"231-233 Commonwealth St","Surry Hills",2010,-33.883417,151.209805
+LIQO660039105,"Farinas Ristorante And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop G8, 33 Hope Street","Melrose Park",2114,-33.813894,151.069916
+LIQO660039095,"Hapi Brew & Eatery","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 1/ 810 Elizabeth Street",Waterloo,2017,-33.900505,151.206498
 LIQS220000370,"Tappo And Co","Liquor - small bar licence",Current,Trading,,"117 Ramsay St",Haberfield,2045,-33.88099,151.139614
 LIQH440019106,Vito's,"Liquor - hotel licence",Current,Trading,"Full hotel","Shop 2 5-11 Bridge St",Sydney,2000,-33.863914,151.208049
 LIQH440019105,"Tap House Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Shop 5, 9 Marina Drive","Shell Cove",2529,-34.588561,150.863994
 LIQS220000369,"Bodega Del Mar","Liquor - small bar licence",Current,Trading,,"Unit 4 85 Tallwood Av","Mollymook Beach",2539,-35.324533,150.476062
 LIQS220000368,"Pig Mary","Liquor - small bar licence",Current,Trading,,"42-44 Meagher St",Chippendale,2008,-33.887435,151.200637
+LIQO660039079,"Lonestar Rib House & Brews Marsden Park","Liquor - on-premises licence",Current,Trading,Restaurant,"Fb06-Fb07, Sydney Business Park, 11 Darling Street","Marsden Park",2765,-33.719091,150.839103
 LIQS220000367,"Uncle Fuku's","Liquor - small bar licence",Current,Trading,,"Shop 2 42 Collins St",Kiama,2533,-34.66865,150.853726
 LIQS220000366,"Bar Kisa","Liquor - small bar licence",Current,Trading,,"Shop 1 198-206 St Johns Rd",Glebe,2037,-33.883401,151.183533
+LIQO660039069,"The Parkview Hotel","Liquor - on-premises licence",Current,Trading,Accommodation,"99 Market St",Mudgee,2850,-32.590625,149.583398
 LIQS220000365,"Bottle Keg Can","Liquor - small bar licence",Current,Trading,,"Shop 3/78-80 Railway Cr",Jannali,2226,,
 LIQS220000364,Vespertine,"Liquor - small bar licence",Current,Trading,,"Lg01 & Lg02, 350 George St",Sydney,2000,-33.866953,151.207421
+LIQO660039010,"Hotel Gracelands","Liquor - on-premises licence",Current,Trading,Accommodation,"7-9 Bushman St",Parkes,2870,-33.133376,148.179699
 LIQS220000363,"Pony Dining Barangaroo","Liquor - small bar licence",Current,Trading,,"Tenancy Rt.02, 1 Shelley Street",Sydney,2000,-33.866592,151.202399
+LIQO660038973,"Amara Bar And Brasserie","Liquor - on-premises licence",Current,Trading,"Social activity and support","266 Longueville Road",Longueville,2065,-33.822742,151.172331
+LIQO660038958,"121 Cafe Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"121 Hyde St",Bellingen,2454,-30.450427,152.894576
 LIQS220000362,"Yamahai Pty Ltd","Liquor - small bar licence",Current,Trading,,"148 King St",Newtown,2042,-33.893784,151.183567
 LIQH440019104,"The Seahorse Inn Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","87 Boydtown Park Road,",Boydtown,2551,-37.111462,149.880207
+LIQO660038894,"Lotus Dumpling Bar","Liquor - on-premises licence",Current,Trading,"Airport,Airport terminal on federal leased land","2S-0028, T3 Domestic Terminal, Sydney (Kingsford Smith) Airport",Mascot,2020,-33.932713,151.179505
+LIQO660038903,"Lukes Bistro And Bar","Liquor - on-premises licence",Current,Trading,"Airport,Airport terminal on federal leased land","2S-0015, T3 Domestic Terminal, Sydney (Kingsford Smith) Airport",Mascot,2020,-33.932713,151.179505
+LIQO660038883,"Great Northern Bar And All Press Cafe","Liquor - on-premises licence",Current,Trading,"Airport,Airport terminal on federal leased land","2A-230, T2 Domestic Terminal, Sydney (Kingsford Smith) Airport",Mascot,2020,-33.933432,151.178034
+LIQO660038873,"Peroni Bar","Liquor - on-premises licence",Current,Trading,"Airport,Airport terminal on federal leased land","C2-387, T1 International Terminal, Sydney (Kingsford Smith) Airport",Mascot,2020,-33.93656,151.163056
 LIQS220000361,Besa,"Liquor - small bar licence",Current,Trading,,"Lg01, 75-79 Hall St","Bondi Beach",2026,-33.889842,151.272058
 LIQS220000360,"Bar Something","Liquor - small bar licence",Current,Trading,,"Shop 1 60 Vulcan St",Moruya,2537,-35.909712,150.081227
 LIQH440019103,"The Great Western Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","145 Peisley St",Orange,2800,-33.286462,149.102798
 LIQS220000359,"The Whisky Gallery & Bar","Liquor - small bar licence",Current,Trading,,"22 Norton St",Leichhardt,2040,-33.887223,151.157221
+LIQO660038825,"Byron Bay Dumpling Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 10/ 23 Jonson Street","Byron Bay",2481,-28.64264,153.612487
 LIQH440019102,"Raato Ghar-The Venue","Liquor - hotel licence",Current,Trading,"General bar","12 Good St",Granville,2142,-33.831643,151.011291
+LIQO660038812,"Barrel Below","Liquor - on-premises licence",Current,Trading,Restaurant,"115 Clarence St",Sydney,2000,-33.86695,151.204877
 LIQS220000358,"Nacara Bar & Cellar","Liquor - small bar licence",Current,Trading,,"Shop 3-4 332 Darling St",Balmain,2041,-33.856974,151.179341
+LIQO660038811,"Carmita Restaurant & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Unit 5 3 Clifford St","Suffolk Park",2481,-28.689258,153.60857
 LIQS220000357,"Goji Black","Liquor - small bar licence",Current,Trading,,"439 High St",Penrith,2750,-33.753269,150.697479
 LIQS220000356,Ost,"Liquor - small bar licence",Current,Trading,,"73 Miller St","North Sydney",2060,-33.840584,151.206915
+LIQO660038791,"Burrito Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"232 King St",Newtown,2042,-33.895505,151.181795
 LIQS220000355,"Fortunate Son Bar","Liquor - small bar licence",Current,Trading,,"105 Enmore Rd",Newtown,2042,-33.898539,151.174184
 LIQS220000354,"11 Pyrmont Bridge","Liquor - small bar licence",Current,Trading,,"11 Pyrmont Bridge Rd",Pyrmont,2009,-33.87037,151.196784
 LIQS220000353,"Le Bar Berry","Liquor - small bar licence",Current,Trading,,"102 Queen St",Berry,2535,-34.775882,150.69726
 LIQH440019101,"Hill End Micro Pub","Liquor - hotel licence",Current,Trading,"Full hotel","23 Clarke St","Hill End",2850,-33.033801,149.415534
 LIQH440019100,"Mascot Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","205 O'riordan St",Mascot,2020,-33.928112,151.186794
+LIQO660038724,"Surfside 22 Hotel","Liquor - on-premises licence",Current,Trading,Accommodation,"22 Crown St",Wollongong,2500,-34.425973,150.902414
 LIQS220000351,"Aalia Wine Room","Liquor - small bar licence",Current,Trading,,"Tenancy 6.33, 25 Martin Pl",Sydney,2000,-33.868305,151.209315
 LIQS220000350,"Walcha Bar And Grill","Liquor - small bar licence",Current,Trading,,"67W Fitzroy St",Walcha,2354,-30.985405,151.589069
+LIQO660038706,"North Byron Hotel","Liquor - on-premises licence",Current,Trading,"Catering service","61 Bayshore Dr","Byron Bay",2481,-28.629789,153.583521
 LIQH440019099,"Felons Barrel Room","Liquor - hotel licence",Current,Trading,"Full hotel","Manly Wharf East Esplanade",Manly,2095,-33.79973,151.2852
+LIQO660038669,"Melt Nail Bar","Liquor - on-premises licence",Current,Trading,"Health and beauty services","145D Macpherson St",Bronte,2024,-33.906397,151.263949
+LIQO660038648,"Sq Bar & Grill","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","2 Lord Sheffield Cct",Penrith,2750,-33.74731,150.695867
 LIQH440019098,"Kiss My Brass Pty Ltd","Liquor - hotel licence",Current,Trading,"General bar","59 Sydenham Rd",Marrickville,2204,-33.912057,151.165751
 LIQS220000349,Ravenspur,"Liquor - small bar licence",Current,Trading,,"51 Enmore Rd",Newtown,2042,-33.898389,151.176151
+LIQO660038613,"The Legacy Cafe & Bar","Liquor - on-premises licence",Current,Trading,"Live entertainment venue,Restaurant","139 Including Rear Of 135 & 137 Balgownie Rd",Balgownie,2519,-34.388852,150.877612
 LIQS220000348,"Yamba Sunset","Liquor - small bar licence",Current,Trading,,"3 Yamba Rd",Yamba,2464,-29.435878,153.349765
 LIQS220000347,"Barrelhouse Cellars Bar","Liquor - small bar licence",Current,Trading,,"73 George St","The Rocks",2000,-33.858574,151.208913
 LIQS220000346,Alcotraz,"Liquor - small bar licence",Current,Trading,,"12-16 Chippen St",Chippendale,2008,-33.887282,151.200958
 LIQS220000345,Hutaoli,"Liquor - small bar licence",Current,Trading,,"Shop F, 350-360 Pitt St",Sydney,2000,-33.877121,151.208009
 LIQH440019097,"Rooftop On Central","Liquor - hotel licence",Current,Trading,"General bar","Tenancy 35 No. 23 Central Hills Drive","Gregory Hills",2557,-34.024409,150.763721
+LIQO660038533,"Gina Pasta Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Tr9.11 23 Barangaroo Ave",Barangaroo,2000,-33.864213,151.201406
+LIQO660038521,"Tudor Tavern Barham Pty Ltd","Liquor - on-premises licence",Current,Trading,Restaurant,"77 Murray St",Barham,2732,-35.631579,144.136083
 LIQS220000343,"Froff & Brew","Liquor - small bar licence",Current,Trading,,"Unit 1 294 Marrickville Rd",Marrickville,2204,-33.910835,151.156333
+LIQO660038506,"Lone Star Rib House And Brews","Liquor - on-premises licence",Current,Trading,Restaurant,"S 901, Lake Haven Shopping Centre, 7 Bannister Dr","Lake Haven",2263,-33.242272,151.505643
 LIQH440019095,"Pc Bar Newtown","Liquor - hotel licence",Current,Trading,"General bar","Basement 304-308  King St",Newtown,2042,-33.896945,151.179671
+LIQO660038486,"Diplomat Hotel","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","17 Bayswater Rd","Potts Point",2011,-33.875252,151.223437
 LIQS220000342,"Paradise Bar","Liquor - small bar licence",Current,Trading,,"Shops 7 And 8, 11 Ward Avenue","Potts Point",2011,-33.873918,151.225098
 LIQS220000341,"The Vault Hay","Liquor - small bar licence",Current,Trading,,"112 Lachlan St",Hay,2711,-34.509754,144.843067
+LIQO660038481,"Squidinc Bar & Grill","Liquor - on-premises licence",Current,Trading,Restaurant,"New Sydney Fish Markets Tenancy D3 1A Bridge Rd",Glebe,2037,-33.87516,151.190279
 LIQH440019096,Untied,"Liquor - hotel licence",Current,Trading,"General bar","Tenancy R7.07 Bldg.r7 Lvl 4 300 Barangaroo Ave","Barangaroo South",2000,-33.864384,151.202239
+LIQO660038479,"Kandy Restaurant & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 3 212-216 Kennedy Dr","Tweed Heads West",2485,-28.189019,153.512547
+LIQO660038476,"Bar Cycle","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 6, 1-11 Hardie Av","Summer Hill",2130,-33.891002,151.13689
+LIQO660038462,"Barber At The Bar","Liquor - on-premises licence",Current,Trading,"Hairdressing salon","Shop N83.Rt06, Level B3, 8 Castlereagh Street",Sydney,2000,-33.866883,151.210168
+LIQO660038424,"Vico Pizza Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Unit 9 23-31 Darlinghurst Rd","Potts Point",2011,-33.873231,151.224077
+LIQO660038416,"Black Ridge Restaurant Bar And Grill","Liquor - on-premises licence",Current,Trading,Restaurant,"22-34 Parkes Rd",Forbes,2871,-33.371094,148.017933
+LIQO660038407,"True Blue Truck Bar","Liquor - on-premises licence",Current,Trading,"Catering service","5 Bellevue Lane","Fennell Bay",2283,-32.987191,151.594444
+LIQO660038409,"Kinjo Japanese Restaurant & Sushi Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"37 St Pauls St",Randwick,2031,-33.920045,151.243133
 LIQS220000340,"Run Dos Run","Liquor - small bar licence",Current,Trading,,"49 Enmore Rd",Newtown,2042,-33.898393,151.176204
 LIQS220000339,"Natural Wine Bar","Liquor - small bar licence",Current,Trading,,"1A, 29 Broadway",Burringbar,2483,-28.434668,153.470511
 LIQH440019094,"The Meadowbank Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","27 Railway Rd",Meadowbank,2114,-33.816294,151.090318
 LIQS220000338,Foxys,"Liquor - small bar licence",Current,Trading,,"Unit 14 107 Princes Hwy",Ulladulla,2539,-35.358582,150.473554
 LIQS220000337,"Sakura House","Liquor - small bar licence",Current,Trading,,"Basement Level, 82-88 Elizabeth Street",Sydney,2000,-33.868794,151.210687
+LIQO660038335,"Z Bar Cafe & Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 7 63 Veterans Pde","Collaroy Plateau",2097,-33.727863,151.286952
 LIQS220000336,Smokey's,"Liquor - small bar licence",Current,Trading,,"Unit 2 74 Ballina St","Lennox Head",2478,-28.795559,153.593581
 LIQS220000335,"The Scholars Den","Liquor - small bar licence",Current,Trading,,"2 Union St","Newcastle West",2302,-32.927646,151.767087
 LIQH440019093,"The Co-Op Gerringong","Liquor - hotel licence",Current,Trading,"General bar","18 Belinda St",Gerringong,2534,-34.745162,150.81815
+LIQO660038275,"Bar Conte Sydney","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","Shops R02 And Mr02, 151 Clarence St,",Sydney,2000,-33.867512,151.204816
 LIQS220000334,Sion,"Liquor - small bar licence",Current,Trading,,"Basement 359-361 Pitt St",Sydney,2000,-33.875704,151.207645
+LIQO660038269,"Genso Japanese Bar & Bistro","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 1 & 2 445  Argyle Street","Moss Vale",2577,-34.550375,150.369168
+LIQO660038249,"Bay Brew Cafe","Liquor - on-premises licence",Current,Trading,Restaurant,"97 Bay Rd",Waverton,2060,-33.838372,151.195623
 LIQS220000333,Ette,"Liquor - small bar licence",Current,Trading,,"10 Bridge St",Sydney,2000,-33.863414,151.208164
 LIQH440019092,"Qt Parramatta","Liquor - hotel licence",Current,Trading,"Full hotel","8 Phillip St",Parramatta,2150,-33.811746,151.00312
 LIQH440019091,"Oxley Ridge Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","2 Brunsdon Rd",Cobbitty,2570,-33.993733,150.726339
+LIQO660038232,"Baja Cantina","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 2 30 Chalmers St","Surry Hills",2010,-33.885035,151.207431
 LIQS220000332,"Three Olive Trees","Liquor - small bar licence",Current,Trading,,"Shop 1 3 Stockton St","Nelson Bay",2315,-32.720813,152.144014
 LIQS220000331,Florence,"Liquor - small bar licence",Current,Trading,,"Shop 1 Ground 115 Pitt St",Sydney,2000,-33.861705,151.20936
+LIQO660038219,"Luxe 8 Cafe & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop G01 234 Sussex St",Sydney,2000,-33.872292,151.20437
 LIQS220000330,"Outpost Bar","Liquor - small bar licence",Current,Trading,,"Unit 9 40 Train St",Broulee,2537,-35.844632,150.170628
+LIQO660038211,"Firangi Fusion Bar & Dinning","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 3 121 Walker St","North Sydney",2060,-33.838797,151.209184
 LIQS220000329,"Warp Arcade","Liquor - small bar licence",Current,Trading,,"1/36 Church Street",Mudgee,2850,-32.59179,149.588038
 LIQS220000328,"Alibi Sports Bar","Liquor - small bar licence",Current,Trading,,"Shop 1 50 Owen St",Huskisson,2540,-35.039028,150.66986
 LIQH440019090,"Good Pair Days","Liquor - hotel licence",Current,Trading,"Full hotel","Shop 6, 353-359 Crown St,","Surry Hills",2010,-33.883827,151.21414
 LIQS220000327,"Maka Baka","Liquor - small bar licence",Current,Trading,,"Suite202, 201A And 201, Level 2, 413-415 Sussex St",Haymarket,2000,-33.878833,151.204394
 LIQH440019089,"Epiq Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","6 & 26 Salt Air Circuit,","Lennox Head",2478,-28.804548,153.581617
+LIQO660038153,"Joe's Tavern Restaurant And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"206 Australia St",Newtown,2042,-33.896229,151.178433
+LIQO660038152,"1912 Dumpling Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 13/27-31 Belmore Street",Burwood,2134,-33.878605,151.102365
+LIQO660038150,"Bar Lucio","Liquor - on-premises licence",Current,Trading,Restaurant,"12 Lenthall St",Kensington,2033,-33.910226,151.218429
+LIQO660038142,"Bar Bruno And Razz Room","Liquor - on-premises licence",Current,Trading,"Music venue,Restaurant","18-20 York St",Sydney,2000,-33.86801,151.206176
 LIQS220000326,"Bar Demo","Liquor - small bar licence",Current,Trading,,"85 Enmore Rd",Newtown,2042,-33.898486,151.174691
+LIQO660038129,"Tipsy Bar","Liquor - on-premises licence",Current,Trading,"Catering service","1341 Belowra Rd",Murringo,2586,-34.304223,148.50744
 LIQH440019088,"Empire Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","74 Lovell St",Young,2594,-34.312041,148.296155
 LIQS220000325,"Vera Wine Bar","Liquor - small bar licence",Current,Trading,,"Unit 2 67 Beaumont St",Hamilton,2303,-32.921316,151.74774
+LIQO660038110,"North Sandwiches And Burger Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 21, 10-26 Playfair Street","The Rocks",2000,-33.858141,151.208378
+LIQO660038087,"Six String Brewery Restaurant","Liquor - on-premises licence",Current,Trading,"Catering service","90 The Entrance Road",Erina,2250,-33.437843,151.372262
 LIQS220000324,"Xoyo Bar","Liquor - small bar licence",Current,Trading,,"Level 3, 94 Hay St,",Haymarket,2000,-33.879244,151.203758
+LIQO660038073,"Foodmandu Restaurant & Bar Pty Ltd","Liquor - on-premises licence",Current,Trading,Restaurant,"Unit 5 268 Beach Rd",Batehaven,2536,-35.732766,150.200066
 LIQH440019086,"Cross Keys Hotel","Liquor - hotel licence",Current,Trading,"General bar","1A Elizabeth St","Tighes Hill",2297,-32.907497,151.748474
 LIQH440019087,"Bevanda Bar","Liquor - hotel licence",Current,Trading,"General bar","7 Globe Lane",Wollongong,2500,-34.425577,150.894361
+LIQO660038044,"Torotoro Ramen Bar And Grill","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 14, 155B Miller St","North Sydney",2060,-33.837684,151.20773
+LIQO660038042,"Central Coast Bars & Activations","Liquor - on-premises licence",Current,Trading,"Catering service","72 Platypus Rd","Berkeley Vale",2261,-33.330166,151.433474
 LIQS220000322,"Herbs Taverne","Liquor - small bar licence",Current,Trading,,"Basement 213 Clarence St",Sydney,2000,-33.870077,151.205214
 LIQS220000321,"Maiz Mexican","Liquor - small bar licence",Current,Trading,,"33 Enmore Rd",Newtown,2042,-33.898201,151.17681
+LIQO660038031,"Tamon Sushi Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"T N83.Rt11, Martin Place Metro, 3 Elizabeth St",Sydney,2000,-33.866516,151.210518
 LIQS220000320,"Baptist Street Rec Club","Liquor - small bar licence",Current,Trading,,"2 Baptist Street",Redfern,2016,-33.892193,151.212002
+LIQO660038003,"Dopa Donburi & Milk Bar Chatswood","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop B-033, Chatswood Chase, 345 Victoria Ave,",Chatswood,2067,-33.794259,151.186113
 LIQH440019085,"The Wilton Bingara Gorge","Liquor - hotel licence",Current,Trading,"Full hotel","Ground Floor, 50 The Irons Drive",Wilton,2571,-34.222367,150.687262
+LIQO660037996,"Harry Jacks Brewing Co","Liquor - on-premises licence",Current,Trading,"Catering service","5492 Waterfall Way",Fernbrook,2453,-30.368761,152.595978
 LIQS220000318,"Whisky Thief","Liquor - small bar licence",Current,Trading,,"Shop 6, 230 Sussex Street",Sydney,2000,-33.872086,151.204188
 LIQS220000319,"Fabbrica Pasta Bar Newtown","Liquor - small bar licence",Current,Trading,,"Ground Floor, 101 King St,",Newtown,2042,-33.892749,151.184816
 LIQS220000317,"Sweetwater Tilba","Liquor - small bar licence",Current,Trading,,"1 Bate St","Central Tilba",2546,-36.313112,150.075648
+LIQO660037962,"Cocktails 2U","Liquor - on-premises licence",Current,Trading,"Catering service","679 East St","East Albury",2640,-36.074373,146.940153
+LIQO660037963,"Sushi Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop T17, 22 Forest Way","Frenchs Forest",2086,-33.749196,151.224292
+LIQO660037960,"Little Coogee Hotel","Liquor - on-premises licence",Current,Trading,Accommodation,"272-282 Clovelly Rd",Coogee,2034,-33.912364,151.258302
+LIQO660037955,"Sizzling Spice N Bar","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","277B Church St",Parramatta,2150,-33.812434,151.003517
 LIQH440019083,"Strathfield Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","5 Strathfield Sq",Strathfield,2135,-33.872276,151.093461
 LIQS220000316,Kokomo,"Liquor - small bar licence",Current,Trading,,"Lower Ground, 43 Hall Street,","Bondi Beach",2026,-33.890151,151.272706
 LIQS220000315,"One Tap Cocktail Bar","Liquor - small bar licence",Current,Trading,,"Upper Ground Floor 44 King St",Sydney,2000,-33.86819,151.20552
@@ -95,38 +160,66 @@ LIQH440019081,"Club House Hotel","Liquor - hotel licence",Current,Trading,"Gener
 LIQS220000310,"Black Metal Motor Co","Liquor - small bar licence",Current,Trading,,"112-114 Wentworth St","Port Kembla",2505,-34.482462,150.903491
 LIQH440019080,"The Library Bar","Liquor - hotel licence",Current,Trading,"General bar","1 Shakespeare Place",Sydney,2000,-33.866496,151.21305
 LIQS220000309,"Pizzeria Sotto","Liquor - small bar licence",Current,Trading,,"Lower Ground Floor, 24 Bay St","Double Bay",2028,-33.877421,151.24133
+LIQO660037867,"Infusion Curries Bar & Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"Unit 1 25 Belmore Rd",Lorn,2320,-32.728323,151.557984
 LIQS220000308,"Flight Path","Liquor - small bar licence",Current,Trading,,"31 Enmore Rd",Newtown,2042,-33.898178,151.176915
 LIQS220000307,"The Vic Barraba","Liquor - small bar licence",Current,Trading,,"82 Queen St",Barraba,2347,-30.380078,150.610634
 LIQH440019079,"Scone Willow Tree Hotel","Liquor - hotel licence",Current,Trading,"General bar","134-136 Kelly Street",Scone,2337,-32.049286,150.868426
 LIQS220000306,Tengoku,"Liquor - small bar licence",Current,Trading,,"Shop 1 266-268 Bourke St",Darlinghurst,2010,-33.878294,151.217511
+LIQO660037818,"Haberfield Hotel","Liquor - on-premises licence",Current,Trading,Accommodation,"215-217 Parramatta Rd",Haberfield,2045,-33.878259,151.131078
+LIQO660037815,"The Eve Hotel Sydney","Liquor - on-premises licence",Current,Trading,Accommodation,"2-38 Baptist St",Redfern,2016,-33.892323,151.211919
 LIQS220000304,"Granddad Jacks Newcastle","Liquor - small bar licence",Current,Trading,,"515 Hunter St",Newcastle,2300,-32.927625,151.767969
+LIQO660037787,"Puglia Pasta Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"12/23 Jonson St","Byron Bay",2481,-28.642602,153.612657
+LIQO660037783,"Little National Hotel Newcastle","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service,Restaurant","42 Honeysuckle Dr",Newcastle,2300,-32.925302,151.762931
 LIQH440019078,"Googong Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Lot 3, Glenrock Drive,",Googong,2620,-35.421064,149.225376
 LIQS220000303,"Joji Sydney","Liquor - small bar licence",Current,Trading,,"Level 5, 388 George St,",Sydney,2000,-33.868409,151.207399
+LIQO660037763,"Lexi’s Café Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Unit 127 14 Lexington Dr","Bella Vista",2153,-33.736677,150.94629
+LIQO660037755,"Bar Infinita","Liquor - on-premises licence",Current,Trading,Restaurant,"10 St Johns Av",Gordon,2072,-33.756513,151.153689
+LIQO660037737,"Squiseato Cafe & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Level 2 86-108 Castlereagh Street",Sydney,2000,-33.87044,151.209704
 LIQS220000302,"Elton Chong","Liquor - small bar licence",Current,Trading,,"388 High St",Penrith,2750,-33.753997,150.698201
+LIQO660037688,"Dargle Riverside Seafood & Pizza Bar","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","312 River Rd","Lower Portland",2756,-33.455397,150.901849
 LIQH440019076,"Wisemans Inn Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Old Northern And River Roads,","Wisemans Ferry",2775,-33.386168,150.985214
+LIQO660037687,"La Boujee Bar","Liquor - on-premises licence",Current,Trading,"Catering service","7 Lisa Av",Terrigal,2260,-33.436239,151.427558
 LIQH440019075,"Austral Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","352 Bringelly Rd",Austral,2179,-33.950288,150.810303
 LIQS220000299,Closed,"Liquor - small bar licence",Current,Trading,,"17 Beaumont St",Islington,2296,-32.917444,151.748776
+LIQO660037673,"Teppanyaki Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Unit 7 11 Volt Lane",Albury,2640,-36.081902,146.916452
 LIQH440019074,"Op Brewery","Liquor - hotel licence",Current,Trading,"Full hotel","2 Porter Street","Oran Park",2570,-33.995398,150.729412
+LIQO660037664,"245 Bar And Pizzeria","Liquor - on-premises licence",Current,Trading,Restaurant,"245 River St",Maclean,2463,-29.457132,153.196913
+LIQO660037658,"Jatra Restaurant And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"17 Good St",Granville,2142,-33.831754,151.011868
 LIQH440019073,"Golden Tiger Sports Bar","Liquor - hotel licence",Current,Trading,"Full hotel","8 Edwin Flack Ave,","Sydney Olympic Park",2127,-33.850026,151.062154
 LIQH440019071,"Enfield Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","626 Liverpool Rd","Strathfield South",2136,-33.88729,151.071405
 LIQH440019072,"The Hudson Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","206-220 Hume Hwy",Greenacre,2190,-33.902945,151.042973
+LIQO660037637,"Urban Bar And Grill","Liquor - on-premises licence",Current,Trading,Restaurant,"121-131 Monaro St",Queanbeyan,2620,-35.353327,149.234508
+LIQO660037625,"Smash Factor Indoor Bar & Golf","Liquor - on-premises licence",Current,Trading,"Sport facility","85 Keira St",Wollongong,2500,-34.42123,150.894207
 LIQH440019070,"The Range Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","1 Packard Av","Castle Hill",2154,-33.735568,150.982473
+LIQO660037621,"Roaming Bar","Liquor - on-premises licence",Current,Trading,"Catering service","1/40 Hardy Street","Dover Heights",2030,-33.876983,151.277567
+LIQO660037607,"Il Toscano Pasta Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"60 Terrigal Esp",Terrigal,2260,-33.447159,151.444525
+LIQO660037604,"Belliney's Ristorante & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 3040 & 3040A 109 Blaxland Rd",Ryde,2112,-33.812113,151.106375
+LIQO660037591,"Bluebird Cafe & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"37-41 Clifford St",Goulburn,2580,-34.752032,149.71924
 LIQH440019069,"Mitch Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","52 Mitchell Road,",Alexandria,2015,-33.900401,151.193911
+LIQO660037587,"Larry's Pizzeria And Cocktail Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"15 Bay St",Botany,2019,-33.944908,151.192502
+LIQO660037578,"Sanchez Cantina","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop T14/2A Hector",Kellyville,2115,-33.718681,150.954389
 LIQH440019068,"The Nyngan Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","104-106 Nymagee St",Nyngan,2825,-31.562349,147.198639
 LIQS220000298,"Hybrid West End Pty Ltd","Liquor - small bar licence",Current,Trading,,"537 Hunter St","Newcastle West",2302,-32.927646,151.767087
+LIQO660037554,"Maloya Pty Ltd T/A Metro Brew'in","Liquor - on-premises licence",Current,Trading,Restaurant,"76A Edinburgh Rd",Marrickville,2204,-33.907809,151.1696
 LIQS220000297,"Vivo Pyrmont","Liquor - small bar licence",Current,Trading,,"182 Harris St",Pyrmont,2009,-33.87037,151.19462
 LIQH440019067,"Alloggio Hotels Pty Ltd","Liquor - hotel licence",Current,Trading,"General bar","840 Hunter St","Newcastle West",2302,-32.924868,151.759214
+LIQO660037540,"Abode Hotel Malua Bay","Liquor - on-premises licence",Current,Trading,Accommodation,"Unit 2 4 Kuppa Av","Malua Bay",2536,-35.791867,150.229673
 LIQS220000296,"Shady Pines Saloon","Liquor - small bar licence",Current,Trading,,"Basement Level 222 Clarence St",Sydney,2000,-33.872181,151.205876
 LIQS220000295,"Lost Souls Rum Bar","Liquor - small bar licence",Current,Trading,,"56 Terrigal Esp",Terrigal,2260,-33.447217,151.444594
 LIQH440019066,"Urbnsurf Group Pty Ltd","Liquor - hotel licence",Current,Trading,"General bar","Pod B, P5 Carpark, Hill Road [Lot 71, Dp 1191648]","Sydney Olympic Park",2027,-33.836781,151.064967
 LIQS220000294,"Centro 86","Liquor - small bar licence",Current,Trading,,"Basement 86-88 Pitt St",Sydney,2000,-33.867003,151.208839
 LIQS220000293,"The Fox Hole","Liquor - small bar licence",Current,Trading,,"Ground 117-119 Harrington St","The Rocks",2000,-33.861713,151.206997
 LIQS220000292,Speakeasy,"Liquor - small bar licence",Current,Trading,,"Lower Ground Floor, 185 Clarence Street",Sydney,2000,-33.869196,151.205091
+LIQO660037454,"Le Salle Dining By Bar Chaplin","Liquor - on-premises licence",Current,Trading,Restaurant,"Unit 25 18 Hutchinson St","Surry Hills",2010,-33.884729,151.217522
 LIQS220000291,"The Waratah","Liquor - small bar licence",Current,Trading,,"308-310 Liverpool St",Darlinghurst,2010,-33.878153,151.221198
 LIQH440019065,"O'connell Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","2408 O'connell Rd",O'connell,2795,-33.542592,149.731026
 LIQS220000290,Tigra/Pantera,"Liquor - small bar licence",Current,Trading,,"Tenancy Llc0001/11 Young St",Sydney,2000,-33.862726,151.21094
+LIQO660037435,"The Social Brewers","Liquor - on-premises licence",Current,Trading,"Catering service","Unit 11 10-12 Hearne St",Mortdale,2223,-33.964775,151.067151
 LIQS220000289,"The Art Syndicate","Liquor - small bar licence",Current,Trading,,"Shop 3 344 Bourke St","Surry Hills",2010,-33.882291,151.216572
+LIQO660037420,"Fabbrica Pasta Bar Chatswood","Liquor - on-premises licence",Current,Trading,Restaurant,"Tenancy K0034, Chatswood Chase, 345 Victoria Ave,",Chatswood,2067,-33.794259,151.186113
 LIQS220000288,Silvers,"Liquor - small bar licence",Current,Trading,,"187 Enmore Rd",Enmore,2042,-33.89883,151.171791
+LIQO660037401,"Lena’s Cafe & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"444 The Esplanade","Warners Bay",2282,-32.973614,151.644012
+LIQO660037393,"Komatsu Grill Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 5&6/2A Vaughan Street",Lidcombe,2141,-33.865319,151.043067
 LIQS220000287,"Seri Bar","Liquor - small bar licence",Current,Trading,,"Shop B02 730-742 George Street",Haymarket,2000,-33.879493,151.205849
 LIQS220000285,"We Three","Liquor - small bar licence",Current,Trading,,"329 Illawarra Rd",Marrickville,2204,-33.912498,151.154723
 LIQS220000284,Crossroads,"Liquor - small bar licence",Current,Trading,,"80 Macquarie St",Dubbo,2830,-32.245334,148.602241
@@ -140,47 +233,74 @@ LIQS220000276,"City Oltra","Liquor - small bar licence",Current,Trading,,"Shop 1
 LIQS220000275,Hustlers.syd,"Liquor - small bar licence",Current,Trading,,"Lower Ground, 22-26 York Street,",Sydney,2000,-33.868255,151.206257
 LIQS220000274,Marys,"Liquor - small bar licence",Current,Trading,,"313 Argent St","Broken Hill",2880,-31.958674,141.465771
 LIQH440019064,"St Peters Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","178 Princes Hwy","St Peters",2044,-33.914801,151.177938
+LIQO660037251,"Gami Chicken And Beer","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop C02 561-583 Polding St",Prairiewood,2176,-33.85869,150.898745
 LIQS220000271,"Chill Out Bar","Liquor - small bar licence",Current,Trading,,"Unit 4 75 Heber St",Moree,2400,-29.462539,149.839771
 LIQH440019063,Martinez,"Liquor - hotel licence",Current,Trading,"General bar","Level 00, Podium, 50 Bridge Street",Sydney,2000,-33.862941,151.211609
 LIQS220000269,"7 Cutz Steakhouse Wollongong","Liquor - small bar licence",Current,Trading,,"Shop 8, 101 Crown Street",Wollongong,2500,-34.425593,150.897201
 LIQH440019062,"Sporting Globe King Street Wharf Pty Ltd","Liquor - hotel licence",Current,Trading,"Full hotel","Ground Floor, Retail Tenancy, King Street Wharf",Sydney,2000,-33.866987,151.201723
 LIQS220000268,"Odd Culture Fermented Goods","Liquor - small bar licence",Current,Trading,,"256 King St",Newtown,2042,-33.895983,151.181318
+LIQO660037198,"Hotel Marvell","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","4 Marvell St","Byron Bay",2481,-28.645581,153.61364
 LIQS220000267,"Buddy's Newtown","Liquor - small bar licence",Current,Trading,,"391 King St",Newtown,2042,-33.899665,151.177634
+LIQO660037181,"Hunter River Brewery Trail","Liquor - on-premises licence",Current,Trading,"Catering service","4 Waddells Av",Singleton,2330,-32.575825,151.178715
 LIQS220000266,"Buds Tavern","Liquor - small bar licence",Current,Trading,,"68 Owen St",Huskisson,2540,-35.03919,150.671525
 LIQS220000265,"Curtains Jazz Club","Liquor - small bar licence",Current,Trading,,"Level 1 99-113 Macquarie St",Sydney,2000,-33.862602,151.212464
 LIQS220000264,"Alphabet St","Liquor - small bar licence",Current,Trading,,"Unit 2 49 Gerrale St",Cronulla,2230,-34.055178,151.153112
 LIQH440019061,"Parc Pavilion","Liquor - hotel licence",Current,Trading,"Full hotel","138-140 Cronulla Street",Cronulla,2230,-34.055515,151.151949
+LIQO660037162,"Lotus Dumpling Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"R2016, Quay Quarter, 50 Bridge Street,",Sydney,2000,-33.862778,151.211527
+LIQO660037161,"202 Elizabeth Hotel","Liquor - on-premises licence",Current,Trading,Accommodation,"202-210 Elizabeth St","Surry Hills",2010,-33.880176,151.20922
 LIQS220000263,"La Voute","Liquor - small bar licence",Current,Trading,,"215 Church St",Parramatta,2150,-33.814062,151.002631
+LIQO660037131,"Hunter & Barrel Parramatta","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 2 180 George St",Parramatta,2150,-33.814339,151.01005
 LIQH440019059,"Argyle Hotel","Liquor - hotel licence",Current,Trading,"General bar","205 River St",Maclean,2463,-29.45558,153.197269
 LIQS220000261,Olivette,"Liquor - small bar licence",Current,Trading,,"Basement, 24 Fitzmaurice Street","Wagga Wagga",2650,-35.108091,147.370399
+LIQO660037112,"Black Honey & Brew","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 3 18 Ocean St",Narrabeen,2101,-33.718904,151.29827
 LIQS220000260,Zaffi,"Liquor - small bar licence",Current,Trading,,"Basement, 10-14 Hunter St,",Sydney,2000,-33.865342,151.207663
 LIQS220000259,"Bar 1880","Liquor - small bar licence",Current,Trading,,"10-14 Bulletin Pl",Sydney,2000,-33.862566,151.209588
 LIQS220000258,"Jerry Sent Me","Liquor - small bar licence",Current,Trading,,"Chapmans Old Store Shop 7/14-16 Alison Rd",Wyong,2259,-33.283671,151.424076
 LIQH440019060,"Fortress Sydney","Liquor - hotel licence",Current,Trading,"General bar","Part Level 2 & 3 Central Park Mall, 28 Broadway",Chippendale,2008,-33.884581,151.200682
 LIQS220000256,171,"Liquor - small bar licence",Current,Trading,,"171 Oxford St",Darlinghurst,2010,-33.880414,151.216167
+LIQO660037088,"Bar Barone","Liquor - on-premises licence",Current,Trading,Restaurant,"1 The Boulevarde",Strathfield,2135,-33.87272,151.094116
 LIQS220000255,"South Coast Tap House","Liquor - small bar licence",Current,Trading,,"46-52 Market St",Merimbula,2548,-36.887519,149.911024
+LIQO660037081,"Homeslice Pizza Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 3 6-14 Clarence St","Port Macquarie",2444,-31.429326,152.911509
 LIQH440019057,"Hudson Hotel & Events Centre","Liquor - hotel licence",Current,Trading,"Full hotel","160 Prospect Hwy","Seven Hills",2147,-33.769446,150.941069
 LIQH440019056,"Capella Sydney","Liquor - hotel licence",Current,Trading,"Full hotel","23-33 & 35-39 Bridge Street",Sydney,2000,-33.863933,151.209946
+LIQO660037072,"Mangi's Kitchen & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"75 Wigram St","Harris Park",2150,-33.821292,151.009418
+LIQO660037066,"The Gongview Cafe Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Suite 7 88 Keira St",Wollongong,2500,-34.420597,150.893107
+LIQO660037047,"Three Beans / The Hot Dogs Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 2 18-20 York St",Sydney,2000,-33.86801,151.206176
+LIQO660037016,"Bar Copains","Liquor - on-premises licence",Current,Trading,Restaurant,"67 Albion St","Surry Hills",2010,-33.883092,151.211249
+LIQO660037015,"Muddy Duck Tapas Bar & Events","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","21 Brolga Pl",Coleambally,2707,-34.806022,145.880945
+LIQO660037012,"Fish , Beer And Bubbles","Liquor - on-premises licence",Current,Trading,Restaurant,"Unit 2 90 Terrigal Esp",Terrigal,2260,-33.446553,151.443868
 LIQS220000254,"Miss Celie's","Liquor - small bar licence",Current,Trading,,"Shops 1 & 2, 15-17 Hercules Street",Ashfield,2131,-33.888353,151.124965
 LIQH440019055,"Brewdog South Eveleigh","Liquor - hotel licence",Current,Trading,"General bar","2 Locomotive St",Eveleigh,2015,-33.894721,151.195374
 LIQS220000253,"Hey Rosey","Liquor - small bar licence",Current,Trading,,"301 Summer St",Orange,2800,-33.28379,149.1031
+LIQO660036983,"Peppers Creek Barrel Room And Chapel","Liquor - on-premises licence",Current,Trading,"Catering service","1946 Broke Road",Pokolbin,2320,-32.773256,151.284636
+LIQO660036956,"Hotel Totto","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","60 Market Street",Wollongong,2500,-34.423594,150.894791
+LIQO660036957,"Bar Hernandez","Liquor - on-premises licence",Current,Trading,Restaurant,"58-60 Kings Cross Rd","Rushcutters Bay",2011,-33.87588,151.22502
+LIQO660036946,"The Majestic Bar And Dining","Liquor - on-premises licence",Current,Trading,"Cooking school,Restaurant","49A New Canterbury Rd",Petersham,2049,-33.89613,151.153121
+LIQO660036937,"Dumpling Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Unit 8 9-11 Hughes St",Cabramatta,2166,-33.893478,150.937514
+LIQO660036931,"Woolgoolga Brewing Co","Liquor - on-premises licence",Current,Trading,"Catering service","7 Willis Rd",Woolgoolga,2456,-30.126298,153.196292
 LIQS220000251,"Iluka Sunset","Liquor - small bar licence",Current,Trading,,"2A Charles St",Iluka,2466,-29.404418,153.34713
 LIQH440019054,"One Hurstville Plaza Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Level 1, 288 Forest Rd",Hurstville,2220,-33.966765,151.103263
 LIQS220000249,Samasama,"Liquor - small bar licence",Current,Trading,,"Shops 7-9 / 2 North Ave",Cessnock,2325,-32.835165,151.354265
 LIQS220000250,"Frankie & Mo's Wine Shop & Bar","Liquor - small bar licence",Current,Trading,,"44 Govetts Leap Rd",Blackheath,2785,-33.635943,150.286704
 LIQS220000248,"Neo Bar","Liquor - small bar licence",Current,Trading,,"Unit 4 231 Canley Vale Rd","Canley Heights",2166,-33.883563,150.925416
 LIQS220000247,"The Dancing Bear","Liquor - small bar licence",Current,Trading,,"Unit 327 5 Footbridge Bvd","Wentworth Point",2127,-33.825503,151.079183
+LIQO660036890,"Amore Bar Co","Liquor - on-premises licence",Current,Trading,"Catering service","30 Booralie Rd","Terrey Hills",2084,-33.680389,151.225782
 LIQS220000245,"Circa 21","Liquor - small bar licence",Current,Trading,,"15-17 Pine Av",Leeton,2705,-34.551274,146.40052
 LIQH440019053,"Railway Hotel Gosford","Liquor - hotel licence",Current,Trading,"General bar","159 Mann St",Gosford,2250,-33.425517,151.34258
 LIQS220000243,"No Name Baylane","Liquor - small bar licence",Current,Trading,,"Unit 11 8 Fletcher St","Byron Bay",2481,-28.642172,153.613782
 LIQS220000244,"4 Donkey","Liquor - small bar licence",Current,Trading,,"27 Albion St","Surry Hills",2010,-33.882467,151.20993
 LIQS220000242,"Sakura Bar Cafe","Liquor - small bar licence",Current,Trading,,"29 Albion St","Surry Hills",2010,-33.882477,151.209975
 LIQS220000241,Eau-De-Vie,"Liquor - small bar licence",Current,Trading,,"Basement Level, 285 George Street",Sydney,2000,-33.865543,151.207027
+LIQO660036840,"The Swell Hotel","Liquor - on-premises licence",Current,Trading,Accommodation,"11 Butler Street","Byron Bay",2481,-28.642664,153.611091
 LIQS220000240,Beercade,"Liquor - small bar licence",Current,Trading,,"113-115 Regent St",Redfern,2016,-33.892201,151.20083
 LIQH440019052,"Silverwater Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","214 Silverwater Rd",Silverwater,2128,-33.826249,151.050304
 LIQH440019051,"Shell Cove Hotel And Apartments","Liquor - hotel licence",Current,Trading,"Full hotel","10 Waterfront Prom","Shell Cove",2529,-34.586749,150.865957
 LIQS220000239,"Stick Bar","Liquor - small bar licence",Current,Trading,,"Shop 1 16 Clarence St","Port Macquarie",2444,-31.429368,152.910464
 LIQS220000238,"Bar Yuki","Liquor - small bar licence",Current,Trading,,"Shop 4 23 Wason St",Milton,2538,-35.315739,150.435862
+LIQO660036802,"Rokyo Sushi Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Unit 7 301 Old Northern Rd","Castle Hill",2154,-33.732447,151.006579
+LIQO660036780,"Bostin Brew Co.","Liquor - on-premises licence",Current,Trading,Restaurant,"89 City Rd",Merewether,2291,-32.938314,151.747563
+LIQO660036774,"Bar Mandys","Liquor - on-premises licence",Current,Trading,Restaurant,"1031 Barrenjoey Rd","Palm Beach",2108,-33.603302,151.31985
+LIQO660036777,"Barley Grass Bar","Liquor - on-premises licence",Current,Trading,"Catering service","36 Mcarthur Pde",Mangerton,2500,-34.434515,150.870725
 LIQS220000237,Vine,"Liquor - small bar licence",Current,Trading,,"Shop 4 209 Baylis St","Wagga Wagga",2650,-35.111095,147.370615
 LIQS220000236,"Se7En Cafe","Liquor - small bar licence",Current,Trading,,"29-31 Clyde St","Batemans Bay",2536,-35.70318,150.175801
 LIQS220000235,"Hp Bowlo","Liquor - small bar licence",Current,Trading,,"6 Crinan St","Hurlstone Park",2193,-33.909999,151.131828
@@ -188,17 +308,30 @@ LIQS220000234,"Botany Bay Bar And Dining","Liquor - small bar licence",Current,T
 LIQH440019049,"W Sydney","Liquor - hotel licence",Current,Trading,"Full hotel","31 Wheat Street","Darling Harbour",2000,-33.873578,151.201565
 LIQS220000233,"Jolene's Sydney","Liquor - small bar licence",Current,Trading,,"73 York St",Sydney,2000,-33.868323,151.205736
 LIQS220000232,Storyteller,"Liquor - small bar licence",Current,Trading,,"222 Cressy St",Deniliquin,2710,-35.530993,144.964242
+LIQO660036671,"Bar Heather","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop G09, 139 Jonson Street","Byron Bay",2481,-28.649942,153.613695
 LIQS220000231,"Fx Green Square","Liquor - small bar licence",Current,Trading,,"8 301  Botany Rd",Zetland,2017,-33.905727,151.203159
 LIQH440019048,"Devil's Hollow Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","10 Commercial Av",Dubbo,2830,-32.26129,148.653315
+LIQO660036601,"Lotus Dumpling Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"26 Lackey St","Summer Hill",2130,-33.891251,151.138706
+LIQO660036603,"Bar Quattro","Liquor - on-premises licence",Current,Trading,Restaurant,"Unit 3 100 Bay Rd",Waverton,2060,-33.837855,151.197124
+LIQO660036579,"Hotel Morris","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","412 Pitt Street",Haymarket,2000,-33.878841,151.207458
+LIQO660036546,"Rustico Pizza E Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"4 Katoomba St",Katoomba,2780,-33.712586,150.312161
+LIQO660036494,"Amalfi Restaurant And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"49 The Esplanade","Ettalong Beach",2257,-33.514811,151.335648
 LIQH440019047,"Plough And Ale Inn","Liquor - hotel licence",Current,Trading,"Full hotel","Connection Road",Calderwood,2527,-34.571241,150.74481
+LIQO660036473,"The Shed Cafe & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"753 Grose Vale Rd","Grose Vale",2753,-33.578436,150.653379
+LIQO660036462,"Sandy Bar Cafe","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","1 Sandy Bay Rd",Clontarf,2093,-33.80448,151.252986
 LIQH440019046,"Flemington Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","195 Parramatta Rd","Homebush West",2140,-33.859521,151.073535
 LIQS220000230,"Caffe Paradiso 6","Liquor - small bar licence",Current,Trading,,"Unit 4 65-65B Macleay St","Potts Point",2011,-33.869131,151.225359
+LIQO660036451,"Dumpling Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 1035 Level 1 30 Pearson St",Charlestown,2290,-32.964058,151.693844
 LIQS220000228,"Holly Go Lightly","Liquor - small bar licence",Current,Trading,,"6 Thredbo Tce",Jindabyne,2627,-36.416229,148.622693
 LIQS220000226,"Li'l Darlin Crows Nest","Liquor - small bar licence",Current,Trading,,"23 Willoughby Rd","Crows Nest",2065,-33.827045,151.201226
+LIQO660036426,"Just Brews","Liquor - on-premises licence",Current,Trading,Restaurant,"5-37 Broken Head Rd","Byron Bay",2481,-28.67372,153.61172
 LIQS220000227,"Prince Wine Bar","Liquor - small bar licence",Current,Trading,,"Ground Floor 38-40 Hansard St",Zetland,2017,-33.909506,151.204861
 LIQS220000225,"Croydon Lane","Liquor - small bar licence",Current,Trading,,"Shop 7 28-32 Kingsway",Cronulla,2230,-34.05152,151.152476
+LIQO660036403,"Bites & Brew","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 28 1 Gowrie St",Singleton,2330,-32.567235,151.163942
+LIQO660036398,"Bar Pho Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"Shops D & E 132 Warners Avenue","Bondi Beach",2026,-33.888298,151.27805
 LIQH440019043,"Miller Park Sport & Recreation Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","6 Maitland St","East Branxton",2335,-32.657438,151.360398
 LIQS220000224,"The Levee Bar","Liquor - small bar licence",Current,Trading,,"88 Magellan St",Lismore,2480,-28.809435,153.27765
+LIQO660036384,"Wildes Hotel","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service,Restaurant","152 Moss Vale Rd","Kangaroo Valley",2577,-34.736326,150.532884
 LIQS220000223,"The Snug Bar Gymea","Liquor - small bar licence",Current,Trading,,"752-758 Kingsway",Gymea,2227,-34.032977,151.085829
 LIQS220000222,"Void Bar","Liquor - small bar licence",Current,Trading,,"U 10 / 18 Church Street",Terrigal,2260,-33.447281,151.44332
 LIQS220000221,"Bar Planet","Liquor - small bar licence",Current,Trading,,"16 Enmore Rd",Newtown,2042,-33.898269,151.177676
@@ -206,34 +339,50 @@ LIQH440019045,"Brooks At Jordan Springs","Liquor - hotel licence",Current,Tradin
 LIQH440019042,"Alex & Co Parramatta Pty Ltd","Liquor - hotel licence",Current,Trading,"General bar","Shop 2,3,4 No. 330 Church Street",Parramatta,2150,-33.811141,151.004562
 LIQH440019041,"The Grove Social House","Liquor - hotel licence",Current,Trading,"Full hotel","264 Kingsgrove Rd",Kingsgrove,2208,-33.941742,151.101621
 LIQS220000216,"Bah Bah Food And Wine","Liquor - small bar licence",Current,Trading,,"142 Parker St",Cootamundra,2590,-34.636253,148.02706
+LIQO660036292,"Bucketty's Brewery Pty Ltd","Liquor - on-premises licence",Current,Trading,"Catering service","9 Manuela Pl","Curl Curl",2096,-33.767899,151.28161
+LIQO660036285,"Sky Lounge And Bar Pty Ltd","Liquor - on-premises licence",Current,Trading,Restaurant,"2 Selems Pde",Revesby,2212,-33.951004,151.015542
 LIQS220000215,"Upstairs Terrigal Pty Ltd","Liquor - small bar licence",Current,Trading,,"Unit 1 112 Terrigal Esp",Terrigal,2260,-33.445627,151.443366
+LIQO660036239,"Burrito Bar Lismore","Liquor - on-premises licence",Current,Trading,Restaurant,"44 Carrington St",Lismore,2480,-28.810474,153.276516
 LIQH440019040,"Dear Nonna Ristorante & Bar","Liquor - hotel licence",Current,Trading,"General bar","Tenancy G3 & G4 No. 31 Lasso Road","Gregory Hills",2557,-34.022249,150.762911
 LIQH440019039,"Ace Hotel Sydney","Liquor - hotel licence",Current,Trading,"Full hotel","47-53 Wentworth Avenue","Surry Hills",2010,-33.878795,151.20999
+LIQO660036235,"Torotoro Ramen Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 2, Tower 3, 300 Barangaroo Avenue",Barangaroo,2000,-33.865134,151.202137
 LIQS220000214,"Bar Mellow","Liquor - small bar licence",Current,Trading,,"Ground Floor/ 744 Hunter Street","Newcastle West",2302,-32.927376,151.781875
+LIQO660036211,"Fish Barrel","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 12 1 Glen St",Eastwood,2122,-33.79012,151.079548
+LIQO660036209,"Lily's Cafe Restaurant & Bar","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","Unit 2 38 Bernera Rd",Prestons,2170,-33.940336,150.869509
 LIQS220000213,"Fabbrica Pasta Shop","Liquor - small bar licence",Current,Trading,,"161 King Street",Sydney,2000,-33.869391,151.210121
+LIQO660036204,"Nepal Ghar Restaurant & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"165 Forest Rd",Hurstville,2220,-33.96765,151.105941
 LIQH440019038,"The Young Street Hotel","Liquor - hotel licence",Current,Trading,"General bar","132 Young St",Carrington,2294,-32.91568,151.765945
 LIQH440019036,"St Lucia Bar & Dining","Liquor - hotel licence",Current,Trading,"General bar","Unit 1 11 Honeysuckle Dr",Newcastle,2300,-32.925448,151.769292
 LIQH440019035,"Windmill Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","Managers Residence, Greg Norman Drive",Tamworth,2340,-31.130586,150.919243
+LIQO660036173,"Travelodge Hotel Hurstville Sydney","Liquor - on-premises licence",Current,Trading,Accommodation,"6-8 Cross St",Hurstville,2220,-33.965761,151.103916
 LIQS220000210,"Jacko's Bar","Liquor - small bar licence",Current,Trading,,"Unit 4 2-6 Yamba St",Yamba,2464,-29.435114,153.360286
 LIQS220000208,"Frank Mac's","Liquor - small bar licence",Current,Trading,,"83 George St","The Rocks",2000,-33.858859,151.208703
 LIQS220000206,"Fat Thaiger","Liquor - small bar licence",Current,Trading,,"737-739 George St",Haymarket,2000,-33.881343,151.204412
 LIQS220000205,"Ilu Ilu Bar","Liquor - small bar licence",Current,Trading,,"G04 10 Regent St",Wollongong,2500,-34.424034,150.890972
 LIQH440019034,"Astina Hospitality","Liquor - hotel licence",Current,Trading,"General bar","21 Woodriff St",Penrith,2750,-33.754399,150.696648
 LIQS220000204,"El Ocaso Bar De Tapas","Liquor - small bar licence",Current,Trading,,"Unit 6 18 Coldstream St",Yamba,2464,-29.437163,153.360767
+LIQO660036105,"Modus Operandi Brewing Co","Liquor - on-premises licence",Current,Trading,"Catering service","16 Merewether St",Merewether,2291,-32.94146,151.756561
 LIQS220000203,"Ante Bar","Liquor - small bar licence",Current,Trading,,"Ground Floor, 146 King Street",Newtown,2042,-33.893701,151.183652
+LIQO660036087,"The Piccolo Bar Kings Cross","Liquor - on-premises licence",Current,Trading,Restaurant,"6 Roslyn St","Potts Point",2011,-33.873846,151.224714
 LIQS220000202,"Neat Bar & Cafe Pty Ltd","Liquor - small bar licence",Current,Trading,,"Unit 1 31 Kosciuszko Rd",Jindabyne,2627,-36.416457,148.624433
 LIQS220000198,"Rovollo Restaurant & Wine Room","Liquor - small bar licence",Current,Trading,,"Tenancy 7.11, Level 7, 19-29 Martin Place,",Sydney,2000,-33.867846,151.209641
+LIQO660036046,"Buzz Bar","Liquor - on-premises licence",Current,Trading,"Catering service","1 Byrnes St",Botany,2019,-33.9447,151.193819
 LIQS220000201,"Rosella's Perch","Liquor - small bar licence",Current,Trading,,"1A Tauranga Rd","New Lambton",2305,-32.919195,151.715478
 LIQS220000199,"Château Tanunda","Liquor - small bar licence",Current,Trading,,"Shop 2, Ground Level, 2 Nurses Walk","The Rocks",2000,-33.859803,151.208163
 LIQH440019033,Harrigan's,"Liquor - hotel licence",Current,Trading,"Full hotel","315 George Booth Dr","Cameron Park",2285,-32.916118,151.595485
+LIQO660036003,"Millsheds Bar","Liquor - on-premises licence",Current,Trading,"Catering service,Food court","210-224 Bong Bong St",Bowral,2576,-34.476459,150.419192
 LIQS220000196,"Little Betty's Bar","Liquor - small bar licence",Current,Trading,,"Unit 1 55 Collins St",Kiama,2533,-34.668716,150.85281
 LIQS220000195,"The Pot And Pint","Liquor - small bar licence",Current,Trading,,"Unit 4 110 Marine Pde",Kingscliff,2487,-28.254834,153.57537
+LIQO660035947,"Mokshya Restaurant And Lounge Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"7A 62-72 Queen St",Auburn,2144,-33.850722,151.032297
+LIQO660035948,"Aiden Darling Harbour, Wayfarer's Bar And Cafe","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","45 Murray St",Pyrmont,2009,-33.870288,151.197529
+LIQO660035940,"Angora Cafe Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 9 52-56 Gladesville Rd","Hunters Hill",2110,-33.833346,151.143088
 LIQS220000194,"Hideout Bar","Liquor - small bar licence",Current,Trading,,"Shop 2, 152 Military Road","Neutral Bay",2089,-33.830647,151.220689
 LIQS220000192,"Pocket Bar Terrigal","Liquor - small bar licence",Current,Trading,,"74 Terrigal Esp",Terrigal,2260,-33.446909,151.444266
 LIQH440019032,"Subset 27","Liquor - hotel licence",Current,Trading,"General bar","Tenancy Agmm07, Edmondson Sq/52 Soldiers Parade","Edmondson Park",2174,-33.970957,150.859188
 LIQH440019031,"The Sherwood Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","75 Molesworth St",Lismore,2480,-28.80805,153.275957
 LIQS220000191,"The Absolutely Superb Bibliothèque And Occasional Wine Bar, Boorowa","Liquor - small bar licence",Current,Trading,,"109-113 Pudman St",Boorowa,2586,-34.43628,148.716946
 LIQS220000189,"Koda Sydney","Liquor - small bar licence",Current,Trading,,"Shop 3,/20 Hunter St",Sydney,2000,-33.865344,151.207984
+LIQO660035865,"Osaka Soul Food Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"18A Wentworth St",Glebe,2037,-33.879847,151.193964
 LIQS220000187,"The Athletic Club","Liquor - small bar licence",Current,Trading,,"16 First Av",Sawtell,2452,-30.369549,153.100242
 LIQS220000186,"Members Only","Liquor - small bar licence",Current,Trading,,"313-315 Hunter St",Newcastle,2300,-32.927031,151.775043
 LIQS220000182,"Petit Wine Bar & Bistro","Liquor - small bar licence",Current,Trading,,"26 Kensington St",Chippendale,2008,-33.885109,151.201886
@@ -241,55 +390,92 @@ LIQS220000181,"Barham Vines","Liquor - small bar licence",Current,Trading,,"1A R
 LIQH440019030,"Annandale Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","17 Parramatta Rd",Annandale,2038,-33.88736,151.171523
 LIQS220000180,"Meadow Music Room","Liquor - small bar licence",Current,Trading,,"Shop 7 2-6 Cronulla St",Cronulla,2230,-34.051703,151.153435
 LIQS220000179,Halfway,"Liquor - small bar licence",Current,Trading,,"248-250 Crown Street",Wollongong,2500,-34.424932,150.891835
+LIQO660035781,"Circa Espresso And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"21 Wentworth St",Parramatta,2150,-33.818748,151.004985
 LIQS220000178,"The Social Ulladulla","Liquor - small bar licence",Current,Trading,,"Unit 3 22 Wason St",Ulladulla,2539,-35.358759,150.47552
+LIQO660035779,"Brew Bike","Liquor - on-premises licence",Current,Trading,"Catering service","54 Mounter St","Mayfield East",2304,-32.903486,151.750448
 LIQS220000177,"Apollonia Bar","Liquor - small bar licence",Current,Trading,,"Hinchcliff House, Basement, 5-7 Young",Sydney,2000,-33.862517,151.210949
+LIQO660035749,"Dumpling Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 59 253 Pacific Hwy","Coffs Harbour",2450,-30.282567,153.131668
+LIQO660035748,"H Boutique Hotel","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service,Restaurant","770 Mcdonalds Rd",Pokolbin,2320,-32.748041,151.316747
 LIQH440019029,"The Porter House Hotel Sydney - Mgallery","Liquor - hotel licence",Current,Trading,"Full hotel","Corner 116 Bathurst Street & 203 Castlereagh Street",Sydney,2000,-33.874303,151.208756
 LIQH440019028,"Qt Hotel East End","Liquor - hotel licence",Current,Trading,"Full hotel","185 Hunter Street",Newcastle,2300,-32.926773,151.779182
+LIQO660035724,"Barrel N Brew","Liquor - on-premises licence",Current,Trading,Restaurant,"78 Sanger St",Corowa,2646,-35.998887,146.390844
+LIQO660035692,"Rydges Darling Square Apartment Hotel","Liquor - on-premises licence",Current,Trading,Accommodation,"Level 2-8, 72 Liverpool Street",Sydney,2000,-33.870846,151.20733
+LIQO660035667,"Brooklyn's Burger Bar Espresso Park Beach Plaza","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 62 253 Pacific Hwy","Coffs Harbour",2450,-30.282567,153.131668
+LIQO660035665,"Blow Bar Co.","Liquor - on-premises licence",Current,Trading,"Catering service,Health and beauty services","Level 2 84-110 Castlereagh",Sydney,2000,-33.870846,151.20733
 LIQS220000175,"Ace Shawarma Shisha Bar","Liquor - small bar licence",Current,Trading,,"278A Caney Vale Rd","Canley Vale",2166,-33.883844,150.924464
 LIQS220000174,"Dumpling Mamas Bar & Dining","Liquor - small bar licence",Current,Trading,,"Unit 8 17-19 Stockton St","Nelson Bay",2315,-32.72177,152.14383
+LIQO660035625,"Amona Pintxos And Tapas Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 2 166-170 Keira St",Wollongong,2500,-34.423542,150.893093
+LIQO660035629,"The Shisha Spot Bar & Grill","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 6 & 7 297 Macquarie St",Liverpool,2170,-33.925087,150.92228
+LIQO660035611,"Sushi Bar Tatsuya","Liquor - on-premises licence",Current,Trading,Restaurant,"Unit 17 14 Anthony Rd","West Ryde",2114,-33.806564,151.088366
 LIQH440019026,"The Homebush Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","136 Parramatta Road",Homebush,2140,-33.864451,151.082522
 LIQS220000172,"Henry G's","Liquor - small bar licence",Current,Trading,,"11 The Corso",Manly,2095,-33.798276,151.285505
 LIQH440019027,"Chipping Norton Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","37 Governor Macquarie Drive","Chipping Norton",2170,-33.924362,150.962918
+LIQO660035581,"Philter Restaurant & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"92-98 Sydenham Road",Marrickville,2204,-33.910251,151.162646
+LIQO660035573,"Bar Botanica","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant,Tourist facility","25 Portsmouth Road",Erina,2250,-33.432114,151.402148
+LIQO660035567,"Mexicoast Cantina","Liquor - on-premises licence",Current,Trading,Restaurant,"9 & 10 243-245  Main Rd",Toukley,2263,-33.264226,151.541647
+LIQO660035526,"The Old Brewery Broken Hill","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","81 Buck Street","Broken Hill",2880,-31.947782,141.476867
 LIQH440019023,"Whitton Malt House Pty Ltd","Liquor - hotel licence",Current,Trading,"Full hotel","783A Whitton Darlington Point Rd",Whitton,2705,-34.589591,146.169222
 LIQH440019024,"The Illawarra Brewery","Liquor - hotel licence",Current,Trading,"General bar","9-11 Crown Street",Wollongong,2500,-34.427817,150.90368
 LIQS220000170,"Circle Fifty-Two","Liquor - small bar licence",Current,Trading,,"52-54 Oxford St",Darlinghurst,2010,-33.878452,151.214564
 LIQH440019025,"La La La's","Liquor - hotel licence",Current,Trading,"General bar","1 Globe Lane",Wollongong,2500,-34.425379,150.893882
 LIQH440019021,"Evelyn's Bar","Liquor - hotel licence",Current,Trading,"Full hotel","U 15 128 William Street","Port Macquarie",2444,-31.431588,152.907362
 LIQH440019022,"Rydges Cronulla Beachside","Liquor - hotel licence",Current,Trading,"General bar","20-26 Kingsway",Cronulla,2230,-34.051845,151.154011
+LIQO660035491,"Wakie Wakie Thai Bar And Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"Millennium Tower Shop 330  289-295 Sussex Street",Sydney,2000,-33.874422,151.203863
 LIQH440019020,"Whisky Tango","Liquor - hotel licence",Current,Trading,"General bar","No. Shop 2  501 Cowpasture Road","Len Waters Estate",2171,-33.918485,150.853797
 LIQH440019019,"The Rogue Scholar","Liquor - hotel licence",Current,Trading,"General bar","4-6 Union Street","Newcastle West",2302,-32.92779,151.767018
+LIQO660035434,"Shiny Brew Pty Ltd","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 3  62 Cylinders Drive",Kingscliff,2487,-28.284869,153.576033
+LIQO660035416,"Mario's Pizza Bar Leichhardt","Liquor - on-premises licence",Current,Trading,Restaurant,"Ground Floor  20 Norton Street",Leichhardt,2040,-33.887291,151.157065
+LIQO660035411,"Soul Brew Pty Ltd","Liquor - on-premises licence",Current,Trading,Restaurant,"243 Australia Street",Newtown,2042,-33.896431,151.178061
 LIQH440019018,"The Waterfront Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","Marina Drive Shell Cove Marina Drive","Shell Cove",2529,-34.59,150.861667
 LIQS220000169,"Vini Divini Wine Lab","Liquor - small bar licence",Current,Trading,,"60 Carrington Street",Sydney,2000,-33.866758,151.206527
 LIQS220000168,Jimmy's,"Liquor - small bar licence",Current,Trading,,"330D George St",Sydney,2000,-33.866623,151.20746
 LIQS220000167,"Black Swan Wine Bar","Liquor - small bar licence",Current,Trading,,"361 Port Hacking Road",Caringbah,2229,-34.044047,151.123138
 LIQS220000166,"The Barber Shop","Liquor - small bar licence",Current,Trading,,"Shop 1 G 89 York St",Sydney,2000,-33.869645,151.205892
+LIQO660035342,"Lo Stretto Pizza Bar Seafood","Liquor - on-premises licence",Current,Trading,Restaurant,"Level 2 91 Foreshore Road","Port Kembla",2505,-34.475209,150.912898
+LIQO660035333,"Ruse Bar & Brasserie","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","Tenancies 4.01-4.03,  4 Parramatta Square, 12 Darcy St",Parramatta,2150,-33.816522,151.004272
 LIQH440019017,"Young Henrys King Street","Liquor - hotel licence",Current,Trading,"Full hotel","435-437 King Street",Newtown,2042,-33.90097,151.178155
 LIQS220000165,"El Primo Sanchez","Liquor - small bar licence",Current,Trading,,"410 Crown St","Surry Hills",2010,-33.884375,151.214494
+LIQO660035311,"Lello's Pasta Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"3 Park Street","Brunswick Heads",2483,-28.539908,153.550857
+LIQO660035306,"The Fitz Cafe Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"251 Princes Highway",Bulli,2516,-34.334479,150.91352
 LIQS220000164,"Nook Bar","Liquor - small bar licence",Current,Trading,,"Lot 3 38 Oxford Street",Darlinghurst,2010,-33.877846,151.213932
 LIQS220000163,"Bend And Sip Bar","Liquor - small bar licence",Current,Trading,,"98A Campbell Street",Narooma,2546,-36.217136,150.131172
 LIQH440019016,"Hurlstone Park Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","590-602 New Canterbury Road","Hurlstone Park",2193,-33.905286,151.133085
+LIQO660035264,"Henry Clive Caravan Bar","Liquor - on-premises licence",Current,Trading,"Catering service","61 Barney Street",Kiama,2533,-34.673752,150.848006
 LIQH440019015,"Crowne Plaza Sydney Darling Harbour","Liquor - hotel licence",Current,Trading,"Full hotel","58 Bathurst Street",Sydney,2000,-33.874309,151.206182
 LIQS220000160,"Ratha's Place","Liquor - small bar licence",Current,Trading,,"84 Central Avenue","Oak Flats",2529,-34.562474,150.819377
+LIQO660035244,"The Noble Restaurant & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 1  17 Noble Street",Gerringong,2534,-34.746477,150.828416
+LIQO660035230,"Lone Star Rib House & Brews Penrith","Liquor - on-premises licence",Current,Trading,Restaurant,"Tenancy T1 78-88 Tench Avenue",Jamisontown,2750,-33.765122,150.663661
 LIQH440019014,"Loco Hotel Junee","Liquor - hotel licence",Current,Trading,"Full hotel","5 Hill Street",Junee,2663,-34.874742,147.583421
 LIQH440019013,"The Welder's Dog","Liquor - hotel licence",Current,Trading,"Full hotel","37 Dowe Street",Tamworth,2340,-31.089177,150.929579
 LIQH440019012,"The Grand Shanghai Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","21-23 Belmore Street",Burwood,2134,-33.878699,151.10287
+LIQO660035185,"Brooklyn's Burger Bar Espresso","Liquor - on-premises licence",Current,Trading,Restaurant,"Sovereign Hills Town Centre Tenancy 10 15 Chancellors Drive",Thrumster,2444,-31.456701,152.827224
 LIQS220000158,"Clarence St Rooftop Bar","Liquor - small bar licence",Current,Trading,,"Level 9 283-285 Clarence St",Sydney,2000,-33.872511,151.205487
+LIQO660035158,"Burwood Hotel Sydney Pty Ltd","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service,Restaurant","60 Burwood Road",Burwood,2134,-33.872434,151.104782
+LIQO660035155,"Blow Bar Co","Liquor - on-premises licence",Current,Trading,"Catering service,Health and beauty services","281 Bronte Road",Waverley,2024,-33.90241,151.254397
+LIQO660035148,"Viet Pho Bar & Ktv","Liquor - on-premises licence",Current,Trading,"Karaoke venue,Restaurant","313 Chapel Road",Bankstown,2200,-33.919193,151.032257
 LIQH440019011,"Balldale Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Lot 3 Railway Street",Balldale,2646,-35.846881,146.517304
 LIQS220000155,"Bar Romeo","Liquor - small bar licence",Current,Trading,,"Shop 5 97-107 Darby Street","Cooks Hill",2300,-32.931002,151.772489
+LIQO660035131,"El Camino Cantina Eq","Liquor - on-premises licence",Current,Trading,Restaurant,"Shops 207-G1 & 207-G1A Of Building 207 The Entertainment Quarter, 122 Lang Road","Moore Park",2021,-33.894207,151.226562
 LIQS220000156,Cumberland,"Liquor - small bar licence",Current,Trading,,"Se 1  17-19 Central Avenue",Manly,2095,-33.796282,151.286856
+LIQO660035095,"Vibe Hotel Sydney Darling Harbour","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","319-325 Sussex Street",Sydney,2000,-33.875086,151.204165
+LIQO660035094,"Riverside Bar And Dining","Liquor - on-premises licence",Current,Trading,Restaurant,"78-88 Tench Ave",Jamisontown,2750,-33.765122,150.663661
 LIQH440019010,"Nineteen Hunter Valley","Liquor - hotel licence",Current,Trading,"Full hotel","963 Wine Country Drive",Pokolbin,2320,-32.727626,151.325363
+LIQO660035049,"Baker Farmer Bakery Bar & Grill","Liquor - on-premises licence",Current,Trading,Restaurant,"Shops 1-3  10 Coronation Ave",Pottsville,2489,-28.389776,153.563601
 LIQS220000150,"Heritage Lounge","Liquor - small bar licence",Current,Trading,,"215 Church Street",Parramatta,2150,-33.814062,151.002631
+LIQO660034993,"Yallungah Boutique Hotel","Liquor - on-premises licence",Current,Trading,Accommodation,"62 Byng Street",Orange,2800,-33.28116,149.093583
 LIQS220000148,"Bar Bridge Street","Liquor - small bar licence",Current,Trading,,"Basement  6 Bridge Street",Sydney,2000,-33.863427,151.207974
 LIQS220000147,"El Sotano","Liquor - small bar licence",Current,Trading,,"281-285 Parramatta Road",Glebe,2037,-33.887764,151.161688
 LIQS220000146,Tjs,"Liquor - small bar licence",Current,Trading,,"2A Penshurst Street",Penshurst,2222,-33.965638,151.089182
 LIQS220000142,"Hopsters Cooperative Brewery","Liquor - small bar licence",Current,Trading,,"198 Enmore Rd",Enmore,2042,-33.8994,151.171718
 LIQS220000144,"The Woolhouse","Liquor - small bar licence",Current,Trading,,"600 Dean St",Albury,2640,-36.080229,146.914467
+LIQO660034895,"Made In China Dumpling Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Tenancy Sw07 Darling One Building 9 Steam Mill Lane",Haymarket,2000,-33.87838,151.201625
 LIQS220000139,"Felix Bar","Liquor - small bar licence",Current,Trading,,"Shop 1 Ground Floor Angel Place 117-123 Pitt St",Sydney,2000,-33.866659,151.208072
 LIQS220000137,"Tiki 33","Liquor - small bar licence",Current,Trading,,"169 King St",Newtown,2042,-33.893872,151.182696
 LIQS220000136,"Sam's Place","Liquor - small bar licence",Current,Trading,,"17 Market Street",Woolgoolga,2456,-30.111027,153.201724
 LIQS220000135,Otis,"Liquor - small bar licence",Current,Trading,,"153 Norton St",Leichhardt,2040,-33.881519,151.157079
 LIQS220000133,"Blue Kahunas","Liquor - small bar licence",Current,Trading,,"U 3 146 Hunter St",Newcastle,2300,-32.926974,151.78173
 LIQS220000132,"Miss Wolf","Liquor - small bar licence",Current,Trading,,"Ground Floor 285 Marrickville Road",Marrickville,2204,-33.909722,151.155215
+LIQO660034733,"Saffron Restaurant And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Se 1 26 Clarence St","Port Macquarie",2444,-31.429394,152.909714
 LIQS220000131,"Side B Vinyl Bar","Liquor - small bar licence",Current,Trading,,"237-238 Great Western Hwy",Blackheath,2785,-33.635315,150.285194
 LIQS220000130,"Maybe Sammy","Liquor - small bar licence",Current,Trading,,"Shop 3,  109-111 Harrington Street","The Rocks",2000,-33.861282,151.207089
 LIQS220000129,"Casa Luna Byron Bay","Liquor - small bar licence",Current,Trading,,"Unit 7, 9 Fletcher St","Byron Bay",2481,-28.642035,153.614589
@@ -298,12 +484,17 @@ LIQS220000127,Juniper,"Liquor - small bar licence",Current,Trading,,"121 Keira S
 LIQS220000126,"Scoundrel's Rest","Liquor - small bar licence",Current,Trading,,"U 2 74 Kembla St",Wollongong,2500,-34.424327,150.897478
 LIQS220000128,"Deadwax Bar","Liquor - small bar licence",Current,Trading,,"182 Enmore Rd",Enmore,2042,-33.899244,151.172331
 LIQH440019006,Yazzbar,"Liquor - hotel licence",Current,Trading,"Full hotel","81-85 Comur St",Yass,2582,-34.841695,148.910344
+LIQO660034624,"Zoe's Bar And Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 1  35-41 Govetts Leap Road",Blackheath,2785,-33.636629,150.28662
 LIQH440019005,"The Marsden Brewhouse","Liquor - hotel licence",Current,Trading,"Full hotel","1 Hawthorne Avenue","Marsden Park",2765,-33.71303,150.841465
 LIQS220000124,"The Blind Bear","Liquor - small bar licence",Current,Trading,,"28 Cronulla St",Cronulla,2230,-34.052298,151.153264
 LIQS220000122,"Ruki Robatayaki Grill & Bar","Liquor - small bar licence",Current,Trading,,"106-108 Keira St",Wollongong,2500,-34.421692,150.89343
 LIQS220000123,"The Establishment Bar","Liquor - small bar licence",Current,Trading,,"Se 2 Level 1 88 Macquarie St",Dubbo,2830,-32.245691,148.601976
+LIQO660034598,"Wattlewood Espresso, Kitchen & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 2  190 Argyle Street",Camden,2570,-34.055624,150.693883
 LIQH440019004,"T & C Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","2 Unwins Bridge Rd","St Peters",2044,-33.910419,151.175729
 LIQS220000121,"Kc's Honky Tonk","Liquor - small bar licence",Current,Trading,,"6 Burlington St","Crows Nest",2065,-33.826488,151.201591
+LIQO660034596,"Blow Bar On Queen","Liquor - on-premises licence",Current,Trading,"Hairdressing salon,Health and beauty services","108 Queen St",Berry,2535,-34.775924,150.697584
+LIQO660034563,"Lakeside Cafe And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"20A Hargraves St","The Entrance North",2261,-33.33696,151.503704
+LIQO660034551,"Dipsy Cafe & Bar Pty Ltd","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 2 154 Glenayr Avenue","Bondi Beach",2026,-33.88863,151.271088
 LIQH440019002,"Huntlee Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","3 Empire Street",Branxton,2335,-32.670658,151.351239
 LIQH440019003,"The Marrickville Hotel","Liquor - hotel licence",Current,Trading,"General bar","244 Marrickville Rd",Marrickville,2204,-33.911657,151.158184
 LIQS220000118,"Butchers Brew","Liquor - small bar licence",Current,Trading,,"499 Marrickville Rd","Dulwich Hill",2203,-33.903596,151.14301
@@ -311,52 +502,85 @@ LIQS220000117,"Dulcie's Kings Cross","Liquor - small bar licence",Current,Tradin
 LIQS220000119,"Platform 62","Liquor - small bar licence",Current,Trading,,"U 62 7 Bourke St",Mascot,2020,-33.923324,151.187596
 LIQS220000116,"Vault Entertainment Venue","Liquor - small bar licence",Current,Trading,,"72-74 Wentworth St","Port Kembla",2505,-34.48162,150.90264
 LIQS220000115,Huelo,"Liquor - small bar licence",Current,Trading,,"127 King St",Newtown,2042,-33.892999,151.183815
+LIQO660034482,"Bar Didier","Liquor - on-premises licence",Current,Trading,"Catering service","U 1  16 Coast Rd","North Avoca",2260,-33.456851,151.441265
 LIQS220000114,"Cafe On Queen Binalong","Liquor - small bar licence",Current,Trading,,"13-15 Queen Street",Binalong,2584,-34.668774,148.632386
+LIQO660034480,"2 Brothers Cafe Bar & Grill 2489","Liquor - on-premises licence",Current,Trading,Restaurant,"U 7  1 Coronation Ave",Pottsville,2489,-28.388679,153.564448
 LIQH440019000,"The Commercial Hotel Crookwell","Liquor - hotel licence",Current,Trading,"Full hotel","34 Goulburn Street",Crookwell,2583,-34.456151,149.468626
 LIQH440019001,"The Savoy Bar","Liquor - hotel licence",Current,Trading,"General bar","391 The Entrance Rd","Long Jetty",2261,-33.357251,151.485433
 LIQS220000113,"The Press 2340","Liquor - small bar licence",Current,Trading,,"179 Marius St",Tamworth,2340,-31.08882,150.930676
 LIQH440018999,"The Deck","Liquor - hotel licence",Current,Trading,"General bar","Carpark 35 Building 230 Valder Way","Charles Sturt University",2678,-35.055347,147.349269
 LIQS220000112,"Cantina Ok!","Liquor - small bar licence",Current,Trading,,"Century House L 1  362 Kent St",Sydney,2000,-33.870254,151.204991
+LIQO660034451,"Van Expresso Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 3  272 Clovelly Rd",Coogee,2034,-33.912364,151.258302
 LIQS220000111,"Allan Grammar","Liquor - small bar licence",Current,Trading,,"413-427 High St",Penrith,2750,-33.753454,150.698117
 LIQH440018998,"Broken Hill Outback Resort","Liquor - hotel licence",Current,Trading,"Full hotel","Barrier Highway","Broken Hill",2880,-31.89615,141.598434
 LIQH440018997,"The Duke Of Dural","Liquor - hotel licence",Current,Trading,"Full hotel","3 Kenthurst Rd",Dural,2158,-33.693182,151.02071
 LIQS220000106,"Baby Dragon Bar","Liquor - small bar licence",Current,Trading,,"Shop 1 112-116 Enmore Rd",Newtown,2042,-33.898982,151.174574
 LIQH440018996,"The Locker Room Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Corner Of Olympic Boulevard And The Yulang","Sydney Olympic Park",2127,-33.847007,151.066547
+LIQO660034365,"Servo Food Truck Bar","Liquor - on-premises licence",Current,Trading,"Other public entertainment venue","6-8 Wentworth St","Port Kembla",2505,-34.479935,150.900909
 LIQH440018995,Mullane's,"Liquor - hotel licence",Current,Trading,"Full hotel","Units 12 & 13, 34-36 Brookhollow Avenue","Baulkham Hills",2153,-33.735145,150.96341
+LIQO660034319,"Ocean Bar-Cantina","Liquor - on-premises licence",Current,Trading,Restaurant,"U 2  220 Del Monte Pl",Copacabana,2251,-33.490766,151.430671
+LIQO660034315,"Neighbourhood Bar","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","Habitat Se 26-29  1 Porter Street","Byron Bay",2481,-28.631508,153.582287
 LIQH440018994,"Four Points By Sheraton Sydney Central Park","Liquor - hotel licence",Current,Trading,"Full hotel","Block 4N 88 Broadway Street",Chippendale,2008,-33.884886,151.199063
+LIQO660034297,"Kyo Sushi Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"2 Burroway Rd","Wentworth Point",2127,-33.8239,151.078159
+LIQO660034276,"Mantra Albury Hotel","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service,Restaurant","524 Smollett St",Albury,2640,-36.08267,146.91643
+LIQO660034274,"Indish Indian Restro-Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 6  113-125 Darby Street","Cooks Hill",2300,-32.93141,151.772173
 LIQS220000105,"Bancho Bar","Liquor - small bar licence",Current,Trading,,"Bay 8 10 Thomas Lane",Haymarket,2000,-33.880719,151.203425
+LIQO660034267,"Skye Hotel Suites Sydney","Liquor - on-premises licence",Current,Trading,Accommodation,"Ego House 304 Kent St",Sydney,2000,-33.868274,151.204879
+LIQO660034246,"Vibe Hotel North Sydney","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service","171 Pacific Hwy","North Sydney",2060,-33.837823,151.20663
 LIQH440018993,"Finley Country Club Hotel Motel","Liquor - hotel licence",Current,Trading,"Full hotel","167-177 Murray St",Finley,2713,-35.642161,145.576969
 LIQS220000104,"Black Cockatoo Bar","Liquor - small bar licence",Current,Trading,,"Shop 3 88 Kembla St",Wollongong,2500,-34.42498,150.897329
 LIQS220000103,"Bar Topa","Liquor - small bar licence",Current,Trading,,"Palings Lane Retail Tenancy 4 330 George St",Sydney,2000,-33.866623,151.20746
+LIQO660034209,"Terminus Apartment Hotel","Liquor - on-premises licence",Current,Trading,Accommodation,"111 Scott St",Newcastle,2300,-32.926388,151.778772
+LIQO660034181,"Organic Bread Bar Darlinghurst","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 1  354 Liverpool St",Darlinghurst,2010,-33.877914,151.219461
 LIQS220000100,"Mrs Robertson","Liquor - small bar licence",Current,Trading,,"Shop 8 29 Foamcrest Ave",Newport,2106,-33.654682,151.31964
 LIQS220000101,"The Doss House","Liquor - small bar licence",Current,Trading,,"Lower Ground Floor 77-79 George Street","The Rocks",2000,-33.858856,151.208699
 LIQS220000098,"The Gatehouse Sydney","Liquor - small bar licence",Current,Trading,,"60 Botany Rd",Alexandria,2015,-33.89691,151.199052
 LIQS220000096,"Corridor Newtown","Liquor - small bar licence",Current,Trading,,"153A King St",Newtown,2042,-33.893503,151.183104
+LIQO660034067,"Aunty Jack's Restaurant And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"U 12  122-126 Katoomba St",Katoomba,2780,-33.706135,150.300201
 LIQS220000095,"Uncle Mings Bar Pty Ltd","Liquor - small bar licence",Current,Trading,,"Lg 49 York St",Sydney,2000,-33.867081,151.205608
+LIQO660034062,"Hide Steak & Bar","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","73 Morgan St","Wagga Wagga",2650,-35.108172,147.359837
+LIQO660034052,"Il Bacio Bar & Cafe","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 4  35 Tumbalong Blvde",Haymarket,2000,-33.87808,151.201373
+LIQO660034049,"Metro Hotel Miranda","Liquor - on-premises licence",Current,Trading,Accommodation,"Metro Motor Inn 522 Kingsway",Miranda,2228,-34.033024,151.103026
 LIQH440018992,"Nick & Nora's","Liquor - hotel licence",Current,Trading,"General bar","Level 26, Section C 45 Macquarie Street",Parramatta,2150,-33.815163,151.001176
+LIQO660034026,"Blow Bar Co.","Liquor - on-premises licence",Current,Trading,"Catering service,Health and beauty services","38 Montague St",Balmain,2041,-33.858192,151.179869
 LIQS220000093,"Bridge Spot","Liquor - small bar licence",Current,Trading,,"Basement 4 Bridge Street",Sydney,2000,-33.863436,151.207864
 LIQS220000092,"Ii Fingers Gentlemens Barbershop & Bar","Liquor - small bar licence",Current,Trading,,"464 Smollett Street",Albury,2640,-36.08325,146.920605
+LIQO660033979,"Ignite Bar And Grill","Liquor - on-premises licence",Current,Trading,Restaurant,"179 Anson St",Orange,2800,-33.253014,149.072372
 LIQH440018991,"The Pourhouse","Liquor - hotel licence",Current,Trading,"Full hotel","327 High St",Maitland,2320,-32.735989,151.558799
+LIQO660033903,"West Hotel Sydney","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service,Restaurant","65-79 Sussex St",Sydney,2000,-33.867566,151.203204
 LIQS220000090,"Temperance And General Bar","Liquor - small bar licence",Current,Trading,,"Shops 9-11 553-555 Dean Street",Albury,2640,-36.081431,146.916428
+LIQO660033899,"Zucchero E Cafe Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 104 104-106 Hampden Road",Artarmon,2064,-33.808645,151.183929
 LIQS220000089,"Madam Ji","Liquor - small bar licence",Current,Trading,,"7-13 Burton St",Darlinghurst,2010,-33.878555,151.215126
+LIQO660033894,"Franco Pizza Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 1  382-384 Lawrence Hargrave Drive",Thirroul,2515,-34.317201,150.917164
 LIQS220000088,"Messum Norcott Investments Pty Ltd","Liquor - small bar licence",Current,Trading,,"Ground Floor & First Floor 300 Illawarra Road",Marrickville,2204,-33.912118,151.154359
 LIQH440018989,"The Governor","Liquor - hotel licence",Current,Trading,"Full hotel","9-13 Waterloo Rd","Macquarie Park",2113,-33.787767,151.13272
+LIQO660033853,"The Branksome Hotel And Residences","Liquor - on-premises licence",Current,Trading,Accommodation,"60 Robey St",Mascot,2020,-33.931588,151.190601
 LIQS220000085,"Old Mate's Place","Liquor - small bar licence",Current,Trading,,"L 4 199 Clarence St",Sydney,2000,-33.869636,151.205167
 LIQS220000084,"The Pickled Bear","Liquor - small bar licence",Current,Trading,,"Unit A7 24-32 Lexington Dr","Bella Vista",2153,-33.734252,150.945218
 LIQH440018988,"Sofitel Sydney Darling Harbour","Liquor - hotel licence",Current,Trading,"Full hotel","12 Darling Drive",Sydney,2000,-33.872658,151.198625
+LIQO660033784,"Tanshin Sushi Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"129 King St",Newtown,2042,-33.8986,151.179348
+LIQO660033783,"Brewmance House","Liquor - on-premises licence",Current,Trading,Restaurant,"56 Willoughby Rd","Crows Nest",2065,-33.825765,151.203648
+LIQO660033776,"Paramount House Hotel","Liquor - on-premises licence",Current,Trading,Accommodation,"74 Commonwealth St","Surry Hills",2010,-33.8792,151.211158
+LIQO660033758,"Niji Sushi Bar Hurstville","Liquor - on-premises licence",Current,Trading,Restaurant,"10 Cross St",Hurstville,2220,-33.965989,151.103572
 LIQS220000081,"Uptowns Bar","Liquor - small bar licence",Current,Trading,,"Level 1 6 23 Watt Street",Newcastle,2300,-32.928188,151.784589
 LIQS220000082,"Zaffi Sydney","Liquor - small bar licence",Current,Trading,,"Ground Floor 10-14 Hunter Street",Sydney,2000,-33.86535,151.207746
 LIQS220000080,"La Cantina Bondi Beach","Liquor - small bar licence",Current,Trading,,"L103 Pacific Bondi Beach 180-186 Campbell Parade","Bondi Beach",2026,-33.889145,151.275666
 LIQS220000078,"Ramblin' Rascal Tavern","Liquor - small bar licence",Current,Trading,,"B1 60 Park St",Sydney,2000,-33.873057,151.209698
+LIQO660033702,"Mexican Burrito Cantina","Liquor - on-premises licence",Current,Trading,Restaurant,"567 Crown St","Surry Hills",2010,-33.890874,151.212729
 LIQS220000077,"Where's Nick?","Liquor - small bar licence",Current,Trading,,"U 1 236 Marrickville Rd",Marrickville,2204,-33.911774,151.158436
+LIQO660033635,"Tara Sushi Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"666 Crown St","Surry Hills",2010,-33.885664,151.212018
 LIQS220000074,"The Vault House","Liquor - small bar licence",Current,Trading,,"386 Argyle St","Moss Vale",2577,-34.549991,150.371772
 LIQS220000075,"Bart Jr","Liquor - small bar licence",Current,Trading,,"Tenancy 4 92 Pitt St",Redfern,2016,-33.892721,151.203662
 LIQS220000072,"Stitch Bar","Liquor - small bar licence",Current,Trading,,"Basement 61 York St",Sydney,2000,-33.867464,151.205656
 LIQS220000070,"Argyle Bar","Liquor - small bar licence",Current,Trading,,"3 Argyle Pl","Millers Point",2000,-33.858549,151.202986
+LIQO660033604,"Paradiso Bar & Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"10 Clarence St",Yamba,2464,-29.434548,153.362694
 LIQS220000069,"Jacoby’s Tiki Bar","Liquor - small bar licence",Current,Trading,,"154 Enmore Rd",Enmore,2042,-33.899106,151.173223
 LIQS220000073,"Mcwilliam's Wines Group Ltd","Liquor - small bar licence",Current,Trading,,"Ground Level 55-65 Murray St",Pyrmont,2009,-33.871009,151.197387
+LIQO660033557,"Hook Line & Sinker Oyster Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Westfield Burwood Kiosk K13  100 Burwood Road",Burwood,2134,-33.874608,151.10596
+LIQO660033543,"Harry's Bistro And Bar","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","391-397 Bong Bong St",Bowral,2576,-34.481844,150.416552
 LIQS220000066,"Astro's Arcade Bar","Liquor - small bar licence",Current,Trading,,"22-24 King St",Newtown,2042,-33.892594,151.186917
 LIQS220000067,"Bazz's Whine Bar","Liquor - small bar licence",Current,Trading,,"Shop 3 117 George Street",Windsor,2756,-33.605526,150.821957
+LIQO660033520,"The Burrito Bar Ballina","Liquor - on-premises licence",Current,Trading,Restaurant,"U 13 44 Bangalow Rd",Ballina,2478,-28.858474,153.561971
 LIQS220000065,"King Of The Mosh Pit","Liquor - small bar licence",Current,Trading,,"642A King Street",Newtown,2042,-33.905473,151.181116
 LIQS220000064,"House Of Bungalow","Liquor - small bar licence",Current,Trading,,"65-67 Foveaux St","Surry Hills",2010,-33.884582,151.2105
 LIQS220000060,"Bar Lula","Liquor - small bar licence",Current,Trading,,"Nuggets Crossing Shopping Centre Shop 18B Kalkite St",Jindabyne,2627,-36.415097,148.620415
@@ -364,40 +588,64 @@ LIQS220000061,"The Lobo Plantation","Liquor - small bar licence",Current,Trading
 LIQH440018985,"The Eveleigh Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","156-160 Abercrombie St",Redfern,2016,-33.889307,151.198499
 LIQS220000063,"Night Parrot Bar","Liquor - small bar licence",Current,Trading,,"69 Crown St",Wollongong,2500,-34.426028,150.898686
 LIQH440018987,"Barangaroo House","Liquor - hotel licence",Current,Trading,"General bar","Building R1, Barangaroo South, Cnr Barangaroo Avenue & Lime Street",Barangaroo,2000,-33.863857,151.201146
+LIQO660033452,"Thai On Market Restaurant And Bar Pty Ltd","Liquor - on-premises licence",Current,Trading,Restaurant,"4 Market St",Woolgoolga,2456,-30.111594,153.200506
+LIQO660033421,"Ometto Pizza Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"489 High St",Maitland,2320,-32.738399,151.549218
 LIQH440018986,"The Pig & Tinder Box","Liquor - hotel licence",Current,Trading,"General bar","429 Peel Street",Tamworth,2340,-31.092637,150.930985
+LIQO660033402,"Shakshuka Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"U 6  13 Lawson St","Byron Bay",2481,-28.647367,153.601977
 LIQH440018983,12-Micron,"Liquor - hotel licence",Current,Trading,"General bar","15 100 Barangaroo Avenue",Barangaroo,2000,-33.864013,151.201397
+LIQO660033266,"Bills Fishhouse + Bar","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","2  18-20 Clarence Street","Port Macquarie",2444,-31.429274,152.91049
 LIQH440018982,"Highfield Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Ground Floor & Level 1 22-24 Mackay St & 32 Banksia Road",Caringbah,2229,-34.042353,151.124112
+LIQO660033235,"The Hideout Bar And Grill","Liquor - on-premises licence",Current,Trading,Restaurant,"79 Main St",Mittagong,2575,-34.450851,150.447693
+LIQO660033206,"Daruma Dumplings Beer House","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 1&2 12 Churchill Avenue",Strathfield,2135,-33.872732,151.093636
 LIQH440018981,Zanobia,"Liquor - hotel licence",Current,Trading,"General bar","Tenancy T1.13 ""Tower T1"" Level 1 100 Barangaroo Avenue",Barangaroo,2000,-33.863793,151.20215
 LIQS220000057,"Enoteca 128","Liquor - small bar licence",Current,Trading,,"1 128 Military Road","Neutral Bay",2089,-33.830326,151.219988
 LIQS220000056,"Alley Way By Avenue","Liquor - small bar licence",Current,Trading,,"200 George St",Sydney,2000,-33.862643,151.207977
+LIQO660033151,"Zubi Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"323C Barrenjoey Rd",Newport,2106,-33.655936,151.318757
+LIQO660033137,"Akasha Barrel Room Pty Ltd","Liquor - on-premises licence",Current,Trading,Restaurant,"54 Norton St",Leichhardt,2040,-33.886272,151.157108
 LIQH440018980,"Sax Cafe And Lounge Bar","Liquor - hotel licence",Current,Trading,"General bar","Shop 7A 100 Barangaroo Avenue",Barangaroo,2000,-33.863793,151.20215
+LIQO660033094,"Bar No. 5 Pty Ltd","Liquor - on-premises licence",Current,Trading,Restaurant,"5 Mccauley St",Alexandria,2015,-33.902853,151.198315
+LIQO660033114,"Opera House Theatre Bars","Liquor - on-premises licence",Current,Trading,"Catering service,Food and beverage outlet,Tourist and cultural precinct","Joan Sutherland Theatre Foyer Concert Hall Foyers Sydney Ope",Sydney,2000,-33.857426,151.214871
 LIQH440018979,"New Club Armidale","Liquor - hotel licence",Current,Trading,"General bar","91 Beardy St",Armidale,2350,-30.514191,151.671004
 LIQH440018977,"G & M Investment Holdings Pty Ltd","Liquor - hotel licence",Current,Trading,"Full hotel","Building T3 Corner Exchange Place & Barangaroo Avenue",Barangaroo,2000,-33.865079,151.201762
+LIQO660032968,"Mezepotamia Restaurant And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Italian Forum Shop 36  23 Norton St",Leichhardt,2040,-33.887211,151.158378
+LIQO660032955,"Lane Cove Sushi Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"122 Longueville Rd","Lane Cove",2066,-33.814154,151.170192
+LIQO660032929,"Mekong Bistro & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Tenancy B1 14 Kensington Street",Chippendale,2008,-33.884846,151.201838
 LIQH440018975,"Pullman Sydney Airport","Liquor - hotel licence",Current,Trading,"Full hotel","191 O'riordan St",Mascot,2020,-33.927542,151.186818
 LIQH440018973,"The Welder's Dog","Liquor - hotel licence",Current,Trading,"Full hotel","120 Marsh St",Armidale,2350,-30.515055,151.668389
+LIQO660032800,"Bar Bellaccino York","Liquor - on-premises licence",Current,Trading,Restaurant,"2 York St",Sydney,2000,-33.864472,151.20582
+LIQO660032715,"Perch Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 2  30A Addison St",Shellharbour,2529,-34.579245,150.866739
 LIQS220000051,"Gaffa Gallery","Liquor - small bar licence",Current,Trading,,"281 Clarence St",Sydney,2000,-33.872404,151.205475
 LIQH440018971,"Dulcie's Cottage","Liquor - hotel licence",Current,Trading,"General bar","60 Main St",Merimbula,2548,-36.887058,149.910939
 LIQS220000050,"Nomu Bar","Liquor - small bar licence",Current,Trading,,"40 Kensington St",Chippendale,2008,-33.885416,151.201944
 LIQS220000048,"Gin Lane","Liquor - small bar licence",Current,Trading,,"16 16A Kensington Street",Chippendale,2008,-33.884846,151.201838
 LIQS220000049,Ps40,"Liquor - small bar licence",Current,Trading,,"Shop 2 40 King Street",Sydney,2000,-33.868611,151.204771
+LIQO660032688,"Surly's American Tavern, Newcastle","Liquor - on-premises licence",Current,Trading,Restaurant,"231 Hunter St",Newcastle,2300,-32.926722,151.777557
 LIQH440018970,"Moko Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","75 Rowe Street",Eastwood,2122,-33.790677,151.084013
 LIQS220000046,"Palomino Lounge","Liquor - small bar licence",Current,Trading,,"134A Enmore Rd",Newtown,2042,-33.899065,151.173837
+LIQO660032614,"Mjolnir Bar Pty Ltd","Liquor - on-premises licence",Current,Trading,Restaurant,"Tenancy 3 267 Cleveland St",Redfern,2016,-33.890072,151.207306
 LIQS220000044,"Titus Jones","Liquor - small bar licence",Current,Trading,,"337 Illawarra Rd",Marrickville,2204,-33.912633,151.154542
+LIQO660032582,"The Rutledge Bar & Eats","Liquor - on-premises licence",Current,Trading,Restaurant,"71 Queen St",Berry,2535,-34.774941,150.694679
+LIQO660032580,"Rosso Antico Pizza Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 2 60 Enmore Road",Newtown,2042,-33.8988,151.17632
 LIQS220000043,"Kuro Bar & Dining","Liquor - small bar licence",Current,Trading,,"Ground Floor 364A Kent St",Sydney,2000,-33.870416,151.205035
 LIQS220000039,"Market St Basement","Liquor - small bar licence",Current,Trading,,"L 1 2 Market St",Newcastle,2300,-32.926555,151.781013
 LIQH440018969,"Silver City Golf & Sports Resort (Nsw) Pty Limited","Liquor - hotel licence",Current,Trading,"Full hotel","1 Racecourse Rd","Broken Hill",2880,-31.932701,141.478944
 LIQS220000038,"Moyas Juniper Lounge","Liquor - small bar licence",Current,Trading,,"Shop 1  101 Regent St",Redfern,2016,-33.891764,151.200925
 LIQS220000035,"The Duke Of Clarence","Liquor - small bar licence",Current,Trading,,"Ug01 89 York St",Sydney,2000,-33.869645,151.205892
 LIQS220000033,"Washington & Co.","Liquor - small bar licence",Current,Trading,,"243 Summer St",Orange,2800,-33.283397,149.100583
+LIQO660032385,"The Old Clare Hotel","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service,Restaurant","20-24 Broadway & 3 Kensington Street",Chippendale,2008,-33.884447,151.201428
 LIQH440018968,"Gregory Hills Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Gregory Hills Drive","Gregory Hills",2557,-34.022875,150.765443
 LIQH440018966,"Rowena Village Inn","Liquor - hotel licence",Current,Trading,"Full hotel","15 Rowena St",Rowena,2387,-29.814465,148.91095
 LIQH440018967,"Wyong Milk Factory Family Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","4 141-155 Alison Rd",Wyong,2259,-33.277015,151.406463
 LIQH440018965,"The Prince Kirrawee","Liquor - hotel licence",Current,Trading,"Full hotel","531-541 Princes Highway",Kirrawee,2232,-34.031653,151.075696
+LIQO660032353,"Mali Ston Wine Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"489 Marrickville Rd","Dulwich Hill",2203,-33.903764,151.143183
 LIQS220000031,"Saga Bar","Liquor - small bar licence",Current,Trading,,"49-51 Goold St",Chippendale,2008,-33.885498,151.202125
+LIQO660032330,"El Camino Cantina Miranda","Liquor - on-premises licence",Current,Trading,Restaurant,"Westfield Miranda Shop 4006 598-600 Kingsway",Miranda,2228,-34.034356,151.100761
 LIQS220000030,"Stop Valve Espresso & Bar","Liquor - small bar licence",Current,Trading,,"70 Riley St",Darlinghurst,2010,-33.875208,151.215428
 LIQH440018964,Humber,"Liquor - hotel licence",Current,Trading,"General bar","226-228 Crown St",Wollongong,2500,-34.424818,150.892482
 LIQH440018963,"Bar 53","Liquor - hotel licence",Current,Trading,"General bar","U 2  53 Canley Vale Rd","Canley Vale",2166,-33.886287,150.940608
+LIQO660032220,"Foghorn Brewhouse Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"218 King St",Newcastle,2300,-32.927148,151.775059
 LIQS220000028,"The Temperance Society Bar & Cafe","Liquor - small bar licence",Current,Trading,,"122 Smith St","Summer Hill",2130,-33.892106,151.138189
+LIQO660032141,"Sando Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"226 Commonwealth St","Surry Hills",2010,-33.883668,151.210128
 LIQH440018962,"The Henson Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","91 Illawarra Rd",Marrickville,2204,-33.90526,151.161395
 LIQS220000026,"The Throsby Wollongong","Liquor - small bar licence",Current,Trading,,"Shop 2 88 Kembla St",Wollongong,2500,-34.42498,150.897329
 LIQS220000023,"Old Loves","Liquor - small bar licence",Current,Trading,,"B 199 Clarence St",Sydney,2000,-33.869636,151.205167
@@ -407,15 +655,25 @@ LIQS220000021,"Tokyo Bird","Liquor - small bar licence",Current,Trading,,"2 226-
 LIQS220000020,"Vinny's Bread & Wine","Liquor - small bar licence",Current,Trading,,"Shop 4 12A Oatley Pde",Oatley,2223,-33.982462,151.079071
 LIQH440018957,"Koraleigh Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","20 Koraleigh Rd",Koraleigh,2735,-35.155602,143.405482
 LIQH440018958,"Archie Rose Distilling Co","Liquor - hotel licence",Current,Trading,"Full hotel","34 Morley Ave",Rosebery,2018,-33.916942,151.202872
+LIQO660032030,"The Floating Oyster Wine Bar","Liquor - on-premises licence",Current,Trading,"Restaurant,Vessel","Moored At Dolphin Boatshed Marina 1A Brooklyn Road",Brooklyn,2083,-33.546309,151.19897
+LIQO660032028,"Franks Pizza Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"1 137 Parramatta Rd",Camperdown,2050,-33.887415,151.174665
 LIQS220000017,"Coal & Cedar","Liquor - small bar licence",Current,Trading,,"U 2 380-382 Hunter St",Newcastle,2300,-32.926577,151.773889
 LIQH440018956,"Luxe Ventures Pty Ltd","Liquor - hotel licence",Current,Trading,"General bar","U 1  89 George St",Windsor,2756,-33.605102,150.82272
 LIQS220000016,"Cava Beyond Cafe","Liquor - small bar licence",Current,Trading,,"3/168 Kent St","Millers Point",2000,-33.862256,151.204289
 LIQH440018955,"Summer Street Wine Room","Liquor - hotel licence",Current,Trading,"General bar","120-122 Summer St",Orange,2800,-33.283318,149.09598
 LIQS220000014,"Kandi Luxe","Liquor - small bar licence",Current,Trading,,"120 Bourke St",Woolloomooloo,2011,-33.873513,151.218539
 LIQS220000015,"The Koutetsu","Liquor - small bar licence",Current,Trading,,"555 Hunter St","Newcastle West",2302,-32.927507,151.766584
+LIQO660031910,"Lime Mexican Burrito Bar & Taqueria","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 1 13 First Avenue",Sawtell,2452,-30.369501,153.099489
+LIQO660031857,"Valhalla Restaurant Bar","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","3834 Nelson Bay Rd","Bobs Farm",2316,-32.769673,152.019395
+LIQO660031887,"The Sisu Coffeehouse & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"108 Great North Rd","Five Dock",2046,-33.867681,151.130192
+LIQO660031838,"The Goni's Schnitzelria Bistro & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Ground Floor 237 Rocky Point Rd",Ramsgate,2217,-33.984865,151.135822
+LIQO660031833,"Bar 2061","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","Shop 1 1-3 Broughton St",Kirribilli,2061,-33.847247,151.213108
+LIQO660031804,"Lipari Pizza Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"U 1 53-55 Gladesville Rd","Hunters Hill",2110,-33.83393,151.143649
+LIQO660031793,"Elroys Cafe, Bar & Restaurant","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","20-24 Bonville St",Urunga,2455,-30.496167,153.021098
 LIQH440018954,"Sydney Brewery Alexandria","Liquor - hotel licence",Current,Trading,"Full hotel","Zepplin 2 Sydney Corporate Park 160 Bourke Street",Alexandria,2015,-33.91707,151.191504
 LIQS220000010,"The Dock Redfern","Liquor - small bar licence",Current,Trading,,"182 Redfern St",Redfern,2016,-33.892252,151.200865
 LIQS220000008,"Papa Gede's","Liquor - small bar licence",Current,Trading,,"Lg 207 Clarence St",Sydney,2000,-33.86992,151.205199
+LIQO660031698,"Bentley Restaurant & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Radisson Blu Plaza Hotel Gf 27 O'connell St",Sydney,2000,-33.865365,151.208959
 LIQS220000006,"Stanley's Bar","Liquor - small bar licence",Current,Trading,,"79 Stanley St",Darlinghurst,2010,-33.876016,151.215469
 LIQH440018953,"Pj O' Brien's Irish Pub","Liquor - hotel licence",Current,Trading,"General bar","57 King St",Sydney,2000,-33.868871,151.205443
 LIQS220000005,"1137 Oxford","Liquor - small bar licence",Current,Trading,,"L 1 137 Oxford St",Darlinghurst,2010,-33.879913,151.215553
@@ -424,212 +682,425 @@ LIQH440018951,"Firewater Hotel","Liquor - hotel licence",Current,Trading,"Genera
 LIQH440018949,"Black Duck Brewery","Liquor - hotel licence",Current,Trading,"General bar","6B Acacia Ave","Port Macquarie",2444,-31.44469,152.886062
 LIQH440018947,"The Gasoline Pony","Liquor - hotel licence",Current,Trading,"General bar","115 Marrickville Rd",Marrickville,2204,-33.912391,151.160852
 LIQS220000004,"She Loves You","Liquor - small bar licence",Current,Trading,,"530 King St",Newtown,2042,-33.902541,151.179475
+LIQO660031565,"Bar-Be School","Liquor - on-premises licence",Current,Trading,"Catering service","Unit 14 12-18 Clarendon St",Artarmon,2064,-33.816458,151.183914
 LIQH440018944,"Hog & Billy Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","1 Arcturus St",Girilambone,2831,-31.247972,146.904833
 LIQH440018943,Famelia,"Liquor - hotel licence",Current,Trading,"Full hotel","Ground Floor 55 Enmore Rd",Newtown,2042,-33.898399,151.176042
 LIQS220000002,"Bar Clarence","Liquor - small bar licence",Current,Trading,,"Lg 275 Clarence St",Sydney,2000,-33.872149,151.205446
+LIQO660031477,"Adina Apartment Hotel Bondi Beach, Sydney","Liquor - on-premises licence",Current,Trading,Accommodation,"61-67 Hall St","Bondi Beach",2026,-33.889673,151.272049
+LIQO660031480,"Lotus Dumpling Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 3 16 Hickson Rd","Dawes Point",2000,-33.856443,151.206393
+LIQO660031464,"Bar Hanami","Liquor - on-premises licence",Current,Trading,Restaurant,"403 Crown St","Surry Hills",2010,-33.885835,151.213725
+LIQO660031460,"Ester Restaurant And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"46-52 Meagher St",Chippendale,2008,-33.887462,151.200858
 LIQH440018940,"The Ship Inn Newcastle","Liquor - hotel licence",Current,Trading,"General bar","102 Hunter St",Newcastle,2300,-32.927356,151.783072
 LIQH440018939,"Atura Blacktown","Liquor - hotel licence",Current,Trading,"Full hotel","32 Cricketers Arms Rd",Prospect,2148,-33.805547,150.903972
+LIQO660031396,"International Hotel Wagga Wagga","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service,Restaurant","Cnr Sturt Hwy And Lake Albert Rd","East Wagga Wagga",2650,-35.120784,147.377559
+LIQO660031346,"The Hook Oyster Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"9-15 Bayswater Rd","Potts Point",2011,-33.875286,151.22309
 LIQH440018933,"The Wild Rover","Liquor - hotel licence",Current,Trading,"General bar","75-77 Campbell St","Surry Hills",2010,-33.880256,151.20969
+LIQO660031331,"The Cockatoo Bar & Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 9, 741 Pacific Hwy",Gordon,2072,-33.755772,151.15332
+LIQO660031317,"Lox Stock & Barrel","Liquor - on-premises licence",Current,Trading,Restaurant,"81-83 Curlewis St","Bondi Beach",2026,-33.88772,151.271861
 LIQH440018931,"Forbes Golf And Sportsmans Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Lot 12 Newell Hwy",Forbes,2871,-33.4166,147.944163
 LIQH440018929,Birdhouse,"Liquor - hotel licence",Current,Trading,"General bar","246 Baylis St","Wagga Wagga",2650,-35.110124,147.370076
+LIQO660031302,"Goodenia Restaurant & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"110 Lakewood Drive",Merimbula,2548,-36.888496,149.886789
 LIQH440018928,"Howlin' Wolf","Liquor - hotel licence",Current,Trading,"General bar","Shop 103 53-61 Crown St",Wollongong,2500,-34.426082,150.899044
 LIQH440018926,"Earl's Juke Joint","Liquor - hotel licence",Current,Trading,"General bar","407 King St",Newtown,2042,-33.90008,151.177794
 LIQH440018927,"Kipling's Garage Bar","Liquor - hotel licence",Current,Trading,"General bar","2 Eastern Rd",Turramurra,2074,-33.731659,151.128499
+LIQO660031226,"Socal Cantina","Liquor - on-premises licence",Current,Trading,Restaurant,"553-556 Dean St",Albury,2640,-36.080996,146.916485
+LIQO660031249,"Limoni Caffe Bar","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","Lot 1 482-484 Banna Ave",Griffith,2680,-34.287554,146.039635
+LIQO660031213,"Flat Rock Brew Cafe","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","290 Willoughby Rd",Naremburn,2065,-33.817406,151.200852
 LIQH440018922,"Soultrap Bar","Liquor - hotel licence",Current,Trading,"General bar","Lg 70-72 Campbell St","Surry Hills",2010,-33.879863,151.209705
 LIQH440018921,"Knox St Bar","Liquor - hotel licence",Current,Trading,"General bar","21 Shepherd St",Chippendale,2008,-33.885064,151.195761
 LIQH440018925,"Ugly Pizza","Liquor - hotel licence",Current,Trading,"General bar","Lg, 22-24 Mackay St",Caringbah,2229,-34.042348,151.124103
+LIQO660031187,"Hotel Woolstore 1888 Sydney - Handwritten Collection","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","139 Murray St",Pyrmont,2009,-33.872709,151.197057
+LIQO660031129,"Resunga Indian Curry & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 2 235 Mona Vale Road","St Ives",2075,-33.729621,151.162378
+LIQO660031112,"El Guapo Cantina","Liquor - on-premises licence",Current,Trading,Restaurant,"49 Keppel St",Bathurst,2795,-33.422267,149.580602
+LIQO660031068,"Veranda Indian Kitchen & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop Gr133 Cnr Main St & Civic Way","Rouse Hill",2155,-33.690157,150.925662
 LIQH440018919,"Sawdust Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","386 Victoria Rd",Gladesville,2111,-33.824862,151.125215
+LIQO660030984,"Bondi Pizza Bar And Grill","Liquor - on-premises licence",Current,Trading,Restaurant,"320 Church St",Parramatta,2150,-33.811819,151.004437
 LIQH440018918,Tapavino,"Liquor - hotel licence",Current,Trading,"General bar","6-8 Bulletin Pl",Sydney,2000,-33.862482,151.209493
+LIQO660030916,"Sydney Hotel Harbour Suites","Liquor - on-premises licence",Current,Trading,Accommodation,"252 Sussex St",Sydney,2000,-33.872659,151.20426
+LIQO660030908,"Toto Trattoria And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"189 Ocean View Rd","Ettalong Beach",2257,-33.51424,151.340818
 LIQH440018915,"Arcadia Liquors","Liquor - hotel licence",Current,Trading,"General bar","7 Cope St",Redfern,2016,-33.892682,151.200752
 LIQH440018913,"Charlie's Rooftop","Liquor - hotel licence",Current,Trading,"General bar","529 Hunter St",Newcastle,2300,-32.927782,151.767554
 LIQH440018912,"Central Hotel Shellharbour","Liquor - hotel licence",Current,Trading,"Full hotel","3 Memorial Dr","Shellharbour City Centre",2529,-34.564365,150.835761
 LIQH440018909,"Super 44","Liquor - hotel licence",Current,Trading,"General bar","44 Enmore Rd",Newtown,2042,-33.898648,151.176712
+LIQO660030817,"The G Bar Gladesville","Liquor - on-premises licence",Current,Trading,Restaurant,"199-201 Victoria Rd",Gladesville,2111,-33.832909,151.127246
 LIQH440018908,"Lucky's Lounge Pty Ltd","Liquor - hotel licence",Current,Trading,"General bar","L 1 83 Stanley St",Darlinghurst,2010,-33.876036,151.2156
 LIQH440018901,"Element Bar Pty Ltd","Liquor - hotel licence",Current,Trading,"General bar","380 Harbour Dr","Coffs Harbour",2450,-30.304323,153.137097
 LIQH440010085,"Muchos Mexican Maitland","Liquor - hotel licence",Current,Trading,"General bar","274 High St",Maitland,2320,-32.735357,151.559264
+LIQO660011663,"Japanese Dining Bar Sakae","Liquor - on-premises licence",Current,Trading,Restaurant,"138 Rowe St",Eastwood,2122,-33.791685,151.081892
 LIQH440010083,"The Little Guy","Liquor - hotel licence",Current,Trading,"General bar","87 Glebe Point Rd",Glebe,2037,-33.88234,151.190501
+LIQO660011640,"Mi Cantina","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 4 12 The Entrance Rd","The Entrance",2261,-33.339273,151.49892
 LIQH440010080,"The Baxter Inn","Liquor - hotel licence",Current,Trading,"General bar","B 152-156 Clarence St",Sydney,2000,-33.869667,151.205612
 LIQH440010081,"That Plant Shop","Liquor - hotel licence",Current,Trading,"General bar","U 3 415-417 Darling St",Balmain,2041,-33.855738,151.175423
+LIQO660011619,"Moo And Bean Kitchen & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"613 Ocean Dr","North Haven",2443,-31.640118,152.816659
+LIQO660011578,"Dolcini Bar & Grill","Liquor - on-premises licence",Current,Trading,Restaurant,"1/90 Charles St",Putney,2112,-33.823573,151.10885
 LIQH440010077,"No 92 Gpr","Liquor - hotel licence",Current,Trading,"General bar","92 Glebe Point Rd",Glebe,2037,-33.882219,151.189438
 LIQH440010075,"The Dubliner","Liquor - hotel licence",Current,Trading,"General bar","Shop 2 350 Military Rd",Cremorne,2090,-33.828608,151.228601
 LIQH440010073,"Rawson Sydney","Liquor - hotel licence",Current,Trading,"Full hotel","100 George St","The Rocks",2000,-33.858219,151.20939
 LIQH440010070,"Tio's Cerveceria","Liquor - hotel licence",Current,Trading,"General bar","G 4-14 Foster St","Surry Hills",2010,-33.879736,151.210467
+LIQO660011411,"Perrottas Italian & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"1650 Alpine Way",Crackenback,2627,-36.445431,148.451232
 LIQH440010066,"Amari Bar","Liquor - hotel licence",Current,Trading,"General bar","72-76 Crown St",Wollongong,2500,-34.425391,150.898872
 LIQH440010064,"Tany's Japanese Restaurant","Liquor - hotel licence",Current,Trading,"General bar","92 Redfern St",Redfern,2016,-33.892736,151.20505
+LIQO660011298,"Ragu Pasta & Wine Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Westfield Shopping Centre, Shops 506 / 503, L5, 188 Pitt St",Sydney,2000,-33.870124,151.208902
 LIQH440010061,"Honey Rider","Liquor - hotel licence",Current,Trading,"General bar","230 Military Rd","Neutral Bay",2089,-33.831141,151.223701
+LIQO660011236,"Tuberock Pty Ltd T/A Franks Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 10 20 Avalon Parade","Avalon Beach",2107,-33.635941,151.328907
+LIQO660011202,"La Riva Cafe & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 1 & 3, 209 Ocean St",Narrabeen,2101,-33.70583,151.304031
+LIQO660011198,"Tommy's Beer Cafe","Liquor - on-premises licence",Current,Trading,Restaurant,"123-125 Glebe Point Rd",Glebe,2037,-33.88174,151.189625
 LIQH440010059,Wynox,"Liquor - hotel licence",Current,Trading,"General bar","T4 50 Holt St","Surry Hills",2010,-33.886337,151.209565
+LIQO660011167,"Mascot Corner Cafe Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"1223 Botany Rd",Mascot,2020,-33.932109,151.194444
+LIQO660011142,"Corner Bar Street Food","Liquor - on-premises licence",Current,Trading,Restaurant,"632 Darling St",Rozelle,2039,-33.862507,151.171188
+LIQO660011124,"Two Doors Up Cafe & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 1 31 Princes Hwy","Fairy Meadow",2519,-34.392869,150.892775
 LIQH440010054,"Dimitri's Pizzeria","Liquor - hotel licence",Current,Trading,"General bar","215 Oxford St",Darlinghurst,2010,-33.881256,151.217725
 LIQH440010055,"Peter's Glengarry Hilton","Liquor - hotel licence",Current,Trading,"General bar","Glengarry Opal Fields",Cumborah,2832,-29.669734,147.615898
 LIQH440010057,"Bella Vista Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","13-15 Lexington Dr","Bella Vista",2153,-33.736545,150.948546
 LIQH440010058,"North Strathfield Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","1-11 George St","North Strathfield",2137,-33.863226,151.088505
 LIQH440010052,"Gibraltar Hotel Bowral","Liquor - hotel licence",Current,Trading,"Full hotel","Centennial & Boronia Rds",Bowral,2576,-34.467371,150.413167
 LIQH440010048,"Scottish Arms","Liquor - hotel licence",Current,Trading,"Full hotel","69 Boardman Rd",Bowral,2576,-34.49425,150.446649
+LIQO660011017,"Red Spoon Thai Restaurant & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"R3002/109-129 Blaxland Rd",Ryde,2112,-33.813206,151.106151
+LIQO660011014,"Felix Restaurant & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Angel Pl Shop 2 123 Pitt And Ash Sts",Sydney,2000,-33.866659,151.208072
+LIQO660010984,"Taste Baguette Bakery And Bar Restaurant","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","Law Building Annex Main Campus Rm 201 Eastern Ave",Camperdown,2050,-33.88653,151.190624
+LIQO660010981,"Marvell St Cafe And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"3 11 Marvell Street","Byron Bay",2481,-28.645034,153.614456
 LIQH440010045,"Restaurant Ka","Liquor - hotel licence",Current,Trading,"General bar","13B Burton St",Darlinghurst,2010,-33.878555,151.215126
 LIQH440010044,"The Trocadero Room","Liquor - hotel licence",Current,Trading,"General bar","156 Enmore Rd",Enmore,2042,-33.899117,151.173153
 LIQH440010053,"B.c. House","Liquor - hotel licence",Current,Trading,"General bar","11 Little Burton Street",Darlinghurst,2010,-33.877954,151.214903
+LIQO660010963,"Juniper Cafe & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"225 Glenmore Rd",Paddington,2021,-33.882422,151.227999
 LIQH440010043,"Mavericks On The Bay","Liquor - hotel licence",Current,Trading,"General bar","Shops W03 & W13 8 Teramby Rd","Nelson Bay",2315,-32.719762,152.144833
+LIQO660010924,"Sage Hotel Wollongong","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","60-62 Harbour St",Wollongong,2500,-34.428898,150.901003
 LIQH440010040,"Thirsty Crow","Liquor - hotel licence",Current,Trading,"General bar","153-163 Fitzmaurice St","Wagga Wagga",2650,-35.102841,147.36877
+LIQO660010898,"Sette Espresso Eatery Bar","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","8 Central Ave",Eveleigh,2015,-33.896216,151.193922
+LIQO660010883,"The Wine Library Cafe & Bar","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","18-20 Oxford St",Woollahra,2025,-33.888807,151.232656
 LIQH440010039,"Love, Tilly Devine","Liquor - hotel licence",Current,Trading,"General bar","91 Crown St",Darlinghurst,2010,-33.874703,151.215937
 LIQH440010038,Donny's,"Liquor - hotel licence",Current,Trading,"General bar","29 Sydney Rd",Manly,2095,-33.797266,151.286099
+LIQO660010828,"Venue Cafe Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"T 23 210 Howick St",Bathurst,2795,-33.419102,149.581577
+LIQO660010800,"Taree-Old Bar Surf Life Saving Club","Liquor - on-premises licence",Current,Trading,"Club activity and support","Cnr Ungala Rd And Old Bar Rd","Old Bar",2430,-31.970773,152.591355
 LIQH440010035,"Paski Vineria Popolare","Liquor - hotel licence",Current,Trading,"General bar","239 Oxford St",Darlinghurst,2010,-33.881502,151.218288
 LIQH440010034,"The Avenue","Liquor - hotel licence",Current,Trading,"General bar","Rear Ground Floor Bar 229-231 Darlinghurst Rd",Darlinghurst,2010,-33.876779,151.2208
+LIQO660010786,"Emma's Snack Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"59 Liberty St",Enmore,2042,-33.896024,151.171372
+LIQO660010725,"Vela Dining & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"138 Cabarita Rd",Cabarita,2137,-33.842205,151.119619
+LIQO660010696,"Sushi Bar Hiro","Liquor - on-premises licence",Current,Trading,Restaurant,"498A King Georges Rd","Beverly Hills",2209,-33.949852,151.0816
 LIQH440010031,"The Lord Wolseley Hotel","Liquor - hotel licence",Current,Trading,"General bar","265 Bulwarra Rd",Ultimo,2007,-33.876596,151.196674
 LIQH440010030,"Small Bar (Crows Nest)","Liquor - hotel licence",Current,Trading,"General bar","85 Willoughby Rd","Crows Nest",2065,-33.824415,151.201213
 LIQH440010027,"Harts Pub","Liquor - hotel licence",Current,Trading,"General bar","Gloucester St & Essex St","The Rocks",2000,-33.861769,151.206392
+LIQO660010592,"Bloodwood Restaurant And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"416 King St",Newtown,2042,-33.900075,151.178355
+LIQO660010574,"Bar Fresko Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"25/767-769 Pacific Hwy",Gordon,2072,-33.755039,151.152857
 LIQH440010025,"Scorpio Wollongong","Liquor - hotel licence",Current,Trading,"General bar","Lot 401 Dp 881597 207-217 Crown St",Wollongong,2500,-34.425798,150.893574
+LIQO660010569,"Parma Cucina & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Jane Foss Russell Bldg, Ra 3, L 2",Darlington,2008,-33.88925,151.191394
+LIQO660010545,"Ken's Sushi Bar Dining","Liquor - on-premises licence",Current,Trading,Restaurant,"3A Shaw St","Bexley North",2207,-33.938397,151.113829
 LIQH440010023,"Settlers Arms","Liquor - hotel licence",Current,Trading,"General bar","45 Brown St",Dungog,2420,-32.401137,151.755751
 LIQH440010021,"Frankie Cadillac","Liquor - hotel licence",Current,Trading,"General bar","87 Albion St","Surry Hills",2010,-33.88326,151.211756
+LIQO660010477,"Cafe Rialto Pizza Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"169 Annangrove Rd",Annangrove,2156,-33.671082,150.956255
 LIQH440010032,"Rydges World Square Sydney","Liquor - hotel licence",Current,Trading,"Full hotel","389 Pitt St",Sydney,2000,-33.876948,151.20761
 LIQH440010020,"Il Capriccio","Liquor - hotel licence",Current,Trading,"General bar","42 Llankelly Pl","Potts Point",2011,-33.872933,151.224382
 LIQH440010018,"The Harbar Bermagui","Liquor - hotel licence",Current,Trading,"General bar","73-75 Lamont St",Bermagui,2546,-36.425726,150.069881
+LIQO660010355,"Lone Star Rib House & Brews Rouse Hill","Liquor - on-premises licence",Current,Trading,Restaurant,"4 Resolution Pl","Rouse Hill",2155,-33.683931,150.919095
+LIQO660010353,"Mudgee Brewing Company","Liquor - on-premises licence",Current,Trading,Restaurant,"4 Church St",Mudgee,2850,-32.590217,149.588462
 LIQH440010016,"Bottle Rocket Bar & Cafe","Liquor - hotel licence",Current,Trading,"General bar","90 Kinghorn St",Nowra,2541,-34.875931,150.603141
+LIQO660010302,"The Church Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"22 Kable St",Windsor,2756,-33.606306,150.822071
+LIQO660010284,"187 Cantina","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","6 Nesbitt Lane",Lismore,2480,-28.808858,153.276559
 LIQH440010014,"Upstairs Bar Darlinghurst","Liquor - hotel licence",Current,Trading,"General bar","1/133 Oxford St",Darlinghurst,2010,-33.879847,151.215472
+LIQO660010222,"Harringtons Bar & Grill","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","1 Forest Drive","Harrington Park",2567,-34.019838,150.74261
 LIQH440010012,"The Candelo General Store And Cafe","Liquor - hotel licence",Current,Trading,"General bar","48 William St",Candelo,2550,-36.766982,149.695785
+LIQO660010205,"Art Bar Kiama","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","4 Tingira Cres",Kiama,2533,-34.687356,150.855898
+LIQO660010192,"Cafe Bar Zini","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","78 Harris St",Pyrmont,2009,-33.867662,151.192975
+LIQO660010182,"Rockpool Bar & Grill","Liquor - on-premises licence",Current,Trading,Restaurant,"66 Hunter St",Sydney,2000,-33.866017,151.210313
+LIQO660010177,"Jangling Jack's Bar & Grill","Liquor - on-premises licence",Current,Trading,Restaurant,"175 Victoria St","Potts Point",2011,-33.873293,151.222262
 LIQH440010010,"The Vintage","Liquor - hotel licence",Current,Trading,"Full hotel","Lots 7001-7003 Mcdonalds Rd",Pokolbin,2320,-32.739053,151.325253
 LIQH440010009,"Ibis World Square","Liquor - hotel licence",Current,Trading,"Full hotel","382-384 Pitt St",Sydney,2000,-33.877823,151.207746
 LIQH440010015,"Scary Canary","Liquor - hotel licence",Current,Trading,"Full hotel","469-475 Kent Street",Sydney,2000,-33.873062,151.20491
+LIQO660010116,"Regatta Kitchen And Bar","Liquor - on-premises licence",Current,Trading,"Catering service,Cinema public entertainment venue,Restaurant,Sport facility,Theatre public entertainment venue","Old Castlereagh Rd",Castlereagh,2749,-33.723131,150.671463
 LIQH440010008,"The Pavilions Hotel Terranora","Liquor - hotel licence",Current,Trading,"Full hotel","Henry Lawson Dr & Terranora Rd",Terranora,2486,-28.241083,153.503365
 LIQH440010003,"Pappy's Bar","Liquor - hotel licence",Current,Trading,"General bar","48 Erskine St",Sydney,2000,-33.86667,151.203739
 LIQH440010001,"Sei Mai Name","Liquor - hotel licence",Current,Trading,"General bar","68A Erskine St",Sydney,2000,-33.866586,151.20463
+LIQO660010031,"Mr Wu Dumpling Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"184-192 Elizabeth St",Sydney,2000,-33.879213,151.209464
+LIQO660010135,"Adina Apartment Hotel Wollongong","Liquor - on-premises licence",Current,Trading,Accommodation,"19 Market St",Wollongong,2500,-34.424689,150.899614
 LIQH440010005,"Ramada Ballina Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","2 Martin St",Ballina,2478,-28.872684,153.562449
 LIQH440010006,"Pullman At Sydney Olympic Park","Liquor - hotel licence",Current,Trading,"Full hotel","Sydney Olympic Park, Olympic Boulevard","Sydney Olympic Park",2127,-33.849006,151.068144
+LIQO660010012,"Zigzag Wine Bar & Cafe","Liquor - on-premises licence",Current,Trading,Restaurant,"1 Trafalgar Pl",Marsfield,2122,-33.768231,151.107944
+LIQO624015801,"Jimmys Bar & Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"50 Frenchmans Rd",Randwick,2031,-33.908294,151.248327
 LIQO624015773,"Zone Bowling","Liquor - on-premises licence",Current,Trading,"Bar,Sport facility","850 Woodville Rd",Villawood,2163,-33.879046,150.978086
+LIQO624015755,"4 Pines Brewing Company Restaurant","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","U 29, 43-45 East Esp",Manly,2095,-33.799492,151.285419
+LIQO624015757,"Pezzella's Pizzeria And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 6 24-30 Wharf St",Forster,2428,-32.18047,152.509648
 LIQO624015694,"Campbelltown Arts Centre","Liquor - on-premises licence",Current,Trading,"Bar,Restaurant,Theatre public entertainment venue","Art Gallery Rd, Camden Rd & Moore-Oxley Bypass",Campbelltown,2560,-34.072722,150.809019
 LIQO624015683,"Gundagai Racecourse & Showground","Liquor - on-premises licence",Current,Trading,"Bar,Racing facility","Gundagai Racecourse",Gundagai,2722,-35.069504,148.12334
 LIQO624015664,"Quarantine Station Manly","Liquor - on-premises licence",Current,Trading,"Accommodation,Bar,Catering service,Restaurant","North Head Scenic Dr",Manly,2095,-33.812454,151.293946
+LIQO624015616,"Alpha Hotel Eastern Creek","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","1 Peter Brock Drive","Eastern Creek",2766,-33.802021,150.87101
+LIQO624015591,"Indian Fusion Tapas Bar & Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"6 Clarence St",Yamba,2464,-29.434351,153.362534
 LIQO624015565,"Sugar Entertainment","Liquor - on-premises licence",Current,Trading,"Bar,Karaoke venue,Other public entertainment venue","L 1 15 Goulburn St",Haymarket,2000,-33.877824,151.204231
+LIQO624015494,"Bazaar & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 1/10-18 Orchard Road",Brookvale,2100,-33.765616,151.272161
+LIQO624015436,"Hotel Indigo Sydney Potts Point","Liquor - on-premises licence",Current,Trading,Accommodation,"14 Kings Cross Rd","Potts Point",2011,-33.875552,151.222833
+LIQO624015432,"Innit Cafe And Bar Pty Ltd","Liquor - on-premises licence",Current,Trading,Restaurant,"54 Foveaux St","Surry Hills",2010,-33.884237,151.210923
+LIQO624015384,"Mercure Centro Hotel Port Macquarie","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service,Restaurant","Hay & William Sts","Port Macquarie",2444,-31.430881,152.909961
+LIQO624015378,"Tomms Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"91 The Heights",Hillvue,2340,-31.125305,150.907722
 LIQH424015375,"Kooindah Waters Resort","Liquor - hotel licence",Current,Trading,"Full hotel","Kooindah Bvd",Wyong,2259,-33.286085,151.440134
+LIQO624015327,"The Hive Bar","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","93 Erskineville Rd",Erskineville,2043,-33.900055,151.184747
 LIQH424015318,"Flight Club Sydney","Liquor - hotel licence",Current,Trading,"Full hotel","129-135 Harrington St","The Rocks",2000,-33.86258,151.206374
 LIQO624015273,"Bowlarama Wetherill Park","Liquor - on-premises licence",Current,Trading,"Bar,Sport facility","Wetherill Park Market Town The Horsley Dr & Rossetti St","Wetherill Park",2164,-33.850957,150.909618
 LIQO624015145,"Strike Ksw","Liquor - on-premises licence",Current,Trading,"Bar,Sport facility","King Street Wharf G & B 22 The Promenade",Sydney,2000,-33.867084,151.20161
 LIQO624015078,"Pang Pang Pocha Karaoke","Liquor - on-premises licence",Current,Trading,"Bar,Karaoke venue,Other public entertainment venue","1A Taylor St",Lidcombe,2141,-33.86469,151.043834
 LIQH424015041,"North Byron Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Lot 4 Dp 243218 Bayshore Dr","Byron Bay",2481,-28.629909,153.58361
+LIQO624015015,"Hotel Forster","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","26 The Lakes Way",Forster,2428,-32.196598,152.514294
 LIQO624014990,"Kingpin Bowling","Liquor - on-premises licence",Current,Trading,"Bar,Sport facility","3 George St","North Strathfield",2137,-33.862932,151.088757
+LIQO624014986,"Rendezvous Hotel Sydney The Rocks","Liquor - on-premises licence",Current,Trading,Accommodation,"75 Harrington St","The Rocks",2000,-33.85964,151.207629
+LIQO624014922,"Entrata Restaurant & Bar","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","42 Bannerman Rd",Glenhaven,2156,-33.693431,150.976266
+LIQO624014820,"Bimini Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Soldiers Point Marina Sunset Bvd","Soldiers Point",2317,-32.701421,152.062539
 LIQO624014677,"The Carriageworks","Liquor - on-premises licence",Current,Trading,"Bar,Catering service,Other public entertainment venue,Restaurant,Theatre public entertainment venue","Eveleigh Carriageworks Wilson St",Eveleigh,2015,-33.894156,151.191602
 LIQO624014658,"Sea Life Sydney Aquarium, Wild Life Sydney And Madame Tussauds Sydney","Liquor - on-premises licence",Current,Trading,"Bar,Catering service,Other public entertainment venue","Aquarium Pier U1, 5 Wheat Rd",Sydney,2000,-33.869534,151.202069
 LIQH424014644,"Ivory Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","156 Wharf Street","Tweed Heads",2485,-28.181979,153.538257
+LIQO624014635,"Krill Bar & Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"47-49 Ballina St","Lennox Head",2478,-28.797407,153.593666
+LIQO624014536,"Level One Wine Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"492A Dean St",Albury,2640,-36.080831,146.918986
+LIQO624014529,"Sushi Bar Takumi","Liquor - on-premises licence",Current,Trading,Restaurant,"174 Victoria Ave",Chatswood,2067,-33.793867,151.191819
 LIQO624014458,"Zone Bowling","Liquor - on-premises licence",Current,Trading,"Bar,Sport facility","27 Port Hacking Rd",Sylvania,2224,-34.00996,151.104171
+LIQO624014394,"Pony Restaurant Bar","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","Shop 15 10 Playfair St","The Rocks",2000,-33.858963,151.208418
 LIQH424014371,"Pullman Magenta Shores Resort","Liquor - hotel licence",Current,Trading,"Full hotel","1 Magenta Dr",Magenta,2261,-33.31106,151.52284
 LIQO624014360,"Kingpin Macarthur","Liquor - on-premises licence",Current,Trading,"Bar,Sport facility","Macarthur Square, Menangle Rd",Campbelltown,2560,-34.075813,150.797492
 LIQH424014295,"Kiama Blue Harbourside","Liquor - hotel licence",Current,Trading,"Full hotel","31 Shoalhaven St",Kiama,2533,-34.668799,150.855324
+LIQO624014191,"The Gazebo Wine Bar And Dining","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 1, 2 Elizabeth Bay Rd","Elizabeth Bay",2011,-33.872413,151.226065
 LIQO624014049,"Zone Bowling","Liquor - on-premises licence",Current,Trading,"Bar,Sport facility","47 Princes Hwy","Albion Park Rail",2527,-34.552626,150.789226
 LIQO624014004,Ravensthorpe,"Liquor - on-premises licence",Current,Trading,"Accommodation,Bar","56 Tongarra Rd","Albion Park",2527,-34.569282,150.785907
 LIQH424013969,"Bago Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","235 High St",Wauchope,2446,-31.468846,152.714661
+LIQO624013954,"Sittano's Bar & Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"Penrith Plaza, Shop R3, L 1, Riley St",Penrith,2750,-33.751187,150.692213
+LIQO624014007,"Indian Tavern Tandoori Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"81 Peter St","Wagga Wagga",2650,-35.114059,147.368568
 LIQH424013942,"The Mercure Hotel Sydney","Liquor - hotel licence",Current,Trading,"Full hotel","818-820 George St",Chippendale,2008,-33.884251,151.203022
 LIQH424013875,"Pacific Dunes Golf Resort","Liquor - hotel licence",Current,Trading,"Full hotel","Medowie Rd & South St",Medowie,2318,-32.766626,151.869684
 LIQO624013709,"Zone Bowling","Liquor - on-premises licence",Current,Trading,"Bar,Sport facility","Westfield Shopping Centre, Tenancy 4011,",Blacktown,2148,-33.770364,150.905956
 LIQO624013679,"Parliament Of New South Wales","Liquor - on-premises licence",Current,Trading,"Bar,Catering service","Macquarie St",Sydney,2000,-33.867387,151.213046
+LIQO624013678,"I Bar Tweed","Liquor - on-premises licence",Current,Trading,Restaurant,"4 Wharf St","Tweed Heads",2485,-28.170665,153.543772
+LIQO624013571,"Merry Street Restaurant & Bar","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","3 Merry St",Kioloa,2539,-35.561512,150.374203
 LIQO624013385,"Seven Ten Split","Liquor - on-premises licence",Current,Trading,"Bar,Sport facility","21 Railway Pde",Fairfield,2165,-33.874877,150.953551
+LIQO624013325,"Imperial Tavern","Liquor - on-premises licence",Current,Trading,Restaurant,"11 Burroway Rd",Narromine,2821,-32.232762,148.240167
 LIQO624013166,"Zone Bowling","Liquor - on-premises licence",Current,Trading,"Bar,Sport facility","932 Pittwater Rd","Dee Why",2099,-33.750396,151.290101
+LIQO624013170,"Ape Yakitori Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"The Broadwalk, N3, Honeysuckle Dr",Newcastle,2300,-32.92493,151.771165
+LIQO624013152,"Wharf Bar & Restaurant @ Ballina","Liquor - on-premises licence",Current,Trading,Restaurant,"12-24 Fawcett St",Ballina,2478,-28.871348,153.559809
 LIQO624013123,"Tenpin Grafton","Liquor - on-premises licence",Current,Trading,"Bar,Sport facility","288 Powell St",Grafton,2460,-29.672556,152.929113
+LIQO624013066,"Wellco Cafe And Bar (Leichhardt)","Liquor - on-premises licence",Current,Trading,Restaurant,"9/39-45 Norton St",Leichhardt,2040,-33.886528,151.157706
+LIQO624013034,"Harbour Bar & Grill","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","The Boardwalk, Lots 17 & 18 1-3 Honeysuckle St",Newcastle,2300,-32.925312,151.771992
+LIQO624013031,"Steamers Bar And Grill","Liquor - on-premises licence",Current,Trading,Restaurant,"City Beach Surf Life Saving Club, L 1, Marine Dr",Wollongong,2500,-34.423055,150.905901
 LIQO624012968,"Bar & Brasserie, Luna Park","Liquor - on-premises licence",Current,Trading,"Bar,Catering service,Karaoke venue,Public hall,Restaurant","1 Olympic Dr","Milsons Point",2061,-33.848788,151.210541
 LIQH424012855,"Moore Park Golf","Liquor - hotel licence",Current,Trading,"Full hotel","Cleveland St","Moore Park",2021,-33.896421,151.220527
+LIQO624012834,"The Hayberry Diner And Bar Pty Ltd","Liquor - on-premises licence",Current,Trading,Restaurant,"97 Willoughby Rd","Crows Nest",2065,-33.824079,151.201218
 LIQO624012806,"Glenmore Heritage Valley","Liquor - on-premises licence",Current,Trading,"Bar,Sport facility","690 Mulgoa Rd",Mulgoa,2745,-33.803649,150.661196
 LIQH424012737,"Sofitel Sydney Wentworth","Liquor - hotel licence",Current,Trading,"Full hotel","61-101 Phillip St",Sydney,2000,-33.865373,151.210812
 LIQH424012683,"Rennie Recreation Reserve Club Rooms","Liquor - hotel licence",Current,Trading,"Full hotel","Bull Plain Rd",Rennie,2646,-35.814108,146.133726
 LIQH424012651,"Parklands Bistro & Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","Mount Penang Parklands Lot 522 Pacific Hwy",Somersby,2250,-33.404307,151.349956
+LIQO624012718,"Lux Bistro Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"110-114 Crown St",Wollongong,2500,-34.425071,150.896649
 LIQH424012497,"Rafferty's By The Lake","Liquor - hotel licence",Current,Trading,"Full hotel","1 Wild Duck Dr","Cams Wharf",2281,-33.120817,151.61462
 LIQO624012490,"The Indian Pacific","Liquor - on-premises licence",Current,Trading,"Accommodation,Bar,Catering service","Adelaide Parklands Terminal",Keswick,5035,-33.882621,151.206582
 LIQO624012420,"Manhattan Superbowl","Liquor - on-premises licence",Current,Trading,"Bar,Sport facility","549 Gardeners Rd",Rosebery,2018,-33.921974,151.196984
+LIQO624012397,"The Boatshed Cafe & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"11 Narrabeen St",Narrabeen,2101,-33.717034,151.296108
+LIQO624012364,"Henley’s Bar & Kitchen","Liquor - on-premises licence",Current,Trading,"Catering service,Other public entertainment venue,Restaurant","King Street Wharf, Tenancy 2 5-15 Lime St",Sydney,2000,-33.866601,151.201646
+LIQO624012124,"Kin Cafe And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"14A Stockton St","Nelson Bay",2315,-32.721587,152.14333
+LIQO624011954,"Arts Factory - Garden Bar","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","1 Skinners Shoot Rd","Byron Bay",2481,-28.644718,153.604971
 LIQH424011838,"Dan Murphy's","Liquor - hotel licence",Current,Trading,"Full hotel","312 Parramatta Rd",Burwood,2134,-33.86982,151.10763
 LIQH424011858,"Bank Tavern Kogarah","Liquor - hotel licence",Current,Trading,"Full hotel","G & L 1 1-3 Belgrave St",Kogarah,2217,-33.964281,151.132734
 LIQH424010147,"Macquarie Links International Golf Club","Liquor - hotel licence",Current,Trading,"Full hotel","Macquarie Links Dr","Macquarie Links",2565,-33.984843,150.874304
+LIQO624010125,"Alegre Bar And Dining","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","Tennancy 13 King Street Wharf 25 Lime St",Sydney,2000,-33.868055,151.201546
+LIQO624010093,"Icebergs Dining Room And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"L 3 1 Notts Ave","Bondi Beach",2026,-33.895276,151.274439
+LIQO624010078,"Four Hands Pizza Bar & Grill","Liquor - on-premises licence",Current,Trading,Restaurant,"6/17 Church St",Terrigal,2260,-33.446932,151.44352
 LIQH424010000,"Tuross Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","Shop 14 38 Evans Rd","Tuross Head",2537,-36.059446,150.139166
+LIQO624009939,"Amicis Pizzeria & Antipasto Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"465 Miller St",Cammeray,2062,-33.821786,151.210786
 LIQH424009929,"The Conapaira Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Lot 6 Boomerang St","Rankins Springs",2669,-33.840592,146.263405
+LIQO624009933,"Rock Salt Restaurant And Lounge Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"1/72-80 Allison Cres",Menai,2234,-34.012294,151.01745
+LIQO624009874,"Hotel Ibis Newcastle","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","700 Hunter St","Newcastle West",2302,-32.926176,151.763267
+LIQO624009859,"Adina Apartment Hotel Sydney, Chippendale","Liquor - on-premises licence",Current,Trading,Accommodation,"74-80 Ivy St",Darlington,2008,-33.88937,151.195701
+LIQO624009810,"Elements Bar & Grill","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","Republic 2, Lots 5 & 6 Palmer St",Darlinghurst,2010,-33.876656,151.217085
 LIQH424009798,"Calala Inn","Liquor - hotel licence",Current,Trading,"Full hotel","Calala Lane & Campbells Rd",Calala,2340,-31.126714,150.940916
 LIQO624009793,"Tumbling Waters Retreat","Liquor - on-premises licence",Current,Trading,"Accommodation,Bar","Stonehaven Rd","Stanwell Tops",2508,-34.221546,150.978846
 LIQH424009765,"Side Bar","Liquor - hotel licence",Current,Trading,"Full hotel","509 Pitt St & 814 George St",Haymarket,2000,-33.882329,151.204699
+LIQO624009614,"Dom's Pizza Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"5/57 Mimosa Rd","Bossley Park",2176,-33.857169,150.891102
 LIQO624009474,"Luna Park","Liquor - on-premises licence",Current,Trading,"Bar,Catering service,Karaoke venue,Public arena and events,Restaurant,Sport facility","1 Olympic Dr","Milsons Point",2061,-33.848788,151.210541
+LIQO624009471,"Brothers Cafe, Restaurant And Bar Pty Ltd","Liquor - on-premises licence",Current,Trading,Restaurant,"36 Marine Pde",Kingscliff,2487,-28.257042,153.579383
 LIQH424009187,"Barrio Cellar","Liquor - hotel licence",Current,Trading,"Full hotel","Part Basement 53 Martin Pl",Sydney,2000,-33.868008,151.210901
+LIQO624009150,"Adina Apartment Hotel Sydney, Surry Hills","Liquor - on-premises licence",Current,Trading,Accommodation,"355 Crown St","Surry Hills",2010,-33.883655,151.214081
+LIQO624009151,"Adina Apartment Hotel Coogee, Sydney","Liquor - on-premises licence",Current,Trading,Accommodation,"183 Coogee Bay Road",Coogee,2034,-33.920437,151.253341
+LIQO624009033,"The Nelson Way Cafe Restaurant& Bar","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","61A Dowling St","Nelson Bay",2315,-32.725427,152.144256
+LIQO624009026,"Station Bar & Woodfired Pizza","Liquor - on-premises licence",Current,Trading,"Other public entertainment venue,Restaurant","287 Main St",Katoomba,2780,-33.712225,150.311515
+LIQO624009023,"Playa Bodega","Liquor - on-premises licence",Current,Trading,Restaurant,"16 Clarence St",Yamba,2464,-29.435353,153.362577
 LIQO624008978,"Dynasty Karaoke","Liquor - on-premises licence",Current,Trading,"Bar,Karaoke venue,Other public entertainment venue","L 1 63-69 Dixon St",Haymarket,2000,-33.878918,151.203919
+LIQO624008941,"Urban Deli And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"141-143 Darby St","Cooks Hill",2300,-32.931832,151.771667
+LIQO624008853,"Bunker Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Lot 8 The Boulevarde","Tallwoods Village",2430,-32.05792,152.507216
+LIQO624008818,"Lion Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"69 Cooper St","Surry Hills",2010,-33.88609,151.210368
 LIQH424008800,"The Blacksmiths Inn","Liquor - hotel licence",Current,Trading,"Full hotel","Pacific Hwy","Johns River",2443,-31.732144,152.69395
 LIQH424008756,"The Pavilion Lake Hume","Liquor - hotel licence",Current,Trading,"Full hotel","Lot 1 Dp230231 Ray Walsh Dr","Lake Hume Village",3691,-36.101746,147.038954
 LIQO624008678,"Newcastle Jockey Club","Liquor - on-premises licence",Current,Trading,"Bar,Catering service,Racing facility","Chatham St",Broadmeadow,2292,-32.930023,151.740683
+LIQO624008590,"Tidal Restaurant & Wine Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"23 Beach St",Merimbula,2548,-36.887529,149.91287
+LIQO624008588,"The Shire Bar And Grill","Liquor - on-premises licence",Current,Trading,Restaurant,"Macquarie & Bultje Sts",Dubbo,2830,-32.250815,148.600323
 LIQH424008586,"Ramada Hotel & Suites Sydney Cabramatta","Liquor - hotel licence",Current,Trading,"Full hotel","161 Hume Hwy",Lansvale,2166,-33.894534,150.956121
 LIQO624008623,"Adria Bar Restaurant","Liquor - on-premises licence",Current,Trading,Bar,"The Promenade, Cockle Bay Wharf, Wheat Road","Darling Harbour",2000,-33.871697,151.202267
 LIQH424008567,Cadmus,"Liquor - hotel licence",Current,Trading,"Full hotel","Tenancy 26, Opera Quays, East Circular Quay 1-59 Macquarie St",Sydney,2000,-33.85919,151.213218
+LIQO624008552,"Adina Apartment Hotel Sydney, Darling Harbour","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service","King St Wharf 55 Shelley St",Sydney,2000,-33.868585,151.202374
 LIQH424008545,"The Tooma Inn","Liquor - hotel licence",Current,Trading,"Full hotel","9 Possum Point Rd",Tooma,2642,-35.967464,148.058318
+LIQO624008533,"Urban Bar & Cafe","Liquor - on-premises licence",Current,Trading,Restaurant,"Darling Dr",Sydney,2000,-33.873299,151.199099
+LIQO624008513,"Port Bar Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"36 Charles St",Parramatta,2150,-33.813931,151.010016
+LIQO624008504,"Iwok Bar & Restaurant","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","Headland Beach Resort, Park Lane","Lennox Head",2478,-28.796913,153.591989
+LIQO624008465,"Nesuto Parramatta Sydney Apartment Hotel","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","110-114 James Ruse Dr",Rosehill,2142,-33.824263,151.020794
+LIQO624008408,"Bacio Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"21 Bridge St",Sydney,2000,-33.863936,151.209189
+LIQO624008410,"Visy Dior Hotel","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service,Restaurant","1 Columbia Ct","Baulkham Hills",2153,-33.731527,150.971208
+LIQO624008393,"Social Brew Cafe","Liquor - on-premises licence",Current,Trading,Restaurant,"224 Harris St",Pyrmont,2009,-33.871594,151.195293
+LIQO624008239,"Hotel Hacienda","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service,Restaurant","179 Cleveland St",Redfern,2016,-33.889132,151.200836
 LIQH424008188,"Shelbourne Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","200 Sussex Street",Sydney,2000,-33.871237,151.204102
+LIQO624008175,"Dumpling Bar Restaurant On Kent","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant","167-187 Kent St",Sydney,2000,-33.862955,151.203572
 LIQH424008133,"Pleasant Hills Community Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Lots 6-9 Manson St","Pleasant Hills",2658,-35.460261,146.798411
 LIQH424008103,"Amora Hotel Jamison Sydney","Liquor - hotel licence",Current,Trading,"Full hotel","11-19 Jamison St",Sydney,2000,-33.864558,151.206305
 LIQO624007989,"Winghaus Eq","Liquor - on-premises licence",Current,Trading,Bar,"The Entertainment Quarter, Driver Ave","Moore Park",2021,-33.89531,151.226291
 LIQH424007933,"Swissotel Sydney On Market Street","Liquor - hotel licence",Current,Trading,"Full hotel","L 8-25 68 Market St",Sydney,2000,-33.870627,151.207529
+LIQO624007927,"Beach House Cafe & Bar","Liquor - on-premises licence",Current,Trading,"Other public entertainment venue,Restaurant","2 Horton St","Port Macquarie",2444,-31.428342,152.90854
 LIQH424007906,"Pottsville Village Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","Lot 171 Overall Dr",Pottsville,2489,-28.395008,153.563066
 LIQO624007855,"Sydney Comedy Store","Liquor - on-premises licence",Current,Trading,"Bar,Other public entertainment venue","The Entertainment Quarter Driver Ave","Moore Park",2021,-33.893356,151.226981
 LIQO624007844,"Hoyts Entertainment Quarter","Liquor - on-premises licence",Current,Trading,Bar,"213 Bent Street","Moore Park",2021,-33.894585,151.227537
 LIQO624007838,"Watson's Eq","Liquor - on-premises licence",Current,Trading,Bar,"The Entertainment Quarter Driver Ave","Moore Park",2021,-33.894121,151.226545
 LIQH424007712,"Gpo Sydney","Liquor - hotel licence",Current,Trading,"Full hotel","Lg 1 Martin Pl",Sydney,2000,-33.867792,151.207748
+LIQO624007703,"Lazybones Lounge Restaurant & Bar","Liquor - on-premises licence",Current,Trading,"Other public entertainment venue,Restaurant","1St & 2Nd Floors 294 Marrickville Rd",Marrickville,2204,-33.910834,151.156334
+LIQO624007697,"Bars & Boards Pty Ltd","Liquor - on-premises licence",Current,Trading,Restaurant,"349 King St",Newtown,2042,-33.898422,151.177857
 LIQH424007684,"The Fullerton Hotel Sydney","Liquor - hotel licence",Current,Trading,"Full hotel","1 Martin Pl",Sydney,2000,-33.867792,151.207748
 LIQH424007645,"Campbelltown Club Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","32 Blaxland Rd",Campbelltown,2560,-34.05986,150.814386
 LIQH424007641,"Diggers Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","30 Hyde St",Bellingen,2454,-30.452951,152.898485
+LIQO624007508,"Wandin Wine Bar & Diner","Liquor - on-premises licence",Current,Trading,Restaurant,"12 Wilderness Rd",Lovedale,2325,-32.728831,151.390012
+LIQO624007397,"Eastbank Brasserie & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"61-69 Macquarie St",Sydney,2000,-33.860834,151.212908
 LIQH424007367,"Pullman Quay Grand Sydney Harbour","Liquor - hotel licence",Current,Trading,"Full hotel","61-69 Macquarie St",Sydney,2000,-33.860834,151.212908
+LIQO624007324,"Adina Apartment Hotel Sydney, Town Hall","Liquor - on-premises licence",Current,Trading,Accommodation,"511 Kent St",Sydney,2000,-33.874398,151.205005
+LIQO624007323,"Bar Benevento","Liquor - on-premises licence",Current,Trading,Restaurant,"L3 511 Kent St",Sydney,2000,-33.874398,151.205005
 LIQH424007293,"The Macarthur Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","Lot 500 Bolger St",Campbelltown,2560,-34.074279,150.79856
+LIQO624007280,"House Bar Bistrot","Liquor - on-premises licence",Current,Trading,"Other public entertainment venue,Restaurant","62-64 Kellett St","Potts Point",2011,-33.874102,151.224563
+LIQO624007222,"Brick Lane Restaurant & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"481 Dean St",Albury,2640,-36.081432,146.919252
+LIQO624007218,"Rusty's Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"L 1, 186 Arden St",Coogee,2034,-33.920246,151.256569
+LIQO624007190,"Church Bar & Woodfire Pizza","Liquor - on-premises licence",Current,Trading,Restaurant,"1 Ribbon Gang Lane",Bathurst,2795,-33.417702,149.580157
 LIQH424007134,"Pontoon Bar","Liquor - hotel licence",Current,Trading,"Full hotel","Cockle Bay Wharf, Darling Park, Tenancy 112 201 Sussex St",Sydney,2000,-33.87119,151.203012
+LIQO624007023,"Bar Allora","Liquor - on-premises licence",Current,Trading,Restaurant,"Lot 393 2 Bond St",Sydney,2000,-33.864389,151.207694
 LIQO624006974,"Leggeys Barefoot Cafe","Liquor - on-premises licence",Current,Trading,"Accommodation,Bar,Restaurant","Myall Shores","Bombah Point",2423,-32.505544,152.304065
+LIQO624006957,"Brumby Bar & Bistro","Liquor - on-premises licence",Current,Trading,"Accommodation,Other public entertainment venue,Restaurant","14 Clyde St",Jindabyne,2627,-36.415788,148.616057
+LIQO624006723,"Ana Bar Pty Ltd","Liquor - on-premises licence",Current,Trading,"Other public entertainment venue,Restaurant","53 Cross St","Double Bay",2028,-33.875772,151.242291
+LIQO624006663,"Fix Wine Bar Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"St James Centre, Shop 21, 107-111 Elizabeth St",Sydney,2000,-33.869804,151.209946
 LIQH424006550,"Checkers Country Resort And Conference Centre","Liquor - hotel licence",Current,Trading,"Full hotel","331 Mona Vale Rd","Terrey Hills",2084,-33.698108,151.214581
+LIQO624006512,"Niji Sushi Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 1 331-335 Anzac Pde",Kingsford,2032,-33.923045,151.226862
+LIQO624006480,"Bennys Restaurant And Bar","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","58-72 Jondaryan Ave",Griffith,2680,-34.295519,146.048134
 LIQH424006372,"Mount Broughton Golf And Country Club Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Kater Rd","Sutton Forest",2577,-34.571365,150.345173
+LIQO624006360,"Magellan Bar And Grill","Liquor - on-premises licence",Current,Trading,Restaurant,"9 Union St",Pyrmont,2009,-33.869759,151.194863
 LIQH424006304,"Schirrmo's Bar","Liquor - hotel licence",Current,Trading,"Full hotel","11-23 Rawson Pl",Haymarket,2000,-33.881678,151.20532
+LIQO624006286,"Carousel Bar & Ballroom","Liquor - on-premises licence",Current,Trading,"Other public entertainment venue,Restaurant","169 Oxford St",Darlinghurst,2010,-33.880349,151.216086
+LIQO624006238,"The Little Snail Restaurant & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"50 Murray St",Sydney,2000,-33.87093,151.197946
+LIQO624006152,"The Caterpillar Club Cocktail Lounge And Restaurant","Liquor - on-premises licence",Current,Trading,"Theatre public entertainment venue","92 Pitt St",Sydney,2000,-33.867191,151.208819
+LIQO624006032,"Japanese Dining Bar Samurai","Liquor - on-premises licence",Current,Trading,Restaurant,"68 Stanley Street",Darlinghurst,2010,-33.875634,151.215357
+LIQO624005978,"Curries ‘N’ Cocktails Pty Ltd","Liquor - on-premises licence",Current,Trading,Restaurant,"235 Darling St",Balmain,2041,-33.857716,151.183053
+LIQO624005880,"The Zinc Bar Cronulla","Liquor - on-premises licence",Current,Trading,Restaurant,"1 Mcdonald St",Cronulla,2230,-34.052223,151.154834
 LIQH424005875,"Bonny Hills Beach Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","1045 Ocean Dr","Bonny Hills",2445,-31.58479,152.831433
+LIQO624005836,"Bar Nina","Liquor - on-premises licence",Current,Trading,Restaurant,"85A Stanley St",Darlinghurst,2010,-33.875928,151.215732
 LIQO624005768,"Pacific Bay Resort Management Pty Limited","Liquor - on-premises licence",Current,Trading,"Accommodation,Bar,Catering service","Pacific Hwy","Coffs Harbour",2450,-30.266388,153.136031
+LIQO624005749,"Fabbrica Pasta Bar Darlinghurst","Liquor - on-premises licence",Current,Trading,Restaurant,"348 Victoria St",Darlinghurst,2010,-33.877824,151.221788
 LIQH424005666,"The Nymboida Coaching Station Inn","Liquor - hotel licence",Current,Trading,"Full hotel","3970 Armidale Rd",Nymboida,2460,-29.955885,152.725598
 LIQO624005645,"Sydney Town Hall","Liquor - on-premises licence",Current,Trading,"Bar,Public hall","483 George St",Sydney,2000,-33.87399,151.20631
 LIQO624005631,"Karaoke World","Liquor - on-premises licence",Current,Trading,"Bar,Other public entertainment venue","B 185 Elizabeth St",Sydney,2000,-33.872384,151.209621
+LIQO624005609,"The Hughenden Boutique Hotel","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service,Restaurant","14 Queen St",Woollahra,2025,-33.888858,151.233476
+LIQO624005496,"Bar Veinte Pty Ltd","Liquor - on-premises licence",Current,Trading,Restaurant,"Pittwater Rd & Waratah St","Mona Vale",2103,-33.678142,151.303215
 LIQO624005424,"Murramarang Resort","Liquor - on-premises licence",Current,Trading,"Accommodation,Bar,Restaurant","Banyandah St","South Durras",2536,-35.668342,150.299817
+LIQO624005416,"Kowboy Bar & Grill Blacktown","Liquor - on-premises licence",Current,Trading,Restaurant,"80 Blacktown Rd",Blacktown,2148,-33.778066,150.919616
+LIQO624005298,"Beaches Cantina","Liquor - on-premises licence",Current,Trading,Restaurant,"135 Darby St","Cooks Hill",2300,-32.931681,151.771805
+LIQO624005280,"Gianni's Bar & Pizzeria","Liquor - on-premises licence",Current,Trading,Restaurant,"55 Shoal Bay Rd","Shoal Bay",2315,-32.720571,152.173632
+LIQO624005216,"Hurricane's Grill & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 1 126-130 Roscoe St","Bondi Beach",2026,-33.889978,151.274486
+LIQO624005106,"The Balcony Bar & Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"1St Floor 3 Lawson Street","Byron Bay",2481,-28.642004,153.612666
+LIQO624004841,"Elysian Restaurant & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"117-121 The Mall",Leura,2780,-33.711521,150.330852
+LIQO624004820,"Oliver's Restaurant And Bar Moss Vale","Liquor - on-premises licence",Current,Trading,Restaurant,"494 Argyle St","Moss Vale",2577,-34.551527,150.368096
 LIQH424004802,"The Valla Beach Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","17 Valla Beach Rd","Valla Beach",2448,-30.59051,153.002084
+LIQO624004776,"Latitude 30 Restaurant & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"First Floor, 55-67 Marina Drive","Coffs Harbour",2450,-30.302266,153.140648
 LIQH424004692,"Royal Cricketer's Arms","Liquor - hotel licence",Current,Trading,"Full hotel","385 Reservoir Rd",Prospect,2148,-33.807083,150.902853
+LIQO624004626,"Zenzero Food Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"137 Oxford St",Darlinghurst,2010,-33.879913,151.215553
 LIQH424004498,"Fernhill Tavern Port Macquarie","Liquor - hotel licence",Current,Trading,"Full hotel","4 Jindalee Rd","Port Macquarie",2444,-31.447779,152.885969
 LIQH424004470,"Lion Of Waterloo","Liquor - hotel licence",Current,Trading,"Full hotel","Gipps & Montefiores Sts",Montefiores,2820,-32.540895,148.930926
+LIQO624004412,"Arms Length Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"7 Kellett St","Potts Point",2011,-33.874474,151.224052
+LIQO624004401,"Valentino Restro & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"454 Church St",Parramatta,2150,-33.80603,151.006198
+LIQO624004251,"Overtime Cafe & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"68-70 Beaumont St",Hamilton,2303,-32.921223,151.747285
 LIQH424004084,"Uncle Buck's Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Unit 4 13 Mount St","Mount Druitt",2770,-33.766059,150.824031
+LIQO624004040,"The Anchorage Hotel & Spa","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service,Restaurant","Corlette Point Rd",Corlette,2315,-32.717914,152.104422
 LIQH424004027,"Ocean Shores Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","84 Rajah Rd","Ocean Shores",2483,-28.524401,153.546045
+LIQO624003963,"Nabo's Restaurant And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"24 Victory Pde",Toronto,2283,-33.014308,151.597775
 LIQH424003956,"The Voyager Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","1 70-74 Ocean Avenue","Stuarts Point",2441,-30.819733,152.984951
 LIQH424003873,"Bonville International","Liquor - hotel licence",Current,Trading,"Full hotel","Lot 4 Cassidys Rd",Bonville,2450,-30.362886,153.039808
 LIQO624003782,"Bankstown Harness Racing & Agricultural Society","Liquor - on-premises licence",Current,Trading,"Bar,Catering service,Racing facility","178 Eldridge Rd","Condell Park",2200,-33.931012,151.009224
+LIQO624003739,"Nesuto Woolloomooloo Sydney Apartment Hotel","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","48-74 Dowling St",Woolloomooloo,2011,-33.870541,151.2216
+LIQO624003677,"The Lakeside Hotel And Conference Centre","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","99 Talavera Rd","Macquarie Park",2113,-33.772162,151.11604
 LIQH424003642,"The Channon Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","Terania St","The Channon",2480,-28.672024,153.277702
 LIQH424003619,"Wollongbar Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","53 Simpson Avenue",Wollongbar,2477,-28.828644,153.42003
 LIQH424003599,"Moonee Beach Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Lot 4 Pacific Hwy","Moonee Beach",2450,-30.20494,153.150007
+LIQO624003602,"The Boutique Hotel Blue Mountains","Liquor - on-premises licence",Current,Trading,Restaurant,"194 Great Western Hwy",Blackheath,2785,-33.640173,150.284695
 LIQH424003472,"Quakers Inn","Liquor - hotel licence",Current,Trading,"Full hotel","Lot 1 Railway Rd","Quakers Hill",2763,-33.725551,150.883979
 LIQH424003411,"Murrumbateman Country Inn","Liquor - hotel licence",Current,Trading,"Full hotel","Barton Hwy & Hercules St",Murrumbateman,2582,-34.969102,149.02985
+LIQO624003409,"Cactus Cantina","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","416 Wagga Rd",Lavington,2641,-36.045633,146.94391
+LIQO624003275,"The Charles Boutique Hotel & Dining","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","82 Tarcutta St","Wagga Wagga",2650,-35.115428,147.375169
+LIQO624003210,"Giuseppe's Restaurant & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"188 Banna Ave",Griffith,2680,-34.288714,146.048778
 LIQH424003119,"Lakeside Village Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","Lakeside Village Lot 6712 Benjamin Lee Dr","Raymond Terrace",2324,-32.760876,151.775138
+LIQO624003047,"Nesuto Pennant Hills Sydney Apartment Hotel","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","2 City View Estate","Pennant Hills",2120,-33.739927,151.067959
 LIQH424002998,"The Ploughman's Rest Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","36 Railway St",Wongarbon,2831,-32.334717,148.760484
 LIQO624002889,"Murrumbidgee Turf Club","Liquor - on-premises licence",Current,Trading,"Bar,Racing facility","Wagga Wagga Racecourse,","Wagga Wagga",2650,-35.102746,147.350924
 LIQO624002881,"Illawarra Turf Club Limited","Liquor - on-premises licence",Current,Trading,"Bar,Other public entertainment venue,Racing facility","Princes Hwy","Kembla Grange",2526,-34.471209,150.817905
 LIQH424002828,"Park Hyatt Sydney","Liquor - hotel licence",Current,Trading,"Full hotel","Campbells Cove 7 Hickson Rd","The Rocks",2000,-33.855748,151.209404
 LIQO624002696,"Joan Sutherland Performing Arts Centre","Liquor - on-premises licence",Current,Trading,"Bar,Other public entertainment venue,Theatre public entertainment venue","597 High St",Penrith,2750,-33.75132,150.690254
+LIQO624002525,"The Balan Village Hotel","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","175 Cambewarra Rd",Bomaderry,2541,-34.842463,150.594912
 LIQH424002391,"Lunatic Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Bruxner Hwy",Drake,2469,-28.910667,152.414388
+LIQO624002386,"Sea Sea Hotel","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","30-34 Pacific Street","Crescent Head",2440,-31.188488,152.971989
+LIQO624002363,"Giwa Chicken And Beer","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","52 Shoal Bay Rd","Nelson Bay",2315,-32.717392,152.160172
 LIQH424002304,"Royal Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Olive & Gold Sts & Midwestern Hwy",Mandurama,2792,-33.648584,149.075238
 LIQH424002273,"Camden Valley Inn","Liquor - hotel licence",Current,Trading,"Full hotel","Remembrance Dr & Wire Lane","Camden South",2570,-34.091695,150.694252
+LIQO624002263,"The T Bar Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 1 Mowamba Place",Thredbo,2625,-36.50419,148.306292
+LIQO624002163,"Vue Bar & Tapas","Liquor - on-premises licence",Current,Trading,Restaurant,"80 Campbell Pde","Bondi Beach",2026,-33.891912,151.272953
 LIQO624002094,"Taronga Zoo","Liquor - on-premises licence",Current,Trading,"Accommodation,Bar,Catering service","Bradleys Head Rd",Mosman,2088,-33.843523,151.241189
+LIQO624002089,"Kirkton Park Hotel Hunter Valley","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service,Restaurant","Lot 27 Oakey Creek Rd",Pokolbin,2320,-32.808528,151.306241
+LIQO624002030,"Csu Crow Bar","Liquor - on-premises licence",Current,Trading,"Tertiary institution","Boorooma Student Amenties Building, Boorooma Campus","Charles Sturt University",2678,-35.06515,147.361122
 LIQH424002014,"The Park Hotel Motel","Liquor - hotel licence",Current,Trading,"Full hotel","Broken Head Rd & Clifford St","Suffolk Park",2481,-28.689187,153.608095
+LIQO624001948,"Sushi Lab Bar & Grill","Liquor - on-premises licence",Current,Trading,Restaurant,"328 Burwood Rd",Belmore,2192,-33.916569,151.087455
 LIQO624001952,"Illawarra Performing Arts Centre","Liquor - on-premises licence",Current,Trading,"Bar,Other public entertainment venue,Theatre public entertainment venue","32 Burelli St",Wollongong,2500,-34.426486,150.898375
+LIQO624001759,"Skyline Bar & Restaurant","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","344 Stewart St",Bathurst,2795,-33.421039,149.565271
 LIQO624001751,"Hawkesbury Race Club","Liquor - on-premises licence",Current,Trading,"Bar,Racing facility","Racecourse Rd",Clarendon,2756,-33.611595,150.790574
+LIQO624001736,"Butcher's Cut Steakhouse & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"Lower Ground Floor 12-14 O'connell St",Sydney,2000,-33.865242,151.209956
+LIQO624001624,"Shorties Bar & Dining","Liquor - on-premises licence",Current,Trading,Restaurant,"96 Longueville Rd","Lane Cove",2066,-33.813649,151.17043
+LIQO624001550,"Hotel Stellar Pty Limited","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","Basement Level 4 Wentworth Ave","Surry Hills",2010,-33.877642,151.212031
 LIQO624001487,"International Convention Centre Sydney","Liquor - on-premises licence",Current,Trading,"Bar,Catering service,Public arena and events,Public hall,Theatre public entertainment venue","Darling Dr",Sydney,2000,-33.873493,151.199087
 LIQH424001480,"The Belvedere Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","482 Kent St",Sydney,2000,-33.874425,151.205441
+LIQO624001389,"Marritz Hotel","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service,Restaurant","Marritz Alpine Inn Kosciuszko Rd","Perisher Valley",2624,-36.406672,148.411831
 LIQO624001321,"Riverside Theatres","Liquor - on-premises licence",Current,Trading,"Bar,Catering service,Cinema public entertainment venue,Public arena and events,Theatre public entertainment venue","Church & Market Sts",Parramatta,2150,-33.810198,151.004209
 LIQH424000926,"Eagle Hawk Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Rmb 1542 Federal Hwy",Sutton,2620,-35.202851,149.211506
+LIQO624000600,"Aspire Hotel Sydney","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","383-389 Bulwara Rd",Ultimo,2007,-33.880377,151.198626
 LIQH424000551,"Ibis Styles Canberra Eaglehawk","Liquor - hotel licence",Current,Trading,"Full hotel","Eagle Hawk Hill Federal Hwy",Sutton,2620,-35.203937,149.208995
 LIQO624000526,"Queen Victoria Building","Liquor - on-premises licence",Current,Trading,Bar,"455 George St",Sydney,2000,-33.871751,151.206687
 LIQH400106947,"Bird In Hand Inn","Liquor - hotel licence",Current,Trading,"Full hotel","81 Bathurst St","Pitt Town",2756,-33.586214,150.859069
 LIQH400106939,"Cooyal Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Wollar Rd",Cooyal,2850,-32.440674,149.788433
+LIQO600412033,"Powerhouse Hotel Tamworth By Rydges","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","Armidale Rd",Tamworth,2340,-31.098193,150.940475
 LIQH400106920,"Corindi Beach Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Tasman St","Corindi Beach",2456,-30.032884,153.192575
 LIQH400115512,"The Showground Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","59-63 Richmond Rd",Blacktown,2148,-33.764158,150.902792
 LIQH400115415,"Old Bar Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","Old Bar & Saltwater Rds","Old Bar",2430,-31.966991,152.56588
 LIQO600703247,"Holroyd Centre","Liquor - on-premises licence",Current,Trading,"Bar,Catering service,Other public entertainment venue","Newman & Miller Sts",Merrylands,2160,-33.83789,150.989529
 LIQH400106912,"Chittaway Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","Cnr Wyong & Chiitaway Rds","Chittaway Bay",2261,-33.327076,151.429355
+LIQO600409237,"Jah Bar Dee Why Beach","Liquor - on-premises licence",Current,Trading,Restaurant,"Shop 1 23 The Strand","Dee Why",2099,-33.753482,151.29624
+LIQO600408699,"River Canyon Bar & Grill Restaurant","Liquor - on-premises licence",Current,Trading,"Catering service,Restaurant,Theatre public entertainment venue","96 Phillip St",Parramatta,2150,-33.813478,151.009482
+LIQO600702593,"The Theatre Bar At The End Of The Wharf","Liquor - on-premises licence",Current,Trading,"Restaurant,Theatre public entertainment venue","Pier 4 Hickson Rd","Dawes Point",2000,-33.855584,151.209237
+LIQO600407854,"Siennas Pizzeria Bar & Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"85 Magnus St","Nelson Bay",2315,-32.721565,152.144279
+LIQO600407307,"Boathouse Bar & Restaurant","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","20 Park St","Port Macquarie",2444,-31.427092,152.898158
 LIQH400106904,"Winmalee Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","30 White Cross Rd",Winmalee,2777,-33.6705,150.608279
+LIQO600406955,"Beretta Cafe And Pizza Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"211 Ramsgate Rd","Ramsgate Beach",2217,-33.986138,151.14601
+LIQO600405827,"Piato Restaurant Cafe & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"123 Blues Point Rd","Mcmahons Point",2060,-33.844627,151.204535
+LIQO600405711,"Basil's Bar & Restaurant","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","353 Pacific Hwy N","Coffs Harbour",2450,-30.273182,153.133724
 LIQH400106890,"Heritage Hotel Bulli","Liquor - hotel licence",Current,Trading,"Full hotel","240 Princes Hwy",Bulli,2516,-34.333965,150.912675
+LIQO600405096,"Baja Cantina","Liquor - on-premises licence",Current,Trading,Restaurant,"43 Glebe Point Rd",Glebe,2037,-33.883153,151.191748
+LIQO600404693,"Vibe Hotel Sydney","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","111 Goulburn St",Sydney,2000,-33.878701,151.209596
 LIQH400106882,"Settlers Arms Inn Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Wollombi Rd & Wharf St","St Albans",2775,-33.292659,150.971397
+LIQO600404189,"Seaton Arms Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"Olive & Wilson Sts",Albury,2640,-36.077257,146.919284
 LIQH400106874,"Lightning Ridge Hotel Motel","Liquor - hotel licence",Current,Trading,"Full hotel","Onyx St","Lightning Ridge",2834,-29.429177,147.974095
 LIQH400106866,"Towradgi Beach Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","170 Pioneer Rd","Fairy Meadow",2519,-34.388971,150.904368
+LIQO600406327,"Crossroads Restaurant & Bar","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","80-90 Ebsworth St","West Tamworth",2340,-31.093329,150.924206
 LIQH400106858,"Bull And Bush Hotel Motel","Liquor - hotel licence",Current,Trading,"Full hotel","Lot 12 Ferodale Rd",Medowie,2318,-32.740648,151.863032
+LIQO600406254,"The Clairfield Hotel","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","1 Sydney Rd",Mudgee,2850,-32.601285,149.597603
 LIQH400103875,"Camellia Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","132 James Ruse Dr",Rosehill,2142,-33.819873,151.021428
 LIQH400106831,"Imperial Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","North Pde & Rooty Hill Rd North","Rooty Hill",2766,-33.771389,150.843352
 LIQH400106823,"Ruse Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","225 Junction Rd",Ruse,2560,-34.072775,150.84226
 LIQH400106815,"Sussex Inlet Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","Jacobs Dr & Driver Rd","Sussex Inlet",2540,-35.15736,150.601088
 LIQH400106807,"Hotel Australasia","Liquor - hotel licence",Current,Trading,"Full hotel","142-144 Imlay St",Eden,2551,-37.065257,149.906964
 LIQH400106793,"Macquarie Inn Hotel/Motel","Liquor - hotel licence",Current,Trading,"Full hotel","Wheelers Lane & Birch Ave",Dubbo,2830,-32.250879,148.631305
+LIQO600401511,"Global Dining And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"229 Darlinghurst Road",Darlinghurst,2010,-33.876779,151.2208
 LIQH400101821,"Metropolis Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","99 Walker St","North Sydney",2060,-33.839485,151.209077
 LIQH400106777,"The Settlers","Liquor - hotel licence",Current,Trading,"Full hotel","Hely St","West Gosford",2250,-33.426128,151.32934
 LIQH400113943,"Peach Tree Inn Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Peachtree & Castlereagh Rds",Penrith,2750,-33.744829,150.690001
+LIQO600400418,"Hotel Blue","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","88 Lurline Street",Katoomba,2780,-33.719751,150.312246
+LIQO600400051,"The Dorsal Boutique Hotel","Liquor - on-premises licence",Current,Trading,"Accommodation,Catering service,Restaurant","The Dorsal Boutique Hotel 1 West St",Forster,2428,-32.179183,152.514074
+LIQO600433936,"Bar Luck Chinese Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"94 John St",Cabramatta,2166,-33.895125,150.93463
+LIQO600433723,"Taco Bills Mexican Cantina","Liquor - on-premises licence",Current,Trading,Restaurant,"443-445 Dean St",Albury,2640,-36.081746,146.921744
+LIQO600433499,"Japanese Tapas Bar Shinmachi","Liquor - on-premises licence",Current,Trading,Restaurant,"237-239 King St",Newtown,2042,-33.895516,151.18117
 LIQH400111762,"Willowdale Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Lot 175 Barbula Road","Denham Court",2565,-33.975693,150.812565
 LIQH400123280,"Wooli Hotel-Motel","Liquor - hotel licence",Current,Trading,"Full hotel","Main St",Wooli,2462,-29.851169,153.257331
 LIQO600734053,"Ryde College Of Tafe","Liquor - on-premises licence",Current,Trading,"Accommodation,Bar,Tertiary institution","250 Blaxland Rd",Ryde,2112,-33.8064,151.103492
@@ -637,22 +1108,32 @@ LIQH400123221,"Jerry's Plains Tavern","Liquor - hotel licence",Current,Trading,"
 LIQH400123272,"The Briars Inn","Liquor - hotel licence",Current,Trading,"Full hotel","653 Moss Vale Rd",Burradoo,2576,-34.525196,150.393173
 LIQH400123264,"Gemini Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","201-227 Banna Avenue",Griffith,2680,-34.287875,146.048557
 LIQH400123248,"The Regal Inn","Liquor - hotel licence",Current,Trading,"Full hotel","Metford Rd",Tenambit,2323,-32.73855,151.619887
+LIQO600474381,"Cambridge Hotel Sydney","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","Riley & Lower Campbell St","Surry Hills",2010,-33.885664,151.212018
 LIQH400123213,"South Tweed Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","53-55 Minjungbal Dr","Tweed Heads South",2486,-28.192688,153.54056
+LIQO600495796,"Mestizo Bar & Latin Cuisine","Liquor - on-premises licence",Current,Trading,Restaurant,"101 Glebe Point Rd",Glebe,2037,-33.882168,151.190251
 LIQH400123205,"Archer Hotel Nowra","Liquor - hotel licence",Current,Trading,"Full hotel","Kalander St",Nowra,2541,-34.888158,150.605296
 LIQH400123191,"The Dam Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Pacific Hwy & Minnesota Rd","Hamlyn Terrace",2259,-33.261778,151.464216
 LIQH400123183,"Settlers Inn Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","101 Hastings River Dr","Port Macquarie",2444,-31.429604,152.886006
 LIQH400123175,"Coutts Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","13 Armidale Rd","Coutts Crossing",2460,-29.828314,152.890869
 LIQH400123167,"Ashmont Inn Hotel Motel","Liquor - hotel licence",Current,Trading,"Full hotel","55 Tobruk Street",Ashmont,2650,-35.125364,147.330142
+LIQO600476635,"The Denman Mountain Inn Terrace Restaurant & Apres Bar","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","Thredbo Alpine Village","Thredbo Village",2625,-36.506763,148.304832
+LIQO600493459,"Gill Bar And Grill Pty Ltd","Liquor - on-premises licence",Current,Trading,Restaurant,"22 Woodriff St",Penrith,2750,-33.754341,150.697569
 LIQH400123159,"Hotel Tudor","Liquor - hotel licence",Current,Trading,"Full hotel","42 Kookaburra Pde",Woodberry,2322,-32.794314,151.66555
 LIQH400123140,"Bulga Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","2038 Putty Rd",Bulga,2330,-32.652133,151.019396
 LIQH400123132,"Toormina Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Minorca Pl",Toormina,2452,-30.353008,153.091202
+LIQO600476465,"Newcastle Beach Hotel","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","Parnell Place","Newcastle East",2300,-32.9277,151.790001
+LIQO600488161,"Bar Vin-Cenzo's","Liquor - on-premises licence",Current,Trading,Restaurant,"174 Liverpool St",Darlinghurst,2010,-33.876958,151.213669
 LIQH400123124,"Mariner's Lodge Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","31 Orient St","Batemans Bay",2536,-35.707925,150.178516
 LIQH400123116,"Kincumber Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","6 Carrak Rd",Kincumber,2251,-33.469064,151.382749
+LIQO600491758,"North St Cafe & Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"5 North St","Batemans Bay",2536,-35.706127,150.177125
+LIQO600487386,"Verde Restaurant Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"115 -117 & 119 Riley St",Darlinghurst,2010,-33.875872,151.214864
 LIQH400123108,"Tolland Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","245 Bourke St",Tolland,2650,-35.144494,147.351703
 LIQH400106769,"The Winston","Liquor - hotel licence",Current,Trading,"Full hotel","Caroline Chisholm Dr & Junction St","Winston Hills",2153,-33.773638,150.971413
 LIQH400115369,"Wollombi Tavern Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","2994 Great North Rd",Wollombi,2325,-32.938792,151.140581
 LIQH400123094,"The Lennox Point Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","17-19 Pacific Pde","Lennox Head",2478,-28.793353,153.593611
+LIQO600474225,"Landmark Hotel Camperdown","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","9-15 Missenden Rd",Camperdown,2050,-33.886998,151.179162
 LIQO600673326,"The Union Bank Wine Bar","Liquor - on-premises licence",Current,Trading,"Wine bar","Sale St",Orange,2800,-33.281195,149.096912
+LIQO600464009,"Japanese Restaurant Sushi Bar Rashai","Liquor - on-premises licence",Current,Trading,Restaurant,"241 Parramatta Rd",Annandale,2038,-33.887994,151.163069
 LIQH400123086,"Vineyard Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Windsor & Boundary Rds",Vineyard,2765,-33.655576,150.874104
 LIQO600779774,"Opera Bar","Liquor - on-premises licence",Current,Trading,"Bar,Catering service,Food and beverage outlet,Tourist and cultural precinct","Bennelong Point",Sydney,2000,-33.858331,151.213838
 LIQH400106750,"Potts Point Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","33-37 Darlinghurst Rd","Potts Point",2011,-33.873366,151.223741
@@ -660,6 +1141,7 @@ LIQH400123078,"Lockies Hotel","Liquor - hotel licence",Current,Trading,"Full hot
 LIQH400123051,"Plumpton Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","556 Richmond Rd",Glendenning,2761,-33.740309,150.860994
 LIQH400123043,"Overlander Hotel Motel","Liquor - hotel licence",Current,Trading,"Full hotel","Richmond St & Lewis St","Cambridge Park",2747,-33.741527,150.717406
 LIQH400123035,"Hilltop Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","747 Ballina Rd",Goonellabah,2480,-28.814079,153.33883
+LIQO600476031,"Blue Mountains International Hotel Management School Restaurant","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","16 Fitzroy St",Leura,2780,-33.719304,150.341667
 LIQH400123027,"Minto Mirage","Liquor - hotel licence",Current,Trading,"Full hotel","Surrey St",Minto,2566,-34.027264,150.843363
 LIQH400123019,"Wilga Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Goobar St",Narrabri,2390,-30.339278,149.75503
 LIQH400123000,"Brolga Hotel Motel","Liquor - hotel licence",Current,Trading,"Full hotel","Kingfisher Ave & Brolga Pl",Coleambally,2707,-34.805776,145.881002
@@ -669,16 +1151,21 @@ LIQH400106726,"Berowra Village Tavern","Liquor - hotel licence",Current,Trading,
 LIQH400122993,"Rydalmere Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","275-279 Victoria Rd",Rydalmere,2116,-33.811608,151.034394
 LIQO600671609,"National Trust Headquarters","Liquor - on-premises licence",Current,Trading,"Wine bar","Observatory Hill","Millers Point",2000,-33.861444,151.20465
 LIQH400122985,"Shoalhaven Heads Hotel Motel","Liquor - hotel licence",Current,Trading,"Full hotel","51-57 River Rd","Shoalhaven Heads",2535,-34.85478,150.739794
+LIQO600468403,"Pantano's Angus Bar & Grill","Liquor - on-premises licence",Current,Trading,Restaurant,"Howick & William St",Bathurst,2795,-33.417416,149.581183
+LIQO600463738,"Matteo Restaurant And Bar","Liquor - on-premises licence",Current,Trading,Restaurant,"29 Bay St","Double Bay",2028,-33.877657,151.241826
 LIQO624002584,"Snowy Hydro Limited","Liquor - on-premises licence",Current,Trading,Bar,"Cabramurra Canteen",Cabramurra,2629,-35.936582,148.380431
 LIQH400122977,"Westside Hotel Motel","Liquor - hotel licence",Current,Trading,"Full hotel","22-30 Whylandra St",Dubbo,2830,-32.249558,148.592647
 LIQH400122969,"Bannisters Port Stephens Pty Ltd","Liquor - hotel licence",Current,Trading,"Full hotel","147 Soldiers Point Rd","Soldiers Point",2317,-32.71133,152.071838
 LIQH400122950,"Caves Beach Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","46 The Esplanade","Caves Beach",2281,-33.104832,151.647844
 LIQH400118775,"New Victoria Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","447 Victoria St","Wetherill Park",2164,-33.845028,150.893629
+LIQO600462960,"O Bar And Dining","Liquor - on-premises licence",Current,Trading,Restaurant,"Australia Square L47 George St",Sydney,2000,-33.857748,151.208583
 LIQH400122942,"Jindera Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Urana St",Jindera,2642,-35.956974,146.890417
 LIQH400115490,"Fairmont Resort","Liquor - hotel licence",Current,Trading,"Full hotel","1 Sublime Point Rd",Leura,2780,-33.721967,150.349852
 LIQH400112130,"South Dubbo Tavern","Liquor - hotel licence",Current,Trading,"Full hotel","328 Fitzroy St",Dubbo,2830,-32.267725,148.610329
+LIQO600461271,"Hunts Hotel Liverpool","Liquor - on-premises licence",Current,Trading,"Accommodation,Restaurant","Hume Hwy & York St",Casula,2170,-33.956721,150.886155
 LIQH400117213,"Bay Hotel Motel","Liquor - hotel licence",Current,Trading,"Full hotel","330 Fishery Point Rd","Bonnells Bay",2264,-33.110822,151.532405
 LIQH400106424,"The Flynn","Liquor - hotel licence",Current,Trading,"Full hotel","61-101 Phillip St",Sydney,2000,-33.865373,151.210812
+LIQO600467598,"Pot Of Gold Mexican Cantina Restaurant","Liquor - on-premises licence",Current,Trading,Restaurant,"144-146 Crown St",Wollongong,2500,-34.424975,150.895599
 LIQH400104782,"Prospect Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","Great Western Highway",Prospect,2148,-33.805338,150.926267
 LIQH400101023,"Captain Cook Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","1114 Botany Rd",Botany,2019,-33.944438,151.196011
 LIQH400121989,"Tropicana Hotel","Liquor - hotel licence",Current,Trading,"Full hotel","10 Rose St",Wilberforce,2756,-33.565799,150.839012

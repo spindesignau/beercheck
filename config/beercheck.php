@@ -71,6 +71,12 @@ return [
         // If a feed returns fewer than this fraction of the currently active
         // venues for that source, skip deactivation (protects against truncated feeds).
         'min_feed_ratio' => 0.5,
+        // Bars that hold restaurant-style licences (common in NSW/VIC CBDs, e.g. "Bar Conte"):
+        // licence types listed in a source's 'name_rule_licence_types' are kept when the
+        // venue name looks like a bar/pub and doesn't look like a motel, caterer or lounge.
+        'bar_name_pattern' => '/\\b(bar|bars|barrel|pub|tavern|hotel|arms|saloon|brew\\w*|taproom|tap\\s?house|tap\\s?room|beer\\w*|ale\\s?house|alehouse|cocktails?|wine\\s?bar|cantina|bodega|speakeasy)\\b/i',
+        'bar_name_exclude_pattern' => '/\\b(motor inn|motel|mobile bar|bar services?|bar hire|catering|caterers|airport|qantas|virgin|coffee|juice|sushi train|salad bar|sandwich bar|noodle bar|dessert bar|espresso bar|hotel holdings)\\b/i',
+
         // Data licence attribution shown on venue pages and in the footer.
         'attribution' => [
             'nsw_liquor' => '© State of New South Wales (Department of Creative Industries, Tourism, Hospitality and Sport) 2026, CC BY 4.0',
@@ -92,6 +98,8 @@ return [
                 'include_licence_types' => ['hotel licence', 'small bar'],
                 // Other licence types (e.g. on-premises) only when the business type is a bar.
                 'include_business_types' => ['bar', 'wine bar', 'general bar'],
+                // On-premises (restaurant-style) licences whose name says bar/pub/brewery etc.
+                'name_rule_licence_types' => ['on-premises'],
                 'exclude_licence_types' => ['packaged', 'producer', 'wholesaler', 'club', 'limited', 'pop-up'],
                 'active_statuses' => ['current'],
                 // Skip venues flagged "Temporarily Ceased Trading".
@@ -110,9 +118,11 @@ return [
                     'late night (on-premises)',
                 ],
                 'exclude_licence_types' => [
-                    'packaged', 'producer', 'wholesale', 'club', 'restaurant', 'cafe', 'pre-retail', 'limited', 'byo', 'remote seller',
+                    'packaged', 'producer', 'wholesale', 'club', 'pre-retail', 'limited', 'byo', 'remote seller',
                 ],
                 'include_business_types' => [],
+                // Restaurant & cafe licences whose name says bar/pub/brewery etc.
+                'name_rule_licence_types' => ['restaurant and cafe'],
                 'active_statuses' => [], // VIC feed only lists current licences
                 'trading_statuses' => [],
             ],

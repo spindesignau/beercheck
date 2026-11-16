@@ -130,7 +130,7 @@
             <section>
                 <div class="mb-2 flex items-baseline justify-between">
                     <h2 class="text-xl">Nearby pubs</h2>
-                    <span class="text-xs font-semibold text-ink/50" x-text="loading ? 'Finding pubs…' : venues.length + ' within ' + radius + ' km'"></span>
+                    <span class="text-xs font-semibold text-ink/50" x-text="loading ? 'Finding pubs…' : venues.length + (hasMore ? '+' : '') + ' within ' + radius + ' km'"></span>
                 </div>
 
                 <template x-if="loading && venues.length === 0">
@@ -166,6 +166,11 @@
                         </li>
                     </template>
                 </ul>
+                <div x-show="hasMore" x-cloak class="mt-4 flex justify-center">
+                    <button type="button" @click="loadMore()" :disabled="loadingMore" class="btn-ghost">
+                        <span x-text="loadingMore ? 'Loading…' : 'Show more pubs'"></span>
+                    </button>
+                </div>
             </section>
         </div>
     </div>

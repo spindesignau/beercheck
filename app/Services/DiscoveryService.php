@@ -93,13 +93,15 @@ class DiscoveryService
      *
      * @return Collection<int, Venue>
      */
-    public function nearbyVenues(float $lat, float $lng, float $radiusKm, ?BeerSize $size = null, ?int $limit = null): Collection
+    public function nearbyVenues(float $lat, float $lng, float $radiusKm, ?BeerSize $size = null, ?int $limit = null, int $offset = 0): Collection
     {
         $limit ??= config('beercheck.geo.max_results');
 
         $query = Venue::query()->active()->select(self::VENUE_COLUMNS);
         $venues = $this->applyRadius($query, $lat, $lng, $radiusKm)
             ->orderBy('distance_m')
+            ->orderBy('venues.id')
+            ->offset($offset)
             ->limit($limit)
             ->get();
 

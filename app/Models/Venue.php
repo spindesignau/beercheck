@@ -61,19 +61,76 @@ class Venue extends Model
         return $query->where('venues.is_active', true);
     }
 
+    /** Words that never help find a venue ("Bar Conte in Clarence Street, Sydney city"). */
+    private const SEARCH_STOPWORDS = [
+        'in', 'at', 'on', 'of', 'the', 'and', 'near', 'city', 'cbd',
+        'street', 'st', 'road', 'rd', 'avenue', 'ave', 'lane', 'ln', 'parade', 'pde', 'place', 'pl',
+        'drive', 'dr', 'highway', 'hwy', 'terrace', 'tce', 'boulevard', 'blvd', 'way', 'nsw', 'vic',
+    ];
+
+    /** @return list<string> */
+    public static function searchWords(string $term): array
+    {
+        $words = preg_split('/[^\p{L}\p{N}&]+/u', mb_strtolower($term), -1, PREG_SPLIT_NO_EMPTY) ?: [];
+        $words = array_values(array_unique(array_filter(
+            $words,
+            fn ($w) => mb_strlen($w) >= 2 && ! in_array($w, self::SEARCH_STOPWORDS, true),
+        )));
+
+        // A search made only of "stopwords" (e.g. "The Bar") still needs something to match.
+        return $words ?: array_values(array_filter(
+            preg_split('/[^\p{L}\p{N}&]+/u', mb_strtolower($term), -1, PREG_SPLIT_NO_EMPTY) ?: [],
+            fn ($w) => mb_strlen($w) >= 2,
+        ));
+    }
+
+    /**
+     * Word-by-word venue search across name, address, suburb and postcode.
+     * Every word is matched separately; a venue must match most of the words
+     * (all of them for 1-2 word searches) and results are ranked by how many
+     * words matched and where (name > suburb/postcode > address).
+     */
     public function scopeSearch(Builder $query, string $term): Builder
     {
-        $term = trim($term);
+        $words = self::searchWords($term);
+        if (! $words) {
+            return $query->whereRaw('1 = 0');
+        }
 
-        return $query->where(function (Builder $q) use ($term) {
-            if (preg_match('/^\d{4}$/', $term)) {
-                $q->where('postcode', $term);
+        if (empty($query->getQuery()->columns)) {
+            $query->select($query->getModel()->getTable().'.*');
+        }
 
-                return;
+        $matched = [];
+        $matchedBindings = [];
+        $score = [];
+        $scoreBindings = [];
+        foreach ($words as $w) {
+            $like = '%'.$w.'%'; // words contain only letters, digits and & — nothing to escape
+            if (preg_match('/^\d{4}$/', $w)) {
+                $matched[] = '(CASE WHEN venues.postcode = ? OR venues.address LIKE ? THEN 1 ELSE 0 END)';
+                array_push($matchedBindings, $w, $like);
+                $score[] = '(CASE WHEN venues.postcode = ? THEN 2 ELSE 0 END)';
+                $scoreBindings[] = $w;
+            } else {
+                $matched[] = '(CASE WHEN venues.name LIKE ? OR venues.suburb LIKE ? OR venues.address LIKE ? THEN 1 ELSE 0 END)';
+                array_push($matchedBindings, $like, $like, $like);
+                $score[] = '(CASE WHEN venues.name LIKE ? THEN 3 WHEN venues.suburb LIKE ? THEN 2 WHEN venues.address LIKE ? THEN 1 ELSE 0 END)';
+                array_push($scoreBindings, $like, $like, $like);
             }
-            $like = '%'.str_replace(['%', '_'], ['\%', '\_'], $term).'%';
-            $q->where('name', 'like', $like)->orWhere('suburb', 'like', $like);
-        });
+        }
+        $matchedSql = '('.implode(' + ', $matched).')';
+        $scoreSql = '('.implode(' + ', $score).')';
+        // Only filler words typed (e.g. "the lane")? Then every one of them must match.
+        $onlyStopwords = ! array_diff($words, self::SEARCH_STOPWORDS);
+        $needed = ($onlyStopwords || count($words) <= 2) ? count($words) : (int) ceil(count($words) * 0.6);
+
+        return $query
+            ->selectRaw("{$matchedSql} AS search_matched", $matchedBindings)
+            ->selectRaw("{$scoreSql} AS search_score", $scoreBindings)
+            ->whereRaw("{$matchedSql} >= ?", [...$matchedBindings, $needed])
+            ->orderByDesc('search_matched')
+            ->orderByDesc('search_score');
     }
 
     public function prices(): HasMany

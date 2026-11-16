@@ -8,13 +8,17 @@ with `--no-geocode`, and the weekly scheduled sync geocodes any rows without coo
 
 | File | Source | As at | Rows read | Venues kept |
 |---|---|---|---|---|
-| `nsw_liquor.csv` | Liquor & Gaming NSW, *Licensed premises data* (premises list) | 1 Nov 2026 | 18,986 | 2,329 |
-| `vic_liquor.csv` | Liquor Control Victoria, *Current Victorian Licences by Location* | 30 Sep 2026 | 23,169 | 4,900 |
+| `nsw_liquor.csv` | Liquor & Gaming NSW, *Licensed premises data* (premises list) | 1 Nov 2026 | 18,986 | 2,816 |
+| `vic_liquor.csv` | Liquor Control Victoria, *Current Victorian Licences by Location* | 30 Sep 2026 | 23,169 | 5,359 |
 
 **Kept:**
 - NSW: hotel licences (including "general bar"), small bar licences, and on-premises licences whose
   business type is Bar or Wine bar. Venues must be Current and Trading.
 - VIC: General, On-Premises, Late night (general) and Late night (on-premises) licences.
+- Both states: bars that hold restaurant-style licences (NSW on-premises, VIC restaurant & café) when
+  the venue name says bar, pub, tavern, hotel, brewery, taproom, cocktail and so on. For example
+  "Bar Conte Sydney" and "Barrel Below" are kept. Motels, caterers, mobile bars, airport lounges and
+  sandwich/noodle/espresso "bars" are excluded (`config/beercheck.php` → `bar_name_pattern`).
 
 **Excluded:** packaged liquor / bottle shops, producers and wholesalers, clubs, restaurant & café
 licences, limited and pop-up licences, BYO permits, pre-retail and remote sellers.

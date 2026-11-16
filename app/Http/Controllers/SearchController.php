@@ -18,13 +18,14 @@ class SearchController extends Controller
         $request->validate(['q' => ['nullable', 'string', 'max:100']]);
         $term = trim((string) $request->input('q', ''));
 
-        $venues = collect();
-        $beers = collect();
+        $venues = null;
+        $beers = null;
         if (mb_strlen($term) >= 2) {
-            $venues = Venue::query()->active()->search($term)->orderBy('name')->limit(15)
-                ->get(['id', 'name', 'address', 'suburb', 'state', 'postcode']);
-            $beers = Beer::approved()->search($term)->with('type:id,name')->orderBy('brand')->orderBy('name')->limit(15)
-                ->get(['id', 'brand', 'name', 'type_id', 'abv']);
+            // Every match is reachable: pubs and beers are paginated independently.
+            $venues = Venue::query()->active()->search($term)->orderBy('name')
+                ->paginate(20, ['*'], 'page')->withQueryString();
+            $beers = Beer::approved()->search($term)->with('type:id,name')->orderBy('brand')->orderBy('name')
+                ->paginate(10, ['id', 'brand', 'name', 'type_id', 'abv'], 'beers_page')->withQueryString();
         }
 
         return view('search', compact('term', 'venues', 'beers'));

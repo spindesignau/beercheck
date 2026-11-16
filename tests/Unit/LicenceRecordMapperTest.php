@@ -25,7 +25,10 @@ class LicenceRecordMapperTest extends TestCase
 
         $this->assertFalse($mapper->accepts($mapper->map($row('Liquor - packaged liquor licence'))));
         $this->assertFalse($mapper->accepts($mapper->map($row('Liquor - club licence'))));
-        $this->assertFalse($mapper->accepts($mapper->map($row('Liquor - on-premises licence'))));
+        // On-premises (restaurant-style) licences only count when the name says bar/pub/etc.
+        $this->assertTrue($mapper->accepts($mapper->map($row('Liquor - on-premises licence'))), 'name contains Brewery/Hotel');
+        $restaurant = $mapper->map(['licence_number' => 'LIQO9', 'licence_name' => 'Osteria Ilaria', 'licence_type' => 'Liquor - on-premises licence', 'status' => 'Current']);
+        $this->assertFalse($mapper->accepts($restaurant));
         $this->assertFalse($mapper->accepts($mapper->map($row('Liquor - hotel licence', 'Cancelled'))));
     }
 
@@ -60,5 +63,29 @@ class LicenceRecordMapperTest extends TestCase
         $this->assertFalse($mapper->accepts($row('Liquor - pop-up licence', 'Bar')));
         $this->assertFalse($mapper->accepts($row('Liquor - club licence', 'Bar')));
         $this->assertFalse($mapper->accepts($row('Liquor - hotel licence', 'Full hotel', 'Temporarily Ceased Trading')));
+    }
+
+    public function test_bars_on_restaurant_style_licences_are_kept_by_name(): void
+    {
+        $nsw = new LicenceRecordMapper(VenueSource::NswLiquor);
+        $onPrem = fn (string $name) => $nsw->accepts($nsw->map([
+            'licence_number' => 'LIQO1', 'licence_name' => $name, 'licence_type' => 'Liquor - on-premises licence',
+            'status' => 'Current', 'trading_status' => 'Trading', 'business_type' => 'Catering service,Restaurant',
+        ]));
+        $this->assertTrue($onPrem('Bar Conte Sydney'));
+        $this->assertTrue($onPrem('Barrel Below'));
+        $this->assertTrue($onPrem('Grafton Brewing Co'));
+        $this->assertFalse($onPrem('Nando\'s Clarence Street'));
+        $this->assertFalse($onPrem('Goodies Bar Service'));
+        $this->assertFalse($onPrem('Tinys Sandwich Bar'));
+
+        $vic = new LicenceRecordMapper(VenueSource::VicLiquor);
+        $resto = fn (string $name) => $vic->accepts($vic->map([
+            'licence_num' => '1', 'trading_as' => $name, 'category' => 'Restaurant and cafe Licence',
+        ]));
+        $this->assertTrue($resto('THE PIG & WHISTLE TAVERN MAIN RIDGE'));
+        $this->assertTrue($resto('LONA PINTXOS BAR'));
+        $this->assertFalse($resto('PENINSULA MOTOR INN'));
+        $this->assertFalse($resto('OSTERIA ILARIA'));
     }
 }
