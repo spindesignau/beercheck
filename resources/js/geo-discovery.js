@@ -1,6 +1,6 @@
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import { getPosition, clearPosition } from './location';
+import { getPosition, setManualPosition } from './location';
 
 const youIcon = L.divIcon({ className: '', html: '<div class="bc-you"></div>', iconSize: [16, 16], iconAnchor: [8, 8] });
 const priceIcon = (label, empty) =>
@@ -12,6 +12,13 @@ export function geoDiscovery(config) {
         lat: config.fallback.lat,
         lng: config.fallback.lng,
         usingFallback: false,
+        locating: true,
+        source: null,      // gps | manual | saved | fallback
+        error: null,       // denied | timeout | unavailable | unsupported | insecure
+        placeLabel: '',
+        pickerOpen: false,
+        placeQuery: '',
+        places: [],
         radius: config.radius,
         size: '',
         view: 'list',
@@ -35,18 +42,61 @@ export function geoDiscovery(config) {
             this.layer = L.layerGroup().addTo(this.map);
 
             await this.locate(false);
+            if (this.error) this.pickerOpen = false;
             this.$watch('radius', Alpine.debounce(() => this.refresh(), 350));
         },
 
         async locate(force = true) {
-            if (force) clearPosition();
-            const pos = await getPosition(config.fallback);
+            this.locating = true;
+            this.pickerOpen = false;
+            const pos = await getPosition(config.fallback, { force });
+            this.applyPosition(pos);
+        },
+
+        applyPosition(pos) {
             this.lat = pos.lat;
             this.lng = pos.lng;
-            this.usingFallback = !!pos.fallback;
+            this.source = pos.source;
+            this.error = pos.error ?? null;
+            this.placeLabel = pos.label ?? '';
+            this.usingFallback = pos.source === 'fallback';
+            this.locating = false;
             if (this.you) this.you.remove();
             this.you = L.marker([this.lat, this.lng], { icon: youIcon, zIndexOffset: 1000 }).addTo(this.map);
+            this.map.setView([this.lat, this.lng], 14);
             this.refresh();
+        },
+
+        locationLabel() {
+            if (this.locating) return 'Finding you…';
+            return {
+                gps: 'Near you',
+                manual: this.placeLabel || 'Chosen place',
+                saved: 'Near your last location',
+                fallback: 'Melbourne CBD',
+            }[this.source] ?? 'Near you';
+        },
+
+        async searchPlaces() {
+            const q = this.placeQuery.trim();
+            if (q.length < 2) { this.places = []; return; }
+            const { data } = await window.axios.get(config.placesUrl + '?' + new URLSearchParams({ q }));
+            this.places = data;
+        },
+
+        pickPlace(place) {
+            this.placeQuery = '';
+            this.places = [];
+            this.pickerOpen = false;
+            this.applyPosition(setManualPosition(place));
+        },
+
+        /** iOS / Android specific help for a blocked location. */
+        platform() {
+            const ua = navigator.userAgent;
+            if (/iPhone|iPad|iPod/.test(ua)) return 'ios';
+            if (/Android/.test(ua)) return 'android';
+            return 'desktop';
         },
 
         params(extra = {}) {

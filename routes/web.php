@@ -7,6 +7,7 @@ use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\BeerController;
 use App\Http\Controllers\BeerPriceController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PlaceController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Publican;
 use App\Http\Controllers\SearchController;
@@ -25,6 +26,7 @@ Route::middleware('throttle:geo')->group(function () {
     Route::get('/beers/cheapest', [BeerController::class, 'cheapest'])->name('beers.cheapest');
     Route::get('/venues/lookup', [VenueController::class, 'lookup'])->name('venues.lookup');
     Route::get('/beers/lookup', [BeerController::class, 'lookup'])->name('beers.lookup');
+    Route::get('/places/lookup', [PlaceController::class, 'lookup'])->name('places.lookup');
 });
 Route::get('/search', SearchController::class)->name('search');
 Route::get('/venues/search', [VenueController::class, 'search'])->name('venues.search');

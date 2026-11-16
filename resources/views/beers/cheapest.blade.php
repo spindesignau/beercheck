@@ -17,6 +17,11 @@
     <p class="text-xs font-bold uppercase tracking-[.2em] text-gold-dark">{{ $term ? 'Beer search' : 'The filter' }}</p>
     <h1 class="text-[1.9rem] leading-tight">{{ $term ? 'Cheapest '.$term : 'Top 3 cheapest' }}</h1>
     <p class="text-sm font-semibold text-ink/70">Within {{ $filters->radiusKm }} km · cheapest first</p>
+    @if (request('loc') === 'fallback')
+        <p class="mt-1 text-xs font-semibold text-gold-dark">Couldn't get your location, so this is around Melbourne CBD. Allow location access and reload, or pick a suburb on the home screen.</p>
+    @elseif (request('loc') === 'saved')
+        <p class="mt-1 text-xs font-semibold text-gold-dark">Using your last known location.</p>
+    @endif
 </section>
 <div class="foam-edge-beer md:hidden" aria-hidden="true"></div>
 
